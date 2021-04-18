@@ -1,6 +1,6 @@
 ## Shachar Mirkin's home page
 
-[How to pronounce my name](https://files/shachar.wav)
+[How to pronounce my name](https://github.com/shacharmirkin/shacharmirkin.github.io/blob/main/files/shachar.wav)
 
 I'm a Natural Language Processing researcher at [Digimind](https://www.digimind.com/fr/) Labs in Grenoble, France.
 
