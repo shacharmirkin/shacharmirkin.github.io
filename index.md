@@ -1,35 +1,16 @@
-## Welcome to GitHub Pages
+## Shachar Mirkin's home page
 
+I'm a Natural Language Processing researcher at [Digimind](https://www.digimind.com/fr/) Labs in Grenoble, France.
+
+In 2012, I completed my PhD studies at the [NLP lab](https://u.cs.biu.ac.il/~nlp/) at Bar-Ilan University. My PhD thesis, in Natural Language Processing, addressed topics in textual entailment and was done under the instruction of [Prof. Ido Dagan](https://u.cs.biu.ac.il/~dagan/). 
+
+Following graduation I worked as a postdoctoral researcher at Xerox Research in France and at the University of Grenoble, mostly on Statistical Machine Translation (SMT), and then in Project Debater at IBM Research AI.
+
+
+---
 You can use the [editor on GitHub](https://github.com/shacharmirkin/shacharmirkin.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shacharmirkin/shacharmirkin.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
