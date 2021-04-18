@@ -21,7 +21,7 @@ Following graduation I worked as a postdoctoral researcher at Xerox Research in 
 
 **Selected publications:**
 
-- Noam Slonim et al. [An autonomous debating system](https://doi.org/10.1038/s41586-021-03215-w). **Nature** 591, 379–384 (2021). 
+- <span style="color:orange; font-style: italic;">New</span> Noam Slonim et al. [An autonomous debating system](https://doi.org/10.1038/s41586-021-03215-w). **Nature** 591, 379–384 (2021). 
 
 - Shachar Mirkin, Guy Moshkowich, Matan Orbach, Lili Kotlerman, Yoav Kantor, Tamar Lavee, Michal Jacovi, Yonatan Bilu, Ranit Aharonov and Noam Slonim. 
 [Listening Comprehension over Argumentative Content](https://www.aclweb.org/anthology/D18-1078/). EMNLP 2018.  
