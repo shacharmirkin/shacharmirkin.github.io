@@ -16,6 +16,31 @@ Following graduation I worked as a postdoctoral researcher at Xerox Research in 
 [My Google Scholar page](https://scholar.google.co.il/citations?user=xsEZbOkAAAAJ&hl=en)
 
 ---
+## Research interests
+### Computational argumentation and debating
+
+**Selected publications:**
+
+- Noam Slonim et al. [An autonomous debating system](https://doi.org/10.1038/s41586-021-03215-w). **Nature** 591, 379–384 (2021). 
+
+- Shachar Mirkin, Guy Moshkowich, Matan Orbach, Lili Kotlerman, Yoav Kantor, Tamar Lavee, Michal Jacovi, Yonatan Bilu, Ranit Aharonov and Noam Slonim. 
+[Listening Comprehension over Argumentative Content](https://www.aclweb.org/anthology/D18-1078/). EMNLP 2018.  
+*This paper is among IBM Research AI [10 noteworthy publications from 2018](https://www.research.ibm.com/artificial-intelligence/publications/2018/)*
+
+- Shachar Mirkin, Michal Jacovi, Tamar Lavee, Hong-Kwang Kuo, Samuel Thomas, Leslie Sager, Lili Kotlerman, Elad Venezian, Noam Slonim. 
+[A Recorded Debating Dataset](http://www.lrec-conf.org/proceedings/lrec2018/pdf/66.pdf). LREC 2018
+
+- Vardaan Pahuja, Anirban Laha, Shachar Mirkin, Vikas Raykar, Lili Kotlerman, Guy Lev. InterSpeech 2017.
+[Joint Learning of Correlated Sequence Labelling Tasks Using Bidirectional Recurrent Neural Networks](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1247.PDF). [Code and data](https://github.com/vardaan123/Corr-seq-labeling)
+
+**Datasets:**
+
+- [Recorded debating dataset](https://www.research.ibm.com/haifa/dept/vst/debating_data.shtml#Debate%20Speech%20Analysis) 
+  (debate speeches: audio + transcripts)
+
+- [Listening comprehension over argumentative content](https://www.research.ibm.com/haifa/dept/vst/debating_data.shtml#Debate%20Speech%20Analysis)
+ (speeches + annotation of arguments)
+---
 
 ## Academic service
 
