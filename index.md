@@ -1,4 +1,4 @@
-# Shachar Mirkin's home page
+# Shachar Mirkin's page
 
 [How to pronounce my name](https://github.com/shacharmirkin/shacharmirkin.github.io/blob/main/files/shachar.wav)
 
@@ -49,17 +49,17 @@ Machine Translation has advanced in recent years to produce better translations 
 
 **Selected publications:**
 
-- Ella Rabinovich, Shachar Mirkin, Raj Nath Patel, Lucia Specia and Shuly Wintner. Personalized Machine Translation Preserving Original Author Traits. EACL 2017
+- Ella Rabinovich, Shachar Mirkin, Raj Nath Patel, Lucia Specia and Shuly Wintner. [Personalized Machine Translation Preserving Original Author Traits](https://www.aclweb.org/anthology/E17-1101/). EACL 2017
 
-- Shachar Mirkin and Jean-Luc Meunier. Personalized machine translation: Predicting translational preferences. EMNLP 2015.
+- Shachar Mirkin and Jean-Luc Meunier. [Personalized machine translation: Predicting translational preferences](https://www.aclweb.org/anthology/D15-1238/). EMNLP 2015.
 
-- Shachar Mirkin, Scott Nowson, Caroline Brun and Julien Perez. Motivating Personality-aware Machine Translation. EMNLP 2015.
+- Shachar Mirkin, Scott Nowson, Caroline Brun and Julien Perez. [Motivating Personality-aware Machine Translation](https://www.aclweb.org/anthology/D15-1130/). EMNLP 2015.
 
 **Datasets:**
 
-- Bilingual Europarl corpora annotated with gender and age [en-fr, en-de]
+- [Bilingual Europarl corpora annotated with gender and age](http://cl.haifa.ac.il/projects/pmt/index.shtml) \[en-fr, en-de\]
 
-- TED talks annotated with gender [en-fr] 
+- [TED talks annotated with gender](https://github.com/shacharmirkin/pmt) \[en-fr\] 
 
 ### Model-aware improvement of source translatability for MT
 
@@ -67,11 +67,11 @@ Some source texts are more difficult to translate than others. One way to handle
 
 **Selected publications:**
 
-- Shachar Mirkin, Sriram Venkatapathy and Marc Dymetman. 2013. Confidence-driven Rewriting for Improved Translation. In Proceedings of MT Summit. 
+- Shachar Mirkin, Sriram Venkatapathy and Marc Dymetman. 2013. [Confidence-driven Rewriting for Improved Translation](https://www.researchgate.net/publication/251231328_Confidence-driven_Rewriting_for_Improved_Translation). In Proceedings of MT Summit. 
 
-- Sriram Venkatapathy and Shachar Mirkin. An SMT-driven Authoring Tool. COLING 2012.
+- Sriram Venkatapathy and Shachar Mirkin. [An SMT-driven Authoring Tool](http://www.aclweb.org/anthology/C12-3058). COLING 2012.
 
-- Shachar Mirkin, Lucia Specia, Nicola Cancedda, Ido Dagan, Marc Dymetman and Idan Szpektor. Source-Language Entailment Modeling for Translating Unknown Terms. ACL-IJCNLP 2009.
+- Shachar Mirkin, Lucia Specia, Nicola Cancedda, Ido Dagan, Marc Dymetman and Idan Szpektor. [Source-Language Entailment Modeling for Translating Unknown Terms](http://www.aclweb.org/anthology/P09-1089). ACL-IJCNLP 2009.
 
  
 ### Semantic inference / Textual entailment
@@ -81,13 +81,13 @@ Textual Entailment (TE) is a popular paradigm for modeling semantic inference. T
 
 **Selected publications:**
 
-- Shachar Mirkin, Jonathan Berant, Ido Dagan and Eyal Shnarch. Recognising Entailment within Discourse. COLING 2010.
+- Shachar Mirkin, Jonathan Berant, Ido Dagan and Eyal Shnarch. [Recognising Entailment within Discourse](http://aclweb.org/anthology/C10-1087). COLING 2010.
 
-- Shachar Mirkin, Ido Dagan, Lili Kotlerman and Idan Szpektor. Classification-based Contextual Preferences. TextInfer 2011.
+- Shachar Mirkin, Ido Dagan, Lili Kotlerman and Idan Szpektor. [Classification-based Contextual Preferences](http://www.aclweb.org/anthology/W11-2403). TextInfer 2011.
 
-- Shachar Mirkin, Ido Dagan and Sebastian Padó. Assessing the Role of Discourse References in Entailment Inference. ACL 2010.
+- Shachar Mirkin, Ido Dagan and Sebastian Padó. [Assessing the Role of Discourse References in Entailment Inference](http://www.aclweb.org/anthology/P10-1123). ACL 2010.
 
-- Shachar Mirkin, Ido Dagan, Maayan Geffet. 2006. Integrating Pattern-Based and Distributional Similarity Methods for Lexical Entailment Acquisition. COLING-ACL 2006.
+- Shachar Mirkin, Ido Dagan, Maayan Geffet. 2006. [Integrating Pattern-Based and Distributional Similarity Methods for Lexical Entailment Acquisition](https://www.aclweb.org/anthology/P06-2075/). COLING-ACL 2006.
 
  
 ## SMT domain adaptation
@@ -96,7 +96,8 @@ Data selection is a common technique for adapting statistical translation models
 
 **Selected publications:**
 
-_ Shachar Mirkin and Laurent Besacier. Data Selection for Compact Adapted SMT Models. AMTA 2014. [See Section 6 for a simple and very effective method for data selection / domain adaptation for machine translation]
+_ Shachar Mirkin and Laurent Besacier. [Data Selection for Compact Adapted SMT Models](https://www.researchgate.net/publication/265207975_Data_Selection_for_Compact_Adapted_SMT_Models). 
+AMTA 2014. [See Section 6 for a simple and very effective method for data selection / domain adaptation for machine translation]
 
 ---
 
