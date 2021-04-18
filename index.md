@@ -21,7 +21,8 @@ Following graduation I worked as a postdoctoral researcher at Xerox Research in 
 
 **Selected publications:**
 
-- <span style="color:orange; font-style: italic;">New</span> Noam Slonim et al. [An autonomous debating system](https://doi.org/10.1038/s41586-021-03215-w). **Nature** 591, 379–384 (2021). 
+*New* -- 
+Noam Slonim et al. [An autonomous debating system](https://doi.org/10.1038/s41586-021-03215-w). **Nature** 591, 379–384 (2021). 
 
 - Shachar Mirkin, Guy Moshkowich, Matan Orbach, Lili Kotlerman, Yoav Kantor, Tamar Lavee, Michal Jacovi, Yonatan Bilu, Ranit Aharonov and Noam Slonim. 
 [Listening Comprehension over Argumentative Content](https://www.aclweb.org/anthology/D18-1078/). EMNLP 2018.  
@@ -40,6 +41,63 @@ Following graduation I worked as a postdoctoral researcher at Xerox Research in 
 
 - [Listening comprehension over argumentative content](https://www.research.ibm.com/haifa/dept/vst/debating_data.shtml#Debate%20Speech%20Analysis)
  (speeches + annotation of arguments)
+
+
+### Personalized Machine Translation (PMT)
+
+Machine Translation has advanced in recent years to produce better translations for clients’ specific domains, and sophisticated tools allow translators to obtain translations according to their prior edits. We suggest that MT should be further personalized to the end-user level – the receiver or the author of the text – as done in other applications. Language use is known to be influenced by personality traits as well as by demographic characteristics such as age or mother tongue. As a result, it is possible to automatically identify these traits of the author from her texts. To provide the most faithful translation and to allow user modeling based on translations, we posit that machine translation should be personalized. PMT for the readers of the translations can take into account the reader's translational preferences, as reflected e.g. in complexity or style.
+
+**Selected publications:**
+
+- Ella Rabinovich, Shachar Mirkin, Raj Nath Patel, Lucia Specia and Shuly Wintner. Personalized Machine Translation Preserving Original Author Traits. EACL 2017
+
+- Shachar Mirkin and Jean-Luc Meunier. Personalized machine translation: Predicting translational preferences. EMNLP 2015.
+
+- Shachar Mirkin, Scott Nowson, Caroline Brun and Julien Perez. Motivating Personality-aware Machine Translation. EMNLP 2015.
+
+**Datasets:**
+
+- Bilingual Europarl corpora annotated with gender and age [en-fr, en-de]
+
+- TED talks annotated with gender [en-fr] 
+
+### Model-aware improvement of source translatability for MT
+
+Some source texts are more difficult to translate than others. One way to handle such texts is to modify them prior to translation (aka pre-editing). A prominent factor that is often overlooked is the source translatability with respect to the specific translation system and the specific model that are being used. Our research aims to improve source translatability either automatically, or through interactive tools which enable monolingual speakers of the source language to obtain better translation.
+
+**Selected publications:**
+
+- Shachar Mirkin, Sriram Venkatapathy and Marc Dymetman. 2013. Confidence-driven Rewriting for Improved Translation. In Proceedings of MT Summit. 
+
+- Sriram Venkatapathy and Shachar Mirkin. An SMT-driven Authoring Tool. COLING 2012.
+
+- Shachar Mirkin, Lucia Specia, Nicola Cancedda, Ido Dagan, Marc Dymetman and Idan Szpektor. Source-Language Entailment Modeling for Translating Unknown Terms. ACL-IJCNLP 2009.
+
+ 
+### Semantic inference / Textual entailment
+
+Textual Entailment (TE) is a popular paradigm for modeling semantic inference. The core TE task, Textual Entailment recognition, is to determine whether the meaning of one text can be inferred (or entailed) from another. My textual entailment research mostly focused around understanding entailment in context, to deal with either lexical ambiguity or discourse-based interpretation, but also addressed acquisition of lexical entailment relationships and the application of TE to different applications (e.g. SMT, as in several of the above works).
+
+
+**Selected publications:**
+
+- Shachar Mirkin, Jonathan Berant, Ido Dagan and Eyal Shnarch. Recognising Entailment within Discourse. COLING 2010.
+
+- Shachar Mirkin, Ido Dagan, Lili Kotlerman and Idan Szpektor. Classification-based Contextual Preferences. TextInfer 2011.
+
+- Shachar Mirkin, Ido Dagan and Sebastian Padó. Assessing the Role of Discourse References in Entailment Inference. ACL 2010.
+
+- Shachar Mirkin, Ido Dagan, Maayan Geffet. 2006. Integrating Pattern-Based and Distributional Similarity Methods for Lexical Entailment Acquisition. COLING-ACL 2006.
+
+ 
+## SMT domain adaptation
+
+Data selection is a common technique for adapting statistical translation models for a specific domain, which has been shown to both improve translation quality and to reduce model size. Selection often relies on in-domain data, of the same  domain of the texts expected to be translated, selecting the sentence-pairs that are most similar to the in-domain data from a pool of parallel texts; yet, this approach holds the risk of resulting in a limited coverage, when necessary n-grams that do appear in the pool are less similar to in-domain data that is available in advance. Our research aims to find ways to bridge these two potentially contradicting  considerations, while producing compact translation models.
+
+**Selected publications:**
+
+_ Shachar Mirkin and Laurent Besacier. Data Selection for Compact Adapted SMT Models. AMTA 2014. [See Section 6 for a simple and very effective method for data selection / domain adaptation for machine translation]
+
 ---
 
 ## Academic service
