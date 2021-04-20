@@ -118,4 +118,4 @@ EMNLP 2021 // EACL 2021 // COLING 2020 // *SEM 2020 // EMNLP 2020 // ACL 2020 //
 
 [LinkedIn](https://www.linkedin.com/public-profile/in/shacharmirkin)
 
-My email: <first-name><last-name> @ gmail.com
+My email: \<first-name\>\<last-name\>@gmail.com
