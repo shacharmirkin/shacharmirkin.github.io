@@ -38,6 +38,8 @@ Noam Slonim et al. [An autonomous debating system](https://doi.org/10.1038/s4158
 
 - [Listening comprehension over argumentative content](https://www.research.ibm.com/haifa/dept/vst/debating_data.shtml#Debate%20Speech%20Analysis)
  (speeches + annotation of arguments)
+ 
+- [Mention detection (entity linking, wikification) over Wikipedia and speech text](https://paperswithcode.com/dataset/ibm-debater-mention-detection-benchmark)
 
 
 ### Personalized Machine Translation (PMT)
