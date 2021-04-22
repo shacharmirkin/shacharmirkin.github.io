@@ -31,6 +31,7 @@ Noam Slonim et al. [An autonomous debating system](https://doi.org/10.1038/s4158
 - Vardaan Pahuja, Anirban Laha, Shachar Mirkin, Vikas Raykar, Lili Kotlerman, Guy Lev. InterSpeech 2017.
 [Joint Learning of Correlated Sequence Labelling Tasks Using Bidirectional Recurrent Neural Networks](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1247.PDF). [Code and data](https://github.com/vardaan123/Corr-seq-labeling)
 
+
 **Datasets:**
 
 - [Recorded debating dataset](https://www.research.ibm.com/haifa/dept/vst/debating_data.shtml#Debate%20Speech%20Analysis) 
@@ -95,7 +96,7 @@ Data selection is a common technique for adapting statistical translation models
 
 **Selected publications:**
 
-_ Shachar Mirkin and Laurent Besacier. [Data Selection for Compact Adapted SMT Models](https://www.researchgate.net/publication/265207975_Data_Selection_for_Compact_Adapted_SMT_Models). 
+- Shachar Mirkin and Laurent Besacier. [Data Selection for Compact Adapted SMT Models](https://www.researchgate.net/publication/265207975_Data_Selection_for_Compact_Adapted_SMT_Models). 
 AMTA 2014. [See Section 6 for a simple and very effective method for data selection / domain adaptation for machine translation]
 
 ---
