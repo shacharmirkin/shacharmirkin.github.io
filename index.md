@@ -90,7 +90,7 @@ Textual Entailment (TE) is a popular paradigm for modeling semantic inference. T
 - Shachar Mirkin, Ido Dagan, Maayan Geffet. 2006. [Integrating Pattern-Based and Distributional Similarity Methods for Lexical Entailment Acquisition](https://www.aclweb.org/anthology/P06-2075/). COLING-ACL 2006.
 
  
-## SMT domain adaptation
+### SMT domain adaptation
 
 Data selection is a common technique for adapting statistical translation models for a specific domain, which has been shown to both improve translation quality and to reduce model size. Selection often relies on in-domain data, of the same  domain of the texts expected to be translated, selecting the sentence-pairs that are most similar to the in-domain data from a pool of parallel texts; yet, this approach holds the risk of resulting in a limited coverage, when necessary n-grams that do appear in the pool are less similar to in-domain data that is available in advance. Our research aims to find ways to bridge these two potentially contradicting  considerations, while producing compact translation models.
 
