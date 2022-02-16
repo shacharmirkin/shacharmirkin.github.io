@@ -105,9 +105,9 @@ AMTA 2014. [See Section 6 for a simple and very effective method for data select
 
 **Program committee member / reviewer:**
 
-*Count: 43*
+*Count: 44*
 
-EMNLP 2021 // EACL 2021 // COLING 2020 // *SEM 2020 // EMNLP 2020 // ACL 2020 // LREC 2020 // W-NUT 2019 // ACL 2019  // NLP+CSS 2019 // COLING 2018 // ACL 2018 // NAACL 2018 // EMNLP 2017 // *SEM 2017 // ACL 2017 // Journal of Natural Language Engineering (JNLE) 2016 // COLING 2016 // LREC 2016 // EMNLP 2016 // *SEM 2016 // EMNLP 2015 // *SEM 2015 // CICLING 2015 // Journal of Language Resources and Evaluation (LREV) 2014 //EMNLP 2014 // COLING 2014 // WMT 2014 // LREC 2014 // WMT 2013 // Journal of Language Resources and Evaluation (LREV) 2013 // IJCNLP 2013 // *SEM 2013 // Journal of Computer Science and Technology (JCST) 2013 // WMT 2012 // EACL 2012 // LREC 2012 // ACM TIST Journal, Special Issue on Paraphrasing 2011 // EMNLP 2011 // TextInfer 2011 // COLING 2010 // EMNLP 2009 // AAAI 2008
+ACL 2022 (ARR) // EMNLP 2021 // EACL 2021 // COLING 2020 // *SEM 2020 // EMNLP 2020 // ACL 2020 // LREC 2020 // W-NUT 2019 // ACL 2019  // NLP+CSS 2019 // COLING 2018 // ACL 2018 // NAACL 2018 // EMNLP 2017 // *SEM 2017 // ACL 2017 // Journal of Natural Language Engineering (JNLE) 2016 // COLING 2016 // LREC 2016 // EMNLP 2016 // *SEM 2016 // EMNLP 2015 // *SEM 2015 // CICLING 2015 // Journal of Language Resources and Evaluation (LREV) 2014 //EMNLP 2014 // COLING 2014 // WMT 2014 // LREC 2014 // WMT 2013 // Journal of Language Resources and Evaluation (LREV) 2013 // IJCNLP 2013 // *SEM 2013 // Journal of Computer Science and Technology (JCST) 2013 // WMT 2012 // EACL 2012 // LREC 2012 // ACM TIST Journal, Special Issue on Paraphrasing 2011 // EMNLP 2011 // TextInfer 2011 // COLING 2010 // EMNLP 2009 // AAAI 2008
 
 ---
 
