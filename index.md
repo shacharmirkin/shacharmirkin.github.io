@@ -1,25 +1,24 @@
 # Shachar Mirkin's page
 
-I'm a Natural Language Processing researcher at [Lawgeex](https://www.lawgeex.com/), working remotely from France.
+I'm a data scientist / applied researcher with extensive hands-on experience in Natural Language Processing & Machine Learning. I've worked in both industry and academic settings, in large companies, research centers and startups, including 6 years as a data science team leader. 
 
-In 2012, I completed my PhD studies at the [NLP lab](https://biu-nlp.github.io/) at Bar-Ilan University. My PhD thesis, in Natural Language Processing, addressed topics in textual entailment and was done under the instruction of [Prof. Ido Dagan](https://u.cs.biu.ac.il/~dagan/). 
+My PhD thesis addressed employing context for natural language inference, and during my postdoc I've mostly worked on multilingual tasks, notably machine translation. I've published multiple academic articles at top-tier venues as well as several patents ([Google Scholar](https://scholar.google.com/citations?user=shacharmirkin)).
 
-Following graduation I worked as a postdoctoral researcher at Xerox Research and at the University of Grenoble, mostly on Statistical Machine Translation (SMT), and then headed research teams in [Project Debater](https://www.research.ibm.com/artificial-intelligence/project-debater/) at IBM Research AI and at [Digimind](https://www.digimind.com/fr/) Labs in Grenoble.
+Among the many tasks I've been working on along the years are information extraction, machine translation, sentiment analysis, object detection, location classification, automatic punctuation and text classification over various types of texts, including spoken and user generated data. That, using various approaches, from rules, through classic machine learning, and to deep learning.
+
+Currently, I'm mostly interested in developing practical ML solutions for real-world tasks, such that the right solution is chosen for the products, depending on their specific characteristics and constraints.
+
+[My linkedin profile](https://www.linkedin.com/in/shacharmirkin)
+
 
 ---
+## Academic research interests
 
-## Publications
-
-[My Google Scholar page](https://scholar.google.co.il/citations?user=xsEZbOkAAAAJ&hl=en)
-
----
-## Research interests
 ### Computational argumentation and debating
 
 **Selected publications:**
 
-*New* -- 
-Noam Slonim et al. [An autonomous debating system](https://doi.org/10.1038/s41586-021-03215-w). **Nature** 591, 379–384 (2021). 
+- Noam Slonim et al. [An autonomous debating system](https://doi.org/10.1038/s41586-021-03215-w). **Nature** 591, 379–384 (2021). 
 
 - Shachar Mirkin, Guy Moshkowich, Matan Orbach, Lili Kotlerman, Yoav Kantor, Tamar Lavee, Michal Jacovi, Yonatan Bilu, Ranit Aharonov and Noam Slonim. 
 [Listening Comprehension over Argumentative Content](https://www.aclweb.org/anthology/D18-1078/). EMNLP 2018.  
@@ -30,7 +29,6 @@ Noam Slonim et al. [An autonomous debating system](https://doi.org/10.1038/s4158
 
 - Vardaan Pahuja, Anirban Laha, Shachar Mirkin, Vikas Raykar, Lili Kotlerman, Guy Lev. InterSpeech 2017.
 [Joint Learning of Correlated Sequence Labelling Tasks Using Bidirectional Recurrent Neural Networks](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1247.PDF). [Code and data](https://github.com/vardaan123/Corr-seq-labeling)
-
 
 **Datasets:**
 
@@ -101,11 +99,14 @@ AMTA 2014. [See Section 6 for a simple and very effective method for data select
 
 ---
 
+## Publications (complete list)
+
+[My Google Scholar page](https://scholar.google.com/citations?user=shacharmirkin)
+
+
 ## Academic service
 
 **Program committee member / reviewer:**
-
-
 
 W-NUT 2022 // ARR April 2022 / ACL 2022 (ARR) // W-NUT 2021 // EMNLP 2021 // EACL 2021 // COLING 2020 // *SEM 2020 // EMNLP 2020 // ACL 2020 // LREC 2020 // W-NUT 2019 // ACL 2019  // NLP+CSS 2019 // COLING 2018 // ACL 2018 // NAACL 2018 // EMNLP 2017 // *SEM 2017 // ACL 2017 // Journal of Natural Language Engineering (JNLE) 2016 // COLING 2016 // LREC 2016 // EMNLP 2016 // *SEM 2016 // EMNLP 2015 // *SEM 2015 // CICLING 2015 // Journal of Language Resources and Evaluation (LREV) 2014 //EMNLP 2014 // COLING 2014 // WMT 2014 // LREC 2014 // WMT 2013 // Journal of Language Resources and Evaluation (LREV) 2013 // IJCNLP 2013 // *SEM 2013 // Journal of Computer Science and Technology (JCST) 2013 // WMT 2012 // EACL 2012 // LREC 2012 // ACM TIST Journal, Special Issue on Paraphrasing 2011 // EMNLP 2011 // TextInfer 2011 // COLING 2010 // EMNLP 2009 // AAAI 2008
 
