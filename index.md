@@ -4,11 +4,12 @@ I'm a data scientist / applied researcher with extensive hands-on experience in 
 
 My PhD thesis addressed employing context for natural language inference, and during my postdoc I've mostly worked on multilingual tasks, notably machine translation. I've published multiple academic articles at top-tier venues as well as several patents ([Google Scholar](https://scholar.google.com/citations?user=shacharmirkin)).
 
-Among the many tasks I've been working on along the years are information extraction, machine translation, sentiment analysis, object detection, location classification, automatic punctuation and text classification over various types of texts, including spoken and user generated data. That, using various approaches, from rules, through classic machine learning, and to deep learning.
+Among the many tasks I've been working on along the years are information extraction, machine translation, sentiment analysis, object detection, location classification, automatic punctuation and text classification over various types of texts, including spoken and user generated data. 
+That, using various approaches, from rules, through classic machine learning, and up to deep learning, with real-time inference in production.
 
 Currently, I'm mostly interested in developing practical ML solutions for real-world tasks, such that the right solution is chosen for the products, depending on their specific characteristics and constraints.
 
-[My linkedin profile](https://www.linkedin.com/in/shacharmirkin)
+[My Linkedin profile](https://www.linkedin.com/in/shacharmirkin)
 
 
 ---
