@@ -1,13 +1,13 @@
 # Shachar Mirkin's page
 
-I'm a data scientist / applied researcher with extensive hands-on experience in Natural Language Processing & Machine Learning. I've worked in both industry and academic settings, in large companies, research centers and startups, including 6 years as a data science team leader. 
+I'm a data scientist / applied researcher with extensive hands-on experience in Natural Language Processing & Machine Learning, in both academic and industry, including 6 years as a data science team leader. 
 
 My PhD thesis addressed employing context for natural language inference, and during my postdoc I've mostly worked on multilingual tasks, notably machine translation. I've published multiple academic articles at top-tier venues as well as several patents ([Google Scholar](https://scholar.google.com/citations?user=shacharmirkin)).
 
-Among the many tasks I've been working on along the years are information extraction, machine translation, sentiment analysis, object detection, location classification, automatic punctuation and text classification over various types of texts, including spoken and user generated data. 
+Among the many tasks I've been working on along the years are machine translation, sentiment analysis, information extraction, object detection, location classification, automatic punctuation and text classification over different languages and types of texts, including spoken and user generated data. 
 That, using various approaches, from rules, through classic machine learning, and up to deep learning, with real-time inference in production.
 
-Currently, I'm mostly interested in developing practical ML solutions for real-world tasks, such that the right solution is chosen for the products, depending on their specific characteristics and constraints.
+Currently, I'm mostly interested in developing practical ML solutions for real-world tasks, choosing the right solution for the product, depending on its specific characteristics and constraints.
 
 [My Linkedin profile](https://www.linkedin.com/in/shacharmirkin)
 
@@ -99,11 +99,6 @@ Data selection is a common technique for adapting statistical translation models
 AMTA 2014. [See Section 6 for a simple and very effective method for data selection / domain adaptation for machine translation]
 
 ---
-
-## Publications (complete list)
-
-[My Google Scholar page](https://scholar.google.com/citations?user=shacharmirkin)
-
 
 ## Academic service
 
