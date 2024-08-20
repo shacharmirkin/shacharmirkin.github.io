@@ -1,1 +1,5 @@
-theme: jekyll-theme-slate
+remote_theme: jekyll-simplex/jekyll-theme-simplex
+plugins:
+  - jekyll-remote-theme
+title: Shachar Mirkin
+description: Shachar Mirkin's personal page
