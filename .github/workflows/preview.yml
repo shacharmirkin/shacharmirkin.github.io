@@ -51,14 +51,20 @@ jobs:
           echo "https://shacharmirkin.github.io/preview/${{ github.ref_name }}/"
           echo "======================================================"
 
-      - name: Cat index.md content
+      - name: Find index.md
         run: |
-          echo "==================== START OF INDEX.MD CONTENT ===================="
-          cat index.md
-          echo "==================== END OF INDEX.MD CONTENT ===================="
+          echo "==================== SEARCHING FOR INDEX.MD ===================="
+          find . -name "index.md"
+          echo "==================== END OF SEARCH ===================="
 
-      - name: Cat generated index.html content
+      - name: Display content of index file
         run: |
-          echo "==================== START OF GENERATED INDEX.HTML CONTENT ===================="
-          cat _site/index.html
-          echo "==================== END OF GENERATED INDEX.HTML CONTENT ===================="
+          echo "==================== CONTENT OF INDEX FILE ===================="
+          cat index.*
+          echo "==================== END OF INDEX FILE CONTENT ===================="
+
+      - name: List _site directory
+        run: |
+          echo "==================== CONTENTS OF _SITE DIRECTORY ===================="
+          ls -R _site
+          echo "==================== END OF _SITE DIRECTORY LISTING ===================="
