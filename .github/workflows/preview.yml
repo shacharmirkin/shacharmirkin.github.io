@@ -21,6 +21,34 @@ jobs:
           gem install bundler
           bundle install
 
+      - name: Display repository contents
+        run: |
+          echo "==================== REPOSITORY CONTENTS ===================="
+          ls -R
+          echo "==================== END OF REPOSITORY CONTENTS ===================="
+
+      - name: Display index.md content (if exists)
+        run: |
+          echo "==================== INDEX.MD CONTENT ===================="
+          if [ -f "index.md" ]; then
+            cat index.md
+          else
+            echo "index.md not found"
+            find . -name "index.md"
+          fi
+          echo "==================== END OF INDEX.MD CONTENT ===================="
+
+      - name: Display _config.yml content
+        run: |
+          echo "==================== _CONFIG.YML CONTENT ===================="
+          if [ -f "_config.yml" ]; then
+            cat _config.yml
+          else
+            echo "_config.yml not found"
+            find . -name "_config.yml"
+          fi
+          echo "==================== END OF _CONFIG.YML CONTENT ===================="
+
       - name: Build site
         run: bundle exec jekyll build --verbose
 
@@ -51,20 +79,3 @@ jobs:
           echo "https://shacharmirkin.github.io/preview/${{ github.ref_name }}/"
           echo "======================================================"
 
-      - name: Find index.md
-        run: |
-          echo "==================== SEARCHING FOR INDEX.MD ===================="
-          find . -name "index.md"
-          echo "==================== END OF SEARCH ===================="
-
-      - name: Display content of index file
-        run: |
-          echo "==================== CONTENT OF INDEX FILE ===================="
-          cat index.*
-          echo "==================== END OF INDEX FILE CONTENT ===================="
-
-      - name: List _site directory
-        run: |
-          echo "==================== CONTENTS OF _SITE DIRECTORY ===================="
-          ls -R _site
-          echo "==================== END OF _SITE DIRECTORY LISTING ===================="
