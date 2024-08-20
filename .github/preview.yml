@@ -9,7 +9,7 @@ jobs:
   build-preview:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3 # Updated to v3
+      - uses: actions/checkout@v3
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -26,8 +26,9 @@ jobs:
 
       - name: List built files
         run: |
-          echo "Contents of _site directory:"
+          echo "==================== START OF BUILT FILES ===================="
           ls -R _site
+          echo "==================== END OF BUILT FILES ===================="
 
       - name: Deploy preview
         uses: peaceiris/actions-gh-pages@v3
@@ -40,9 +41,12 @@ jobs:
         run: |
           git fetch origin gh-pages:gh-pages
           git checkout gh-pages
-          echo "Contents of preview directory:"
+          echo "==================== START OF GH-PAGES CONTENT ===================="
           ls -R preview
+          echo "==================== END OF GH-PAGES CONTENT ===================="
 
       - name: Print preview URL
         run: |
-          echo "Preview should be available at: https://shacharmirkin.github.io/preview/${{ github.ref_name }}/"
+          echo "==================== PREVIEW URL ===================="
+          echo "https://shacharmirkin.github.io/preview/${{ github.ref_name }}/"
+          echo "======================================================"
