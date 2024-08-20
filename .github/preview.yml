@@ -22,7 +22,12 @@ jobs:
           bundle install
 
       - name: Build site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --verbose
+
+      - name: Debug - List built files
+        run: |
+          echo "Contents of _site directory:"
+          ls -R _site
 
       - name: Deploy preview
         uses: peaceiris/actions-gh-pages@v3
@@ -30,3 +35,9 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           destination_dir: preview/${{ github.ref_name }}
+
+      - name: Debug - List gh-pages branch
+        run: |
+          git checkout gh-pages
+          echo "Contents of preview directory:"
+          ls -R preview
