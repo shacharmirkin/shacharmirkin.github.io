@@ -1,4 +1,4 @@
-remote_theme: jekyll-simplex/jekyll-theme-simplex
+remote_theme: adueck/good-clean-read
 plugins:
   - jekyll-remote-theme
 title: Shachar Mirkin

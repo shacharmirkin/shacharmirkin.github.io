@@ -1,8 +1,11 @@
 source "https://rubygems.org"
 
-gem "github-pages", "~> 228", group: :jekyll_plugins
-gem "jekyll-theme-simplex"
+   gem "github-pages", group: :jekyll_plugins
+   gem "jekyll-remote-theme"
 
-group :jekyll_plugins do
-  # Add other plugins here if you have any
-end
+   # Add the new theme here
+   gem "jekyll-theme-name", git: "https://github.com/adueck/good-clean-read.git"
+
+   group :jekyll_plugins do
+     # Add other plugins here if you have any
+   end
