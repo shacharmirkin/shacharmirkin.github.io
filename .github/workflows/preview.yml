@@ -50,3 +50,15 @@ jobs:
           echo "==================== PREVIEW URL ===================="
           echo "https://shacharmirkin.github.io/preview/${{ github.ref_name }}/"
           echo "======================================================"
+
+      - name: Cat index.md content
+        run: |
+          echo "==================== START OF INDEX.MD CONTENT ===================="
+          cat index.md
+          echo "==================== END OF INDEX.MD CONTENT ===================="
+
+      - name: Cat generated index.html content
+        run: |
+          echo "==================== START OF GENERATED INDEX.HTML CONTENT ===================="
+          cat _site/index.html
+          echo "==================== END OF GENERATED INDEX.HTML CONTENT ===================="
