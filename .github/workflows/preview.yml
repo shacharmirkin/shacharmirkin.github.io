@@ -21,6 +21,10 @@ jobs:
         gem install bundler
         bundle install
         
+    - name: Update baseurl for preview
+      run: |
+        sed -i 's/baseurl: ""/baseurl: "\/gh-pages-preview\/preview\/${{ github.ref_name }}"/' _config.yml
+        
     - name: Build site
       run: bundle exec jekyll build
       
@@ -33,10 +37,11 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
         destination_dir: preview/${{ github.ref_name }}
+        publish_branch: gh-pages-preview
         keep_files: true
 
     - name: Print preview URL
       run: |
         echo "==================== PREVIEW URL ===================="
-        echo "https://shacharmirkin.github.io/preview/${{ github.ref_name }}/"
+        echo "https://shacharmirkin.github.io/gh-pages-preview/preview/${{ github.ref_name }}/"
         echo "======================================================"
