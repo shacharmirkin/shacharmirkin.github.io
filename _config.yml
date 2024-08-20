@@ -1,5 +1,13 @@
+title: Shachar Mirkin's page
+description: Shachar Mirkin's page
+url: "https://shacharmirkin.github.io" # the base hostname & protocol for your site
+
+# Theme settings
 remote_theme: adueck/good-clean-read
+
+# Build settings
+markdown: kramdown
+
+# Plugins
 plugins:
   - jekyll-remote-theme
-title: Shachar Mirkin
-description: Shachar Mirkin's personal page
