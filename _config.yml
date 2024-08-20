@@ -3,7 +3,7 @@ description: Shachar Mirkin's page
 url: "https://shacharmirkin.github.io"
 
 # Theme settings
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: adueck/good-clean-read
 
 # Build settings
 markdown: kramdown

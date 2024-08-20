@@ -3,34 +3,79 @@ name: Preview Site
 on:
   push:
     branches-ignore:
-      - main
+      - main # or master, depending on your default branch name
 
 jobs:
   build-preview:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.0'
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.0"
 
-    - name: Install dependencies
-      run: |
-        gem install bundler
-        bundle install
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
 
-    - name: Build site
-      run: bundle exec jekyll build
+      - name: Display repository contents
+        run: |
+          echo "==================== REPOSITORY CONTENTS ===================="
+          ls -R
+          echo "==================== END OF REPOSITORY CONTENTS ===================="
 
-    - name: Deploy preview
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
-        destination_dir: preview/${{ github.ref_name }}
+      - name: Display index.md content (if exists)
+        run: |
+          echo "==================== INDEX.MD CONTENT ===================="
+          if [ -f "index.md" ]; then
+            cat index.md
+          else
+            echo "index.md not found"
+            find . -name "index.md"
+          fi
+          echo "==================== END OF INDEX.MD CONTENT ===================="
 
-    - name: Print preview URL
-      run: |
-        echo "Preview available at: https://shacharmirkin.github.io/preview/${{ github.ref_name }}/"
+      - name: Display _config.yml content
+        run: |
+          echo "==================== _CONFIG.YML CONTENT ===================="
+          if [ -f "_config.yml" ]; then
+            cat _config.yml
+          else
+            echo "_config.yml not found"
+            find . -name "_config.yml"
+          fi
+          echo "==================== END OF _CONFIG.YML CONTENT ===================="
+
+      - name: Build site
+        run: bundle exec jekyll build --verbose
+
+      - name: List built files
+        run: |
+          echo "==================== START OF BUILT FILES ===================="
+          ls -R _site
+          echo "==================== END OF BUILT FILES ===================="
+
+      - name: Deploy preview
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          destination_dir: preview/${{ github.ref_name }}
+
+      - name: Debug - List gh-pages branch
+        run: |
+          git fetch origin gh-pages:gh-pages
+          git checkout gh-pages
+          echo "==================== START OF GH-PAGES CONTENT ===================="
+          ls -R preview
+          echo "==================== END OF GH-PAGES CONTENT ===================="
+
+      - name: Print preview URL
+        run: |
+          echo "==================== PREVIEW URL ===================="
+          echo "https://shacharmirkin.github.io/preview/${{ github.ref_name }}/"
+          echo "======================================================"
+
