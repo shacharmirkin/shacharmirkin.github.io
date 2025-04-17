@@ -1,34 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-color: #1f2937;
+            --background-color: #ffffff;
+            --nav-bg: #f8fafc;
+            --nav-border: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
         .nav-tabs {
             display: flex;
             list-style: none;
             padding: 0;
             margin: 0;
-            background-color: #f8f9fa;
-            border-bottom: 1px solid #dee2e6;
+            background-color: var(--nav-bg);
+            border-bottom: 1px solid var(--nav-border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         }
+
         .nav-tabs li {
             padding: 1rem;
+            transition: all 0.2s ease;
         }
+
         .nav-tabs a {
             text-decoration: none;
-            color: #495057;
-            font-weight: bold;
+            color: var(--text-color);
+            font-weight: 500;
+            font-size: 1rem;
+            position: relative;
+            padding: 0.5rem 0;
         }
-        .nav-tabs a:hover {
-            color: #007bff;
+
+        .nav-tabs a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--primary-color);
+            transition: width 0.3s ease;
         }
+
+        .nav-tabs a:hover::after {
+            width: 100%;
+        }
+
         .nav-tabs .active a {
-            color: #007bff;
-            border-bottom: 2px solid #007bff;
+            color: var(--primary-color);
         }
+
+        .nav-tabs .active a::after {
+            width: 100%;
+        }
+
         .content {
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .nav-tabs {
+                flex-direction: column;
+            }
+            
+            .content {
+                padding: 1rem;
+            }
+        }
+
+        /* Modern typography */
+        h1, h2, h3, h4, h5, h6 {
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--secondary-color);
         }
     </style>
 </head>

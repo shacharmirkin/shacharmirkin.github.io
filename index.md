@@ -113,10 +113,6 @@ W-NUT 2022 // ARR April 2022 / ACL 2022 (ARR) // W-NUT 2021 // EMNLP 2021 // EAC
 
 ## Contact
 
-[Twitter](https://twitter.com/shacharmirkin)
-
-[Facebook](https://www.facebook.com/shacharm)
-
 [LinkedIn](https://www.linkedin.com/public-profile/in/shacharmirkin)
 
-<a rel="me" href="https://sigmoid.social/@shacharmirkin">Mastodon</a>
+[Twitter](https://twitter.com/shacharmirkin)
