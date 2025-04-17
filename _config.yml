@@ -1,1 +1,20 @@
 theme: jekyll-theme-slate
+
+title: Shachar Mirkin's page
+author: Shachar Mirkin
+#description: >- 
+#  Shachar Mirkin's page
+url: "https://shacharmirkin.github.io"
+
+github_username: shacharmirkin
+
+markdown: kramdown
+plugins:
+  - jekyll-feed    # Creates an Atom feed (RSS) for your posts
+  - jekyll-seo-tag # Adds metadata tags for SEO
+
+
+# Example (syntax might vary based on theme)
+header_pages:
+  - index.md # Or sometimes just '/'
+  - blog.md

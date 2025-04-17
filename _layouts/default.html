@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <style>
+        .nav-tabs {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .nav-tabs li {
+            padding: 1rem;
+        }
+        .nav-tabs a {
+            text-decoration: none;
+            color: #495057;
+            font-weight: bold;
+        }
+        .nav-tabs a:hover {
+            color: #007bff;
+        }
+        .nav-tabs .active a {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+        }
+        .content {
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav-tabs">
+        <li class="{% if page.url == '/' %}active{% endif %}">
+            <a href="/">Home</a>
+        </li>
+        <li class="{% if page.url == '/blog.html' %}active{% endif %}">
+            <a href="/blog.html">Blog</a>
+        </li>
+    </ul>
+    <div class="content">
+        {{ content }}
+    </div>
+</body>
+</html> 
