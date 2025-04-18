@@ -17,4 +17,6 @@ plugins:
 # Example (syntax might vary based on theme)
 header_pages:
   - index.md # Or sometimes just '/'
-  - blog.md
+  - snippets.md
+  - research.md
+  - contact.md

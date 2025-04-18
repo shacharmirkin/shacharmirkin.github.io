@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Blog
+title: Snippets
 ---
 
-# Blog Posts
+# Snippets
 
 <div class="blog-container">
     {% for post in site.posts %}
