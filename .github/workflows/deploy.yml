@@ -30,11 +30,6 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Create production config
-        run: |
-          echo "captcha:" > _config_prod.yml
-          echo "  site_key: \"${{ secrets.CAPTCHA_SITE_KEY }}\"" >> _config_prod.yml
-
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
