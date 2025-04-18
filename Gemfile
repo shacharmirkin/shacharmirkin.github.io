@@ -13,9 +13,10 @@ gem "kramdown-parser-gfm"
 gem "jekyll-sass-converter", "~> 3.0.0"
 # Add other plugins here if you use them
 
-# Optional: If using Ruby 3.0+, you might need webrick explicitly
+# Required for Ruby 3.0+
 gem "webrick", "~> 1.8"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-seo-tag"
 end
