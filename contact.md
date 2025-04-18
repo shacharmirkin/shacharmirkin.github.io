@@ -5,6 +5,11 @@ title: Contact
 
 # Contact
 
+<!-- Debug information (remove in production) -->
+<div style="display: none;">
+    Site config: {{ site.captcha | jsonify }}
+</div>
+
 <div class="contact-container">
     <div class="contact-info">
         <h2>Get in Touch</h2>
@@ -61,8 +66,8 @@ title: Contact
                 <textarea id="message" name="message" rows="5" required></textarea>
             </div>
 
-            <div class="form-group">
-                <div class="h-captcha" data-sitekey="YOUR_HCAPTCHA_SITE_KEY"></div>
+            <div class="form-group captcha-container">
+                <div class="h-captcha" data-sitekey="{{ site.captcha.site_key }}" data-theme="light"></div>
             </div>
 
             <button type="submit" class="submit-button">Send Message</button>
@@ -70,112 +75,5 @@ title: Contact
     </div>
 
 </div>
-
-<style>
-.contact-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-}
-
-.contact-info h2, .contact-form h2 {
-    font-size: 1.75rem;
-    margin-bottom: 1.5rem;
-    color: var(--text-color);
-    border-bottom: 2px solid var(--nav-border);
-    padding-bottom: 0.5rem;
-}
-
-.contact-methods {
-    display: grid;
-    gap: 2rem;
-}
-
-.contact-method h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-    color: var(--text-color);
-}
-
-.contact-method p {
-    margin: 0;
-    color: var(--text-color);
-}
-
-.social-links {
-    display: flex;
-    gap: 1rem;
-}
-
-.social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: var(--nav-bg);
-    transition: all var(--transition-fast);
-}
-
-.social-link:hover {
-    background: var(--nav-hover);
-    transform: translateY(-2px);
-}
-
-.icon {
-    fill: var(--text-color);
-    transition: fill var(--transition-fast);
-}
-
-.social-link:hover .icon {
-    fill: var(--primary-color);
-}
-
-.form-group {
-    margin-bottom: 1.5rem;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: var(--text-color);
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 0.75rem;
-    border: 1px solid var(--nav-border);
-    border-radius: 4px;
-    background: var(--nav-bg);
-    color: var(--text-color);
-}
-
-.submit-button {
-    background: var(--link-color);
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-.submit-button:hover {
-    background: var(--link-hover);
-}
-
-@media (max-width: 768px) {
-    .contact-container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-}
-</style>
 
 <script src="https://js.hcaptcha.com/1/api.js" async defer></script>

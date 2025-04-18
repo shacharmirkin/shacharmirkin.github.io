@@ -1,17 +1,28 @@
-theme: jekyll-theme-slate
+# Site settings
+title: Shachar Mirkin
+description: Personal website of Shachar Mirkin
+baseurl: ""
+url: "https://shacharmirkin.github.io"
 
-title: Shachar Mirkin's page
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Sass/SCSS settings
+sass:
+  sass_dir: assets/css
+  style: compressed
+
 author: Shachar Mirkin
 #description: >- 
 #  Shachar Mirkin's page
-url: "https://shacharmirkin.github.io"
 
 github_username: shacharmirkin
 
-markdown: kramdown
 plugins:
   - jekyll-feed    # Creates an Atom feed (RSS) for your posts
   - jekyll-seo-tag # Adds metadata tags for SEO
+  - jekyll-sass-converter
 
 
 # Example (syntax might vary based on theme)

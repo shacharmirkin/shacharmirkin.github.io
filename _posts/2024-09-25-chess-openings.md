@@ -4,7 +4,7 @@ title: "Vibe Coding a chess app"
 date: 2024-09-25 12:00:00 +0200
 categories: [introduction]
 tags: [Vibe Coding, Cursor, Streamlit, Chess]
-excerpt: ""
+excerpt: "Creating a little chess app using (almost) only Cursor"
 image: /assets/images/chess-openings.jpg
 ---
 
@@ -14,6 +14,4 @@ Since my front-end skills are quite limited, Cursor was crucial, but I ended up 
 
 The result is a little [Streamlit](https://streamlit.io/) app for practicing chess openings, and my first project where AI wrote more code than I did.
 
-You can try it here (completely free of course): https://huggingface.co/spaces/shachar/chess-openings
-
-The code is also available there
+You can try it [on Hugging Face](https://huggingface.co/spaces/shachar/chess-openings) (completely free of course), or check out the code [here](https://huggingface.co/spaces/shachar/chess-openings/tree/main).

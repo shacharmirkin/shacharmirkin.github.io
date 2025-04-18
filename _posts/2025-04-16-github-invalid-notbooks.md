@@ -18,8 +18,6 @@ When trying to view Jupyter notebooks on GitHub, we sometimes see an 'Invalid No
 There was an error rendering your Notebook: the 'state' key is missing from 'metadata.widgets'. Add 'state' to each, or remove 'metadata.widgets'.
 ```
 
-![image](https://gist.github.com/user-attachments/assets/baacf996-4594-45b5-8d8d-0a21e3db37dd)
-
 This often happens with notebooks created in _Google Colab_ as it structures notebook metadata differently than what GitHub's renderer expects.
 
 ## Jupyter Widgets
