@@ -18,6 +18,11 @@ title: Contact
                             <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                         </svg>
                     </a>
+                    <a href="https://bsky.app/profile/shacharmirkin.bsky.social" class="social-link" target="_blank">
+                        <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22.5c-5.799 0-10.5-4.701-10.5-10.5S6.201 1.5 12 1.5s10.5 4.701 10.5 10.5-4.701 10.5-10.5 10.5zm-3.75-6.75h7.5v-1.5h-7.5v1.5zm0-3h7.5v-1.5h-7.5v1.5zm0-3h7.5v-1.5h-7.5v1.5z"/>
+                        </svg>
+                    </a>
                     <a href="https://www.linkedin.com/public-profile/in/shacharmirkin" class="social-link" target="_blank">
                         <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
                             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
@@ -35,7 +40,7 @@ title: Contact
 
     <div class="contact-form">
         <h2>Send a Message</h2>
-        <form action="https://formspree.io/f/mpwpgowg" method="POST">
+        <form action="https://formspree.io/f/xjvqjqjq" method="POST">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
@@ -54,6 +59,10 @@ title: Contact
             <div class="form-group">
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <div class="h-captcha" data-sitekey="YOUR_HCAPTCHA_SITE_KEY"></div>
             </div>
 
             <button type="submit" class="submit-button">Send Message</button>
@@ -168,3 +177,5 @@ title: Contact
     }
 }
 </style>
+
+<script src="https://js.hcaptcha.com/1/api.js" async defer></script>

@@ -44,10 +44,10 @@ title: Snippets
 
 .snippet-preview {
     display: grid;
-    grid-template-columns: 1fr 300px;
-    gap: 2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 2rem;
+    grid-template-columns: 1fr 250px;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--nav-border);
     transition: transform 0.2s ease;
 }
@@ -132,7 +132,7 @@ title: Snippets
 
 .snippet-image img {
     width: 100%;
-    height: 200px;
+    height: 160px;
     object-fit: cover;
     display: block;
 }
@@ -154,7 +154,7 @@ title: Snippets
     }
     
     .snippet-image img {
-        height: 180px;
+        height: 140px;
     }
 }
 </style>

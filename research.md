@@ -9,7 +9,8 @@ permalink: /research
 <div class="research-container">
     <div class="research-intro">
         <h2>Research Interests</h2>
-        <p>My research focuses on natural language processing, with particular emphasis on computational argumentation, machine translation, and semantic inference.</p>
+        <p>Here are some highlights of my academic research. 
+        See the complete list of my publications is <a href="#all-publications">below</a> or on <a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&hl=en">Google Scholar</a></p>
     </div>
 
     <div class="research-areas">
@@ -51,8 +52,9 @@ permalink: /research
         </div>
     </div>
 
-    <div class="all-publications">
+    <div class="all-publications" id="all-publications">
         <h2>All Publications</h2>
+
         {% if site.data.citations and site.data.citations.size > 0 %}
             {% assign sorted_pubs = site.data.citations | sort: "year" | reverse %}
             {% assign current_year = nil %}
