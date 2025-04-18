@@ -1,0 +1,245 @@
+- authors: "Bar-Haim, Roy; Berant, Jonathan; Dagan, Ido; Greental, Iddo; Mirkin, Shachar; Shnarch, Eyal; Szpektor, Idan"
+  title: "Efficient semantic deduction and approximate matching over compact parse forests"
+  publication: "Proceedings of TAC"
+  year: 2008
+
+- authors: "Mirkin, Shachar; Specia, Lucia; Cancedda, Nicola; Dagan, Ido; Dymetman, Marc; Szpektor, Idan"
+  title: "Source-language entailment modeling for translating unknown terms"
+  publication: "Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP"
+  pages: "791-799"
+  year: 2009
+
+- authors: "Mirkin, Shachar; Dagan, Ido; Geffet, Maayan"
+  title: "Integrating pattern-based and distributional similarity methods for lexical entailment acquisition"
+  publication: "Proceedings of the COLING/ACL 2006 Main Conference Poster Sessions"
+  pages: "579-586"
+  year: 2006
+
+- authors: "Mirkin, Shachar; Dagan, Ido; Shnarch, Eyal"
+  title: "Evaluating the inferential utility of lexical-semantic resources"
+  publication: "Proceedings of the 12th Conference of the European Chapter of the ACL (EACL 2009)"
+  pages: "558-566"
+  year: 2009
+
+- authors: "Mirkin, Shachar; Dagan, Ido; Padó, Sebastian"
+  title: "Assessing the role of discourse references in entailment inference"
+  publication: "Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics"
+  pages: "1209-1219"
+  year: 2010
+
+- authors: "Abad, Azad; Bentivogli, Luisa; Dagan, Ido; Giampiccolo, Danilo; Mirkin, Shachar; Pianta, Emanuele; Stern, Asher"
+  title: "A Resource for Investigating the Impact of Anaphora and Coreference on Inference"
+  publication: "LREC"
+  year: 2010
+
+- authors: "Mirkin, Shachar; Berant, Jonathan; Dagan, Ido; Shnarch, Eyal"
+  title: "Recognising entailment within discourse"
+  publication: "Proceedings of the 23rd International Conference on Computational Linguistics"
+  pages: "770-778"
+  year: 2010
+  publisher: "Association for Computational Linguistics"
+
+- authors: "Aziz, Wilker; Dymetman, Marc; Specia, Lucia; Mirkin, Shachar"
+  title: "Learning an expert from human annotations in statistical machine translation: The case of out-of-vocabulary words"
+  publication: "Proceedings of the 14th Annual Conference of the European Association for Machine Translation"
+  year: 2010
+
+- authors: "Stern, Asher; Shnarch, Eyal; Mirkin, Shachar; Kotlerman, Lili; Zeichner, Naomi; Dagan, Ido; Lotan, Amnon; Berant, Jonathan"
+  title: "Rule Chaining and Approximate Match in textual inference"
+  publication: "TAC"
+  year: 2010
+
+- authors: "Mirkin, Shachar; Dagan, Ido; Kotlerman, Lili; Szpektor, Idan"
+  title: "Classification-based contextual preferences"
+  publication: "Proceedings of the TextInfer 2011 Workshop on Textual Entailment"
+  pages: "20-29"
+  year: 2011
+
+- authors: "Stern, Asher; Mirkin, Shachar; Shnarch, Eyal; Kotlerman, Lili; Dagan, Ido; Lotan, Amnon; Berant, Jonathan"
+  title: "Knowledge and Tree-Edits in Learnable Entailment Proofs"
+  publication: "TAC"
+  year: 2011
+
+- authors: "Mirkin, Shachar"
+  title: "Context and Discourse in Textual Entailment Inference"
+  year: 2011
+  publisher: "Bar-Ilan University"
+
+- authors: "Venkatapathy, Sriram; Mirkin, Shachar"
+  title: "An SMT-driven authoring tool"
+  publication: "Proceedings of COLING 2012: Demonstration Papers"
+  pages: "459-466"
+  year: 2012
+
+- authors: "Mirkin, Shachar; Venkatapathy, Sriram; Dymetman, Marc; Calapodescu, Ioan"
+  title: "SORT: An Interactive Source-Rewriting Tool for Improved Translation"
+  publication: "ACL Demos"
+  year: 2013
+
+- authors: "Darling, William; Archambeau, Cédric; Mirkin, Shachar; Bouchard, Guillaume"
+  title: "Error prediction with partial feedback"
+  publication: "Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2013, Prague, Czech Republic, September 23-27, 2013, Proceedings, Part II 13"
+  pages: "80-94"
+  year: 2013
+  publisher: "Springer Berlin Heidelberg"
+
+- authors: "Mirkin, Shachar; Cancedda, Nicola"
+  title: "Assessing quick update methods of statistical translation models"
+  publication: "Proceedings of the International Workshop of Spoken Language Translation (IWSLT)"
+  pages: "264-271"
+  year: 2013
+
+- authors: "Mirkin, Shachar; Venkatapathy, Sriram; Dymetman, Marc"
+  title: "Confidence-driven Rewriting for Improved Translation"
+  publication: "MT Summit"
+  year: 2013
+
+- authors: "Gupta, Anand; Kaur, Manpreet; Mirkin, Shachar; Singh, Adarsh; Goyal, Aseem"
+  title: "Text summarization through entailment-based minimum vertex cover"
+  publication: "Proceedings of the Third Joint Conference on Lexical and Computational Semantics (* SEM 2014)"
+  pages: "75-80"
+  year: 2014
+
+- authors: "Mirkin, Shachar; Bar-Haim, Roy; Dagan, Ido; Shnarch, Eyal; Stern, Asher; Szpektor, Idan; Berant, Jonathan"
+  title: "Addressing Discourse and Document Structure in the RTE Search Task"
+  publication: "TAC"
+  year: 2009
+
+- authors: "Mirkin, Shachar; Besacier, Laurent"
+  title: "Data Selection for Compact Adapted SMT Models"
+  publication: "Proceedings of AMTA"
+  year: 2014
+
+- authors: "Wuebker, Joern; Ney, Hermann; Martínez-Villaronga, Adrià; Giménez Pastor, Adrián; Juan Císcar, Alfonso; Servan, Christophe; Dymetman, Marc; Mirkin, Shachar"
+  title: "Comparison of data selection techniques for the translation of video lectures"
+  year: 2014
+  publisher: "Association for Machine Translation in the Americas"
+
+- authors: "Venkatapathy, Sriram; Mirkin, Shachar"
+  title: "Machine translation-driven authoring system and method"
+  year: 2015
+  publisher: "US Patent 9,047,274"
+
+- authors: "Mirkin, Shachar"
+  title: "Incrementally Updating the SMT Reordering Model"
+  publication: "Proceedings of The 28th Pacific Asia Conference on Language, Information and Computing (PACLIC), Phuket, Thailand"
+  year: 2014
+
+- authors: "Mirkin, Shachar; Venkatapathy, Sriram; Dymetman, Marc"
+  title: "Confidence-driven rewriting of source texts for improved translation"
+  year: 2014
+  publisher: "US Patent App. 13/908,157"
+
+- authors: "Jacquet, Guillaume; Mirkin, Shachar"
+  title: "Refining inference rules with temporal event clustering"
+  year: 2015
+  publisher: "US Patent App. 14/070,786"
+
+- authors: "Mirkin, Shachar; Lagos, Nikolaos; Calapodescu, loan"
+  title: "Semantic refining of cross-lingual information retrieval results"
+  year: 2015
+  publisher: "US Patent App. 14/276,252"
+
+- authors: "Nowson, Scott; Perez, Julien; Brun, Caroline; Mirkin, Shachar; Roux, Claude"
+  title: "XRCE personal language analytics engine for multilingual author profiling"
+  publication: "Working Notes Papers of the CLEF"
+  pages: "1412-1424"
+  year: 2015
+
+- authors: "Mirkin, Shachar; Meunier, Jean-Luc"
+  title: "Personalized machine translation: Predicting translational preferences"
+  publication: "Proceedings of the 2015 conference on empirical methods in natural language processing"
+  pages: "2019-2025"
+  year: 2015
+
+- authors: "Mirkin, Shachar; Nowson, Scott; Brun, Caroline; Perez, Julien"
+  title: "Motivating Personality-aware Machine Translation"
+  publication: "The 2015 Conference on Empirical Methods on Natural Language Processing (EMNLP)"
+  year: 2015
+
+- authors: "Mirkin, Shachar"
+  title: "System and method for incrementally updating a reordering model for a statistical machine translation system"
+  year: 2016
+  publisher: "US Patent 9,442,922"
+
+- authors: "Gupta, Anand; Kaur, Manpreet; Mirkin, Shachar"
+  title: "Method and system for summarizing a document"
+  year: 2016
+  publisher: "US Patent App. 14/680,096"
+
+- authors: "Rabinovich, Ella; Mirkin, Shachar; Patel, Raj Nath; Specia, Lucia; Wintner, Shuly"
+  title: "Personalized Machine Translation: Preserving Original Author Traits"
+  publication: "EACL 2017"
+  year: 2017
+
+- authors: "Sriram Venkatapathy, Shachar Mirkin, Marc Dymetman"
+  title: "Learning generation templates from dialog transcripts"
+  year: 2016
+  publisher: "US Patent 9,473,637"
+
+- authors: "Mirkin, Shachar; Meunier, Jean-Luc"
+  title: "System and method for predicting an optimal machine translation system for a user based on an updated user profile"
+  year: 2018
+  publisher: "US Patent US-10025779-B2"
+
+- authors: "Pahuja, Vardaan; Laha, Anirban; Mirkin, Shachar; Raykar, Vikas; Kotlerman, Lili; Lev, Guy"
+  title: "Joint Learning of Correlated Sequence Labelling Tasks Using Bidirectional Recurrent Neural Networks"
+  publication: "Interspeech 2017"
+  year: 2017
+
+- authors: "Mirkin, Shachar; Jacovi, Michal; Lavee, Tamar; Kuo, Hong-Kwang; Thomas, Samuel; Sager, Leslie; Kotlerman, Lili; Venezian, Elad; Slonim, Noam"
+  title: "A recorded debating dataset"
+  publication: "arXiv preprint arXiv:1709.06438"
+  year: 2017
+
+- authors: "Mass, Yosi; Kotlerman, Lili; Mirkin, Shachar; Venezian, Elad; Witzling, Gera; Slonim, Noam"
+  title: "What did you mention? a large scale mention detection benchmark for spoken and written text"
+  publication: "arXiv preprint arXiv:1801.07507"
+  year: 2018
+
+- authors: "Mirkin, Shachar; Moshkowich, Guy; Orbach, Matan; Kotlerman, Lili; Kantor, Yoav; Lavee, Tamar; Jacovi, Michal; Bilu, Yonatan; Aharonov, Ranit; Slonim, Noam"
+  title: "Listening comprehension over argumentative content"
+  publication: "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing"
+  pages: "719-724"
+  year: 2018
+
+- authors: "Lavee, Tamar; Orbach, Matan; Kotlerman, Lili; Kantor, Yoav; Gretz, Shai; Dankin, Lena; Mirkin, Shachar; Jacovi, Michal; Bilu, Yonatan; Aharonov, Ranit"
+  title: "Towards effective rebuttal: Listening comprehension using corpus-wide claim mining"
+  publication: "arXiv preprint arXiv:1907.11889"
+  year: 2019
+
+- authors: "Orbach, Matan; Bilu, Yonatan; Gera, Ariel; Kantor, Yoav; Dankin, Lena; Lavee, Tamar; Kotlerman, Lili; Mirkin, Shachar; Jacovi, Michal; Aharonov, Ranit"
+  title: "A Dataset of General-Purpose Rebuttal"
+  publication: "arXiv preprint arXiv:1909.00393"
+  year: 2019
+
+- authors: "Slonim, Noam; Bilu, Yonatan; Alzate, Carlos; Bar-Haim, Roy; Bogin, Ben; Bonin, Francesca; Choshen, Leshem; Cohen-Karlik, Edo; Dankin, Lena; Edelstein, Lilach"
+  title: "An autonomous debating system"
+  publication: "Nature"
+  volume: "591"
+  number: "7850"
+  pages: "379-384"
+  year: 2021
+  publisher: "Nature Publishing Group UK London"
+
+- authors: "Teehan, Ryan; Clinciu, Miruna; Serikov, Oleg; Szczechla, Eliza; Seelam, Natasha; Mirkin, Shachar; Gokaslan, Aaron"
+  title: "Emergent Structures and Training Dynamics in Large Language Models"
+  publication: "Challenges & Perspectives in Creating Large Language Models"
+  year: 2022
+
+- authors: "Scao, Teven Le; Fan, Angela; Akiki, Christopher; Pavlick, Ellie; Ilić, Suzana; Hesslow, Daniel; Castagné, Roman; Luccioni, Alexandra Sasha; Yvon, François; Gallé, Matthias"
+  title: "Bloom: A 176b-parameter open-access multilingual language model"
+  publication: "arXiv preprint arXiv:2211.05100"
+  year: 2022
+
+- authors: "Mirkin, Shachar; Dagan, Ido; Kotlerman, Lili; Szpektor, Idan"
+  title: "Contextual Preferences for Name-based Text Categorization"
+
+- authors: "Vayani, Ashmal; Dissanayake, Dinura; Watawana, Hasindri; Ahsan, Noor; Sasikumar, Nevasini; Thawakar, Omkar; Ademtew, Henok Biadglign; Hmaiti, Yahya; Kumar, Amandeep; Kuckreja, Kartik"
+  title: "All languages matter: Evaluating lmms on culturally diverse 100 languages"
+  publication: "arXiv preprint arXiv:2411.16508"
+  year: 2024
+
+- authors: "Danchev, V; Nikoulina, Vassilina; Laippala, Veronika; Lepercq, Violette; Prabhu, Vrinda; Alyafeai, Zaid; Talat, Zeerak; Raja, Arun; Heinzerling, Benjamin; Si, Chenglei"
+  title: "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model"
+  year: 2023 
