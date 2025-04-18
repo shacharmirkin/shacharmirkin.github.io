@@ -3,7 +3,7 @@ layout: post
 title: "GitHub Invalid Notebooks"
 date: 2025-04-16 12:00:00 +0200
 categories: [introduction]
-tags: [blogging, jekyll]
+tags: [GitHub, Jupyter, Google Colab]
 excerpt: "Workarounds for dealing with Invalid Notebook error on GitHub"
 image: /assets/images/github-invalid-notebook.png
 ---
