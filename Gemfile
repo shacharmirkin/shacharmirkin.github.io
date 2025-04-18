@@ -10,7 +10,8 @@ gem "jekyll-theme-slate"
 gem "jekyll-feed", "~> 0.12"
 gem "jekyll-seo-tag"
 gem "kramdown-parser-gfm"
-gem "jekyll-sass-converter", "~> 3.0.0"
+gem "sass", "~> 3.7.4"
+gem "jekyll-sass-converter", "~> 2.0"
 # Add other plugins here if you use them
 
 # Required for Ruby 3.0+

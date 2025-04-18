@@ -5,11 +5,6 @@ title: Contact
 
 # Contact
 
-<!-- Debug information (remove in production) -->
-<div style="display: none;">
-    Site config: {{ site.captcha | jsonify }}
-</div>
-
 <div class="contact-container">
     <div class="contact-info">
         <h2>Get in Touch</h2>
@@ -66,14 +61,8 @@ title: Contact
                 <textarea id="message" name="message" rows="5" required></textarea>
             </div>
 
-            <div class="form-group captcha-container">
-                <div class="h-captcha" data-sitekey="{{ site.captcha.site_key }}" data-theme="light"></div>
-            </div>
-
             <button type="submit" class="submit-button">Send Message</button>
         </form>
     </div>
 
 </div>
-
-<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
