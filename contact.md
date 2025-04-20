@@ -19,9 +19,7 @@ title: Contact
                         </svg>
                     </a>
                     <a href="https://bsky.app/profile/shacharmirkin.bsky.social" class="social-link" target="_blank">
-                        <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
-                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22.5c-5.799 0-10.5-4.701-10.5-10.5S6.201 1.5 12 1.5s10.5 4.701 10.5 10.5-4.701 10.5-10.5 10.5zm-3.75-6.75h7.5v-1.5h-7.5v1.5zm0-3h7.5v-1.5h-7.5v1.5zm0-3h7.5v-1.5h-7.5v1.5z"/>
-                        </svg>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/archive/7/7a/20240211144737%21Bluesky_Logo.svg" alt="Bluesky" width="36" height="36">
                     </a>
                     <a href="https://www.linkedin.com/public-profile/in/shacharmirkin" class="social-link" target="_blank">
                         <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
