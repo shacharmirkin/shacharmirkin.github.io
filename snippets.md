@@ -6,6 +6,8 @@ permalink: /snippets/
 
 # Snippets
 
+This page describes my side projects, experiments, and thoughts.
+
 {% assign selected_tag = page.url | split: '/' | last %}
 {% if selected_tag != 'snippets' %}
 
