@@ -2,7 +2,7 @@
 layout: post
 title: "Vibe Coding a chess app"
 date: 2024-09-25 12:00:00 +0200
-categories: [introduction]
+categories: []
 tags: [Vibe Coding, Cursor, Streamlit, Chess]
 excerpt: "Creating a little chess app using (almost) only Cursor"
 image: /assets/images/chess-openings.jpg
