@@ -17,24 +17,24 @@
     --nav-border: #e2e8f0;
     --link-color: #3b82f6;
     --link-hover: #2563eb;
-    
+
     /* Spacing */
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 1.5rem;
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
-    
+
     /* Border radius */
     --radius-sm: 4px;
     --radius-md: 8px;
     --radius-lg: 12px;
-    
+
     /* Shadows */
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
-    
+
     /* Transitions */
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
@@ -256,6 +256,17 @@ h6 { font-size: 1rem; }
 
 p {
     margin-bottom: var(--spacing-md);
+}
+
+/* List styling */
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-bottom: var(--spacing-md);
+}
+
+li {
+    margin-bottom: 0.5rem;
 }
 
 a {
@@ -612,7 +623,7 @@ a:hover {
         grid-template-columns: 1fr;
         gap: 0.75rem;
     }
-    
+
     .snippet-image {
         order: -1;
         width: 100%;
@@ -693,66 +704,66 @@ a:hover {
     .nav-tabs {
         flex-direction: column;
     }
-    
+
     .content {
         padding: var(--spacing-md);
     }
-    
+
     h1 { font-size: 2rem; }
     h2 { font-size: 1.75rem; }
     h3 { font-size: 1.5rem; }
-    
+
     .profile-section {
         flex-direction: column;
         text-align: center;
         gap: 1rem;
     }
-    
+
     .profile-image {
         width: 120px;
         height: 120px;
     }
-    
+
     .profile-content h1 {
         font-size: 2rem;
     }
-    
+
     .tagline {
         font-size: 1.1rem;
     }
-    
+
     .contact-info {
         grid-template-columns: 1fr;
     }
-    
+
     .snippet-preview {
         grid-template-columns: 1fr;
     }
-    
+
     .snippet-image {
         order: -1;
     }
-    
+
     .snippet-image img {
         height: 100px;
     }
-    
+
     .post-image img {
         max-height: 400px;
     }
-    
+
     .publication-image img {
         max-height: 150px;
     }
-    
+
     .research-container {
         padding: 1rem;
     }
-    
+
     .publication {
         padding: 1rem;
     }
-    
+
     .publication h4 {
         font-size: 1.1rem;
     }
@@ -792,4 +803,4 @@ a:hover {
 
 .clear-filter:hover {
     background: var(--primary-hover);
-} 
+}

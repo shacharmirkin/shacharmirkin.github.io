@@ -62,6 +62,7 @@
 
 - authors: "Mirkin, Shachar"
   title: "Context and Discourse in Textual Entailment Inference"
+  publication: "PhD Thesis"
   year: 2011
   publisher: "Bar-Ilan University"
 
@@ -232,9 +233,6 @@
   publication: "arXiv preprint arXiv:2211.05100"
   year: 2022
 
-- authors: "Mirkin, Shachar; Dagan, Ido; Kotlerman, Lili; Szpektor, Idan"
-  title: "Contextual Preferences for Name-based Text Categorization"
-
 - authors: "Vayani, Ashmal; Dissanayake, Dinura; Watawana, Hasindri; Ahsan, Noor; Sasikumar, Nevasini; Thawakar, Omkar; Ademtew, Henok Biadglign; Hmaiti, Yahya; Kumar, Amandeep; Kuckreja, Kartik"
   title: "All languages matter: Evaluating lmms on culturally diverse 100 languages"
   publication: "arXiv preprint arXiv:2411.16508"
@@ -242,4 +240,4 @@
 
 - authors: "Danchev, V; Nikoulina, Vassilina; Laippala, Veronika; Lepercq, Violette; Prabhu, Vrinda; Alyafeai, Zaid; Talat, Zeerak; Raja, Arun; Heinzerling, Benjamin; Si, Chenglei"
   title: "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model"
-  year: 2023 
+  year: 2023

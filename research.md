@@ -8,7 +8,7 @@ permalink: /research
 
 <div class="research-container">
     <div class="research-intro">
-        <p>Here are some highlights of my academic interests. 
+        <p>Here are some highlights of my academic interests.
         See the complete list of my publications <a href="#all-publications">below</a> or on <a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&hl=en">Google Scholar</a></p>
     </div>
 
@@ -28,12 +28,18 @@ permalink: /research
 
         <div class="research-area">
             <h3>Personalized Machine Translation</h3>
-            <p>Research in personalized machine translation aims to adapt translation systems to individual users' preferences and characteristics.</p>
+            <p>We proposed personalizing machine translation systems in order to adapt automatic translation systems from 2 different perspectives:
+                <ul>
+                    <li>For Individual users' preferences</li>
+                    <li>For preserving authors' styles through translation</li>
+                </ul>
+            </p>
             <div class="publications">
                 <h4>Selected Publications</h4>
                 <ul>
-                    <li>Ella Rabinovich et al. <a href="https://www.aclweb.org/anthology/E17-1101/" target="_blank">Personalized Machine Translation Preserving Original Author Traits</a>. EACL 2017.</li>
+                    <li>Ella Rabinovich, Shachar Mirkin, Raj Nath Patel, Lucia Specia and Shuly Wintner <a href="https://www.aclweb.org/anthology/E17-1101/" target="_blank">Personalized Machine Translation Preserving Original Author Traits</a>. EACL 2017.</li>
                     <li>Shachar Mirkin and Jean-Luc Meunier. <a href="https://www.aclweb.org/anthology/D15-1238/" target="_blank">Personalized machine translation: Predicting translational preferences</a>. EMNLP 2015.</li>
+                    <li>Shachar Mirkin, Scott Nowson, Scott, Caroline Brun, Julien Perez. <a href="https://aclanthology.org/D15-1130/" target="_blank">Motivating Personality-aware Machine Translation</a>. EMNLP 2015.</li>
                 </ul>
             </div>
         </div>

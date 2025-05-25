@@ -6,7 +6,7 @@ permalink: /snippets/
 
 # Snippets
 
-This page describes my side projects, experiments, and thoughts.
+This page is a collection of random (not always very serious) side projects, experiments, and thoughts.
 
 {% assign selected_tag = page.url | split: '/' | last %}
 {% if selected_tag != 'snippets' %}
