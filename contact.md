@@ -9,7 +9,6 @@ title: Contact
     <div class="contact-info">
         <h2>Get in Touch</h2>
         <p>Feel free to reach out to me about AI projects or anything else through any of the following channels:</p>
-        
         <div class="contact-methods">
             <div class="contact-method">
                 <div class="social-links">

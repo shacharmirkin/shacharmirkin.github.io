@@ -16,10 +16,10 @@ title: Home
         <h2>About Me</h2>
         <p>I am a freelance applied researcher (PhD) with 20+ years of hands-on expertise in NLP, AI (& GenAI), machine learning, and data science, spanning industry and academia.</p>
 
-        <p>I have worked in startups and corporations, successfully bringing AI projects from design to production across domains, including legal, finance, and healthcare/biomedical. I have nearly 10 years of experience as a manager and team leader (6+ years in data science), co-supervising graduate students and mentoring interns and junior colleagues.</p>
+        <p>I have worked in research institutes, startups, and corporations, successfully bringing AI projects from design to production across domains, including legal, finance, and healthcare/biomedical. I have nearly 10 years of experience as a manager and team leader, co-supervising graduate students and mentoring interns and junior colleagues.</p>
 
         <p>I hold a in Computer Science specializing in NLP, have completed 3½ years of postdoctoral research, and published multiple patents and academic articles at top-tier venues, <a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&hl=en">Google Scholar</a>
-        (3900 citations; h-index: 21; i10 index: 33).
+        (4000 citations; h-index: 21; i10 index: 33).
         </p>
 
         <p>I'm based in France and open for remote projects as a freelancer. <a href="/contact">Contact me</a> to hear more.</p>
