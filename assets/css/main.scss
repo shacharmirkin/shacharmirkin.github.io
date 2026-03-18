@@ -469,14 +469,25 @@ a:hover {
 }
 
 .authors {
-    color: var(--text-color);
+    color: var(--text-light);
     font-style: italic;
     margin: 0.5rem 0;
 }
 
 .venue {
     color: var(--text-color);
+    font-weight: 600;
     margin: 0.5rem 0;
+}
+
+.publication h4 a.paper-title {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.publication h4 a.paper-title:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
 }
 
 .links {

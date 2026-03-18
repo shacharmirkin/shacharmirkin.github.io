@@ -81,7 +81,13 @@ permalink: /research
                 {% endif %}
 
                 <div class="publication">
-                    <h4>{{ pub.title }}</h4>
+                    <h4>
+                        {% if pub.url %}
+                            <a class="paper-title" href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+                        {% else %}
+                            {{ pub.title }}
+                        {% endif %}
+                    </h4>
                     <p class="authors">{{ pub.authors }}</p>
                     {% if pub.publication %}
                         <p class="venue">
@@ -97,19 +103,20 @@ permalink: /research
                             {% endif %}
                         </p>
                     {% endif %}
-                    {% if pub.doi or pub.pdf or pub.code %}
-                        <div class="links">
-                            {% if pub.doi %}
-                                <a href="{{ pub.doi }}" target="_blank">DOI</a>
-                            {% endif %}
-                            {% if pub.pdf %}
-                                <a href="{{ pub.pdf }}" target="_blank">PDF</a>
-                            {% endif %}
-                            {% if pub.code %}
-                                <a href="{{ pub.code }}" target="_blank">Code</a>
-                            {% endif %}
-                        </div>
-                    {% endif %}
+                    <div class="links">
+                        {% if pub.url %}
+                            <a href="{{ pub.url }}" target="_blank" rel="noopener">Paper</a>
+                        {% endif %}
+                        {% if pub.doi %}
+                            <a href="{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>
+                        {% endif %}
+                        {% if pub.pdf %}
+                            <a href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>
+                        {% endif %}
+                        {% if pub.code %}
+                            <a href="{{ pub.code }}" target="_blank" rel="noopener">Code</a>
+                        {% endif %}
+                    </div>
                 </div>
             {% endfor %}
 

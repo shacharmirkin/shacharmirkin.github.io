@@ -7,41 +7,55 @@
   title: "Source-language entailment modeling for translating unknown terms"
   publication: "Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP"
   pages: "791-799"
+  url: "https://aclanthology.org/P09-1089/"
+  pdf: "https://aclanthology.org/P09-1089.pdf"
   year: 2009
 
 - authors: "Mirkin, Shachar; Dagan, Ido; Geffet, Maayan"
   title: "Integrating pattern-based and distributional similarity methods for lexical entailment acquisition"
   publication: "Proceedings of the COLING/ACL 2006 Main Conference Poster Sessions"
   pages: "579-586"
+  url: "https://aclanthology.org/P06-2075/"
+  pdf: "https://aclanthology.org/P06-2075.pdf"
   year: 2006
 
 - authors: "Mirkin, Shachar; Dagan, Ido; Shnarch, Eyal"
   title: "Evaluating the inferential utility of lexical-semantic resources"
   publication: "Proceedings of the 12th Conference of the European Chapter of the ACL (EACL 2009)"
   pages: "558-566"
+  url: "https://aclanthology.org/E09-1064/"
+  pdf: "https://aclanthology.org/E09-1064.pdf"
   year: 2009
 
 - authors: "Mirkin, Shachar; Dagan, Ido; Padó, Sebastian"
   title: "Assessing the role of discourse references in entailment inference"
   publication: "Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics"
   pages: "1209-1219"
+  url: "https://aclanthology.org/P10-1123/"
+  pdf: "https://aclanthology.org/P10-1123.pdf"
   year: 2010
 
 - authors: "Abad, Azad; Bentivogli, Luisa; Dagan, Ido; Giampiccolo, Danilo; Mirkin, Shachar; Pianta, Emanuele; Stern, Asher"
   title: "A Resource for Investigating the Impact of Anaphora and Coreference on Inference"
   publication: "LREC"
+  url: "https://aclanthology.org/L10-1338/"
+  pdf: "http://www.lrec-conf.org/proceedings/lrec2010/pdf/488_Paper.pdf"
   year: 2010
 
 - authors: "Mirkin, Shachar; Berant, Jonathan; Dagan, Ido; Shnarch, Eyal"
   title: "Recognising entailment within discourse"
   publication: "Proceedings of the 23rd International Conference on Computational Linguistics"
   pages: "770-778"
+  url: "https://aclanthology.org/C10-1087/"
+  pdf: "https://aclanthology.org/C10-1087.pdf"
   year: 2010
   publisher: "Association for Computational Linguistics"
 
 - authors: "Aziz, Wilker; Dymetman, Marc; Specia, Lucia; Mirkin, Shachar"
   title: "Learning an expert from human annotations in statistical machine translation: The case of out-of-vocabulary words"
   publication: "Proceedings of the 14th Annual Conference of the European Association for Machine Translation"
+  url: "https://aclanthology.org/2010.eamt-1.31/"
+  pdf: "https://aclanthology.org/2010.eamt-1.31.pdf"
   year: 2010
 
 - authors: "Stern, Asher; Shnarch, Eyal; Mirkin, Shachar; Kotlerman, Lili; Zeichner, Naomi; Dagan, Ido; Lotan, Amnon; Berant, Jonathan"
@@ -53,6 +67,8 @@
   title: "Classification-based contextual preferences"
   publication: "Proceedings of the TextInfer 2011 Workshop on Textual Entailment"
   pages: "20-29"
+  url: "https://aclanthology.org/W11-2403/"
+  pdf: "https://aclanthology.org/W11-2403.pdf"
   year: 2011
 
 - authors: "Stern, Asher; Mirkin, Shachar; Shnarch, Eyal; Kotlerman, Lili; Dagan, Ido; Lotan, Amnon; Berant, Jonathan"
@@ -70,11 +86,15 @@
   title: "An SMT-driven authoring tool"
   publication: "Proceedings of COLING 2012: Demonstration Papers"
   pages: "459-466"
+  url: "https://aclanthology.org/C12-3058/"
+  pdf: "https://aclanthology.org/C12-3058.pdf"
   year: 2012
 
 - authors: "Mirkin, Shachar; Venkatapathy, Sriram; Dymetman, Marc; Calapodescu, Ioan"
   title: "SORT: An Interactive Source-Rewriting Tool for Improved Translation"
   publication: "ACL Demos"
+  url: "https://aclanthology.org/P13-4015/"
+  pdf: "https://aclanthology.org/P13-4015.pdf"
   year: 2013
 
 - authors: "Darling, William; Archambeau, Cédric; Mirkin, Shachar; Bouchard, Guillaume"
@@ -88,17 +108,23 @@
   title: "Assessing quick update methods of statistical translation models"
   publication: "Proceedings of the International Workshop of Spoken Language Translation (IWSLT)"
   pages: "264-271"
+  url: "https://aclanthology.org/2013.iwslt-papers.10/"
+  pdf: "https://aclanthology.org/2013.iwslt-papers.10.pdf"
   year: 2013
 
 - authors: "Mirkin, Shachar; Venkatapathy, Sriram; Dymetman, Marc"
   title: "Confidence-driven Rewriting for Improved Translation"
   publication: "MT Summit"
+  url: "https://aclanthology.org/2013.mtsummit-posters.8/"
+  pdf: "https://aclanthology.org/2013.mtsummit-posters.8.pdf"
   year: 2013
 
 - authors: "Gupta, Anand; Kaur, Manpreet; Mirkin, Shachar; Singh, Adarsh; Goyal, Aseem"
   title: "Text summarization through entailment-based minimum vertex cover"
   publication: "Proceedings of the Third Joint Conference on Lexical and Computational Semantics (* SEM 2014)"
   pages: "75-80"
+  url: "https://aclanthology.org/S14-1010/"
+  pdf: "https://aclanthology.org/S14-1010.pdf"
   year: 2014
 
 - authors: "Mirkin, Shachar; Bar-Haim, Roy; Dagan, Ido; Shnarch, Eyal; Stern, Asher; Szpektor, Idan; Berant, Jonathan"
@@ -109,12 +135,16 @@
 - authors: "Mirkin, Shachar; Besacier, Laurent"
   title: "Data Selection for Compact Adapted SMT Models"
   publication: "Proceedings of AMTA"
+  url: "https://aclanthology.org/2014.amta-researchers.23/"
+  pdf: "https://aclanthology.org/2014.amta-researchers.23.pdf"
   year: 2014
 
 - authors: "Wuebker, Joern; Ney, Hermann; Martínez-Villaronga, Adrià; Giménez Pastor, Adrián; Juan Císcar, Alfonso; Servan, Christophe; Dymetman, Marc; Mirkin, Shachar"
   title: "Comparison of data selection techniques for the translation of video lectures"
   year: 2014
   publisher: "Association for Machine Translation in the Americas"
+  url: "https://aclanthology.org/2014.amta-researchers.15/"
+  pdf: "https://aclanthology.org/2014.amta-researchers.15.pdf"
 
 - authors: "Venkatapathy, Sriram; Mirkin, Shachar"
   title: "Machine translation-driven authoring system and method"
@@ -124,6 +154,8 @@
 - authors: "Mirkin, Shachar"
   title: "Incrementally Updating the SMT Reordering Model"
   publication: "Proceedings of The 28th Pacific Asia Conference on Language, Information and Computing (PACLIC), Phuket, Thailand"
+  url: "https://aclanthology.org/Y14-1033/"
+  pdf: "https://aclanthology.org/Y14-1033.pdf"
   year: 2014
 
 - authors: "Mirkin, Shachar; Venkatapathy, Sriram; Dymetman, Marc"
@@ -151,11 +183,15 @@
   title: "Personalized machine translation: Predicting translational preferences"
   publication: "Proceedings of the 2015 conference on empirical methods in natural language processing"
   pages: "2019-2025"
+  url: "https://aclanthology.org/D15-1238/"
+  pdf: "https://aclanthology.org/D15-1238.pdf"
   year: 2015
 
 - authors: "Mirkin, Shachar; Nowson, Scott; Brun, Caroline; Perez, Julien"
   title: "Motivating Personality-aware Machine Translation"
   publication: "The 2015 Conference on Empirical Methods on Natural Language Processing (EMNLP)"
+  url: "https://aclanthology.org/D15-1130/"
+  pdf: "https://aclanthology.org/D15-1130.pdf"
   year: 2015
 
 - authors: "Mirkin, Shachar"
@@ -171,6 +207,8 @@
 - authors: "Rabinovich, Ella; Mirkin, Shachar; Patel, Raj Nath; Specia, Lucia; Wintner, Shuly"
   title: "Personalized Machine Translation: Preserving Original Author Traits"
   publication: "EACL 2017"
+  url: "https://aclanthology.org/E17-1101/"
+  pdf: "https://aclanthology.org/E17-1101.pdf"
   year: 2017
 
 - authors: "Sriram Venkatapathy, Shachar Mirkin, Marc Dymetman"
@@ -190,8 +228,10 @@
 
 - authors: "Mirkin, Shachar; Jacovi, Michal; Lavee, Tamar; Kuo, Hong-Kwang; Thomas, Samuel; Sager, Leslie; Kotlerman, Lili; Venezian, Elad; Slonim, Noam"
   title: "A recorded debating dataset"
-  publication: "arXiv preprint arXiv:1709.06438"
-  year: 2017
+  publication: "Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)"
+  url: "https://aclanthology.org/L18-1037/"
+  pdf: "https://aclanthology.org/L18-1037.pdf"
+  year: 2018
 
 - authors: "Mass, Yosi; Kotlerman, Lili; Mirkin, Shachar; Venezian, Elad; Witzling, Gera; Slonim, Noam"
   title: "What did you mention? a large scale mention detection benchmark for spoken and written text"
@@ -202,16 +242,21 @@
   title: "Listening comprehension over argumentative content"
   publication: "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing"
   pages: "719-724"
+  url: "https://aclanthology.org/D18-1078/"
+  pdf: "https://aclanthology.org/D18-1078.pdf"
   year: 2018
 
 - authors: "Lavee, Tamar; Orbach, Matan; Kotlerman, Lili; Kantor, Yoav; Gretz, Shai; Dankin, Lena; Mirkin, Shachar; Jacovi, Michal; Bilu, Yonatan; Aharonov, Ranit"
   title: "Towards effective rebuttal: Listening comprehension using corpus-wide claim mining"
-  publication: "arXiv preprint arXiv:1907.11889"
+  publication: "Proceedings of the 6th Workshop on Argument Mining"
+  pages: "58-66"
   year: 2019
 
 - authors: "Orbach, Matan; Bilu, Yonatan; Gera, Ariel; Kantor, Yoav; Dankin, Lena; Lavee, Tamar; Kotlerman, Lili; Mirkin, Shachar; Jacovi, Michal; Aharonov, Ranit"
   title: "A Dataset of General-Purpose Rebuttal"
-  publication: "arXiv preprint arXiv:1909.00393"
+  publication: "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)"
+  url: "https://aclanthology.org/D19-1561/"
+  pdf: "https://aclanthology.org/D19-1561.pdf"
   year: 2019
 
 - authors: "Slonim, Noam; Bilu, Yonatan; Alzate, Carlos; Bar-Haim, Roy; Bogin, Ben; Bonin, Francesca; Choshen, Leshem; Cohen-Karlik, Edo; Dankin, Lena; Edelstein, Lilach"
@@ -220,24 +265,39 @@
   volume: "591"
   number: "7850"
   pages: "379-384"
+  url: "https://www.nature.com/articles/s41586-021-03215-w"
   year: 2021
   publisher: "Nature Publishing Group UK London"
 
 - authors: "Teehan, Ryan; Clinciu, Miruna; Serikov, Oleg; Szczechla, Eliza; Seelam, Natasha; Mirkin, Shachar; Gokaslan, Aaron"
   title: "Emergent Structures and Training Dynamics in Large Language Models"
   publication: "Challenges & Perspectives in Creating Large Language Models"
+  url: "https://aclanthology.org/2022.bigscience-1.11/"
+  pdf: "https://aclanthology.org/2022.bigscience-1.11.pdf"
   year: 2022
 
 - authors: "Scao, Teven Le; Fan, Angela; Akiki, Christopher; Pavlick, Ellie; Ilić, Suzana; Hesslow, Daniel; Castagné, Roman; Luccioni, Alexandra Sasha; Yvon, François; Gallé, Matthias"
   title: "Bloom: A 176b-parameter open-access multilingual language model"
   publication: "arXiv preprint arXiv:2211.05100"
+  url: "https://arxiv.org/abs/2211.05100"
+  pdf: "https://arxiv.org/pdf/2211.05100.pdf"
   year: 2022
 
-- authors: "Vayani, Ashmal; Dissanayake, Dinura; Watawana, Hasindri; Ahsan, Noor; Sasikumar, Nevasini; Thawakar, Omkar; Ademtew, Henok Biadglign; Hmaiti, Yahya; Kumar, Amandeep; Kuckreja, Kartik"
+- authors: "Vayani, Ashmal; Dissanayake, Dinura; Watawana, Hasindri; Ahsan, Noor; Sasikumar, Nevasini; Thawakar, Omkar; Ademtew, Henok Biadglign; Hmaiti, Yahya; Kumar, Amandeep; Kuckreja, Kartik; Maslych, Mykola; Al Ghallabi, Wafa; Mihaylov, Mihail Minkov; Qin, Chao; Shaker, Abdelrahman M; Zhang, Mike; Ihsani, Mahardika Krisna; Esplana, Amiel Gian; Gokani, Monil; Mirkin, Shachar; Singh, Harsh; Srivastava, Ashay; Hamerlik, Endre; Izzati, Fathinah Asma; Maani, Fadillah Adamsyah; Cavada, Sebastian; Chim, Jenny; Gupta, Rohit; Manjunath, Sanjay; Zhumakhanova, Kamila; Rabevohitra, Feno Heriniaina; Amirudin, Azril Hafizi; Ridzuan, Muhammad; Abdul Kareem, Daniya Najiha; More, Ketan Pravin; Li, Kunyang; Shakya, Pramesh; Saad, Muhammad; Ghasemaghaei, Amirpouya; Djanibekov, Amirbek; Azizov, Dilshod; Jankovic, Branislava; Bhatia, Naman; Cabrera, Alvaro; Obando-Ceron, Johan; Otieno, Olympiah; Farestam, Febian; Rabbani, Muztoba; Ballah, Sanoojan; Sanjeev, Santosh; Shtanchaev, Abduragim; Fatima, Maheen; Nguyen, Thao; Kareem, Amrin; Aremu, Toluwani; Xavier, Nathan Augusto Zacarias; Bhatkal, Amit; Toyin, Hawau Olamide; Chadha, Aman; Cholakkal, Hisham; Anwer, Rao Muhammad; Felsberg, Michael; Laaksonen, Jorma; Solorio, Thamar; Choudhury, Monojit; Laptev, Ivan; Shah, Mubarak; Khan, Salman; Khan, Fahad Shahbaz"
   title: "All languages matter: Evaluating lmms on culturally diverse 100 languages"
-  publication: "arXiv preprint arXiv:2411.16508"
-  year: 2024
+  publication: "Proceedings of the Computer Vision and Pattern Recognition Conference"
+  pages: "19565-19575"
+  url: "https://openaccess.thecvf.com/content/CVPR2025/html/Vayani_All_Languages_Matter_Evaluating_LMMs_on_Culturally_Diverse_100_Languages_CVPR_2025_paper.html"
+  pdf: "https://openaccess.thecvf.com/content/CVPR2025/papers/Vayani_All_Languages_Matter_Evaluating_LMMs_on_Culturally_Diverse_100_Languages_CVPR_2025_paper.pdf"
+  year: 2025
 
 - authors: "Danchev, V; Nikoulina, Vassilina; Laippala, Veronika; Lepercq, Violette; Prabhu, Vrinda; Alyafeai, Zaid; Talat, Zeerak; Raja, Arun; Heinzerling, Benjamin; Si, Chenglei"
   title: "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model"
+  url: "https://qmro.qmul.ac.uk/xmlui/handle/123456789/103950"
+  pdf: "https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/103950/Danchev%20BLOOM:%20A%20176B-Parameter%20Open-Access%20Multilingual%20Language%20Model%202024%20Accepted.pdf?sequence=2"
   year: 2023
+
+- authors: "Blevins, Terra; Mayhew, Stephen; Suppa, Marek; Gonen, Hila; Mirkin, Shachar; Pais, Vasile; Dobrovoljc, Kaja; Giouli, Voula; Kevin, Jun; Yılandiloğlu, Enes; Jang, Eugene; Kim, Eungseo; Seo, Jeongyeon; Gialis, Xenophon; Pinter, Yuval"
+  title: "Universal NER v2: Towards a Massively Multilingual Named Entity Recognition Benchmark"
+  publication: "LREC 2026"
+  year: 2026
