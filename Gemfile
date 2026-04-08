@@ -7,8 +7,6 @@ gem "jekyll", "~> 4.3.0" # Match the version if needed, or use a broader constra
 gem "jekyll-theme-slate"
 
 # Add any plugins you are using (from _config.yml)
-gem "jekyll-feed", "~> 0.12"
-gem "jekyll-seo-tag"
 gem "kramdown-parser-gfm"
 gem "sass", "~> 3.7.4"
 gem "jekyll-sass-converter", "~> 2.0"
