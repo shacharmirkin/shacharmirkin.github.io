@@ -22,10 +22,10 @@ title: Home
         (4500 citations; h-index: 23; i10 index: 34).
         </p>
 
-        <p>I'm based in France and open for remote projects as a freelancer. <a href="/contact">Contact me</a> to hear more.</p>
+        <p>I'm based in France and open for short or long-term remote projects as a freelancer. <a href="/contact">Contact me</a> to hear more.</p>
 
         <h2>Recent Work</h2>
-        <p>I cannot share much about my clients' projects, but check out my <a href="/research">academic research</a> and these little <a href="/snippets">snippets</a> to learn more about my other work.</p>
+        <p>I cannot share much about my clients' projects, but check out my <a href="/research">academic research</a> and these short <a href="/snippets">snippets</a> to learn more about my other work.</p>
     </div>
 
 </div>

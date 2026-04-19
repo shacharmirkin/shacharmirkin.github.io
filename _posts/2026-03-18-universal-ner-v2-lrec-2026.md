@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Universal NER v2"
+title: "Universal NER v2 paper"
 date: 2026-03-18 9:00:00 +0200
 categories: []
 tags: [NLP, NER, LREC, Research, Benchmarks, Multilingual]
