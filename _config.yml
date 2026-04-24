@@ -18,6 +18,7 @@ author: Shachar Mirkin
 #  Shachar Mirkin's page
 
 github_username: shacharmirkin
+google_analytics_id: "G-LKYLT36N6X"
 
 plugins:
   - jekyll-feed    # Creates an Atom feed (RSS) for your posts
