@@ -1,0 +1,9 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby / Bundler (local install paths)
+vendor/bundle/
+.bundle/
