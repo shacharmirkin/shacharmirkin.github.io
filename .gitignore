@@ -7,3 +7,6 @@ _site/
 # Ruby / Bundler (local install paths)
 vendor/bundle/
 .bundle/
+
+.DS_Store
+.vscode/
