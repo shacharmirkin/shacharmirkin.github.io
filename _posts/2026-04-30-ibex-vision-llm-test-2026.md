@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBEX Vision Test"
+title: "Alpine Ibex Vision Test"
 date: 2026-04-30 09:00:00 +0200
 categories: [ai]
 tags: [llm, vision, vlm, prompting, capabilities, evaluation]
