@@ -1,8 +1,9 @@
 # Site settings
 title: Shachar Mirkin
-description: Personal website of Shachar Mirkin
+description: Personal website of Shachar Mirkin — applied AI research, NLP, snippets, and contact.
 baseurl: ""
 url: "https://shacharmirkin.github.io"
+lang: en
 
 # Build settings
 markdown: kramdown
@@ -14,21 +15,41 @@ sass:
   style: compressed
 
 author: Shachar Mirkin
-#description: >- 
-#  Shachar Mirkin's page
 
 github_username: shacharmirkin
 google_analytics_id: "G-LKYLT36N6X"
 
-plugins:
-  - jekyll-feed    # Creates an Atom feed (RSS) for your posts
-  - jekyll-seo-tag # Adds metadata tags for SEO
-  - jekyll-sass-converter
+twitter:
+  username: shacharmirkin
+  card: summary
 
+social:
+  name: Shachar Mirkin
+  links:
+    - https://twitter.com/shacharmirkin
+    - https://github.com/shacharmirkin
+    - https://www.linkedin.com/public-profile/in/shacharmirkin
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-sass-converter
 
 # Example (syntax might vary based on theme)
 header_pages:
-  - index.md # Or sometimes just '/'
+  - index.md
   - snippets.md
   - research.md
   - contact.md
+
+# Do not copy tooling into the published site (see README / sandbox README).
+exclude:
+  - tests
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - pyproject.toml
+  - uv.lock
+  - README.md
+  - .pre-commit-config.yaml

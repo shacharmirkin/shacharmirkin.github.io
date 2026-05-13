@@ -1,0 +1,13 @@
+{% assign en_url = '/' | relative_url %}
+{% assign fr_url = '/fr/' | relative_url %}
+{% assign is_en = false %}
+{% assign is_fr = false %}
+{% if page.path == 'index.md' %}
+  {% assign is_en = true %}
+{% elsif page.path == 'fr/index.md' %}
+  {% assign is_fr = true %}
+{% endif %}
+<div class="lang-switcher">
+    <a href="{{ en_url }}" class="lang-switcher-link{% if is_en %} active{% endif %}" hreflang="en" lang="en">English</a>
+    <a href="{{ fr_url }}" class="lang-switcher-link{% if is_fr %} active{% endif %}" hreflang="fr" lang="fr">Français</a>
+</div>

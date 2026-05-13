@@ -39,6 +39,10 @@
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
     --transition-slow: 0.5s ease;
+
+    /* Fixed header: total bar height (must match body padding-top / scroll-padding) */
+    --site-nav-pad-top: 0.45rem;
+    --site-nav-height: calc(3.5rem + var(--site-nav-pad-top));
 }
 
 /* Dark mode theme */
@@ -70,26 +74,47 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
+    padding-top: var(--site-nav-height);
+}
+
+html {
+    scroll-padding-top: var(--site-nav-height);
 }
 
 /* ==========================================================================
    Navigation
    ========================================================================== */
-.nav-tabs {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    box-sizing: border-box;
+    padding-top: var(--site-nav-pad-top);
+    min-height: var(--site-nav-height);
     background-color: var(--nav-bg);
     border-bottom: 1px solid var(--nav-border);
-    position: sticky;
-    top: 0;
-    z-index: 100;
     box-shadow: var(--shadow-sm);
 }
 
+.nav-tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-height: 3.5rem;
+    background-color: transparent;
+}
+
 .nav-tabs li {
-    padding: var(--spacing-md);
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    padding: 0 var(--spacing-md);
+    min-height: 3.5rem;
     transition: all var(--transition-fast);
 }
 
@@ -99,13 +124,16 @@ body {
     font-weight: 500;
     font-size: 1rem;
     position: relative;
-    padding: var(--spacing-xs) 0;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    min-height: 2.75rem;
 }
 
 .nav-tabs a::after {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: 0.15rem;
     left: 0;
     width: 0;
     height: 2px;
@@ -311,7 +339,7 @@ a:hover {
 /* Theme toggle */
 .theme-toggle {
     position: fixed;
-    top: 1rem;
+    top: calc(var(--site-nav-height) + 0.75rem);
     right: 1rem;
     background: var(--nav-bg);
     border: 1px solid var(--nav-border);
@@ -385,6 +413,61 @@ a:hover {
     line-height: 1.6;
 }
 
+.lang-switcher {
+    display: inline-flex;
+    gap: 8px;
+    margin-bottom: 14px;
+    padding: 4px;
+    border: 1px solid #d0d7de;
+    border-radius: 999px;
+    background: #f6f8fa;
+}
+
+.lang-switcher-link {
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-size: 0.92rem;
+    font-weight: 600;
+    text-decoration: none;
+    background: transparent;
+    color: #57606a;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+}
+
+.lang-switcher-link:hover {
+    background: #ffffff;
+    color: #24292f;
+}
+
+.lang-switcher-link:active {
+    transform: translateY(1px);
+}
+
+.lang-switcher-link.active {
+    background: #0969da;
+    color: #ffffff;
+    box-shadow: 0 1px 2px rgba(9, 105, 218, 0.3);
+}
+
+[data-theme="dark"] .lang-switcher {
+    border-color: var(--nav-border);
+    background: var(--nav-bg);
+}
+
+[data-theme="dark"] .lang-switcher-link {
+    color: var(--text-light);
+}
+
+[data-theme="dark"] .lang-switcher-link:hover {
+    background: var(--nav-hover);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .lang-switcher-link.active {
+    background: var(--primary-color);
+    color: #ffffff;
+}
+
 /* Research page specific styles */
 .research-container {
     max-width: 1000px;
@@ -410,7 +493,7 @@ a:hover {
     margin-bottom: 4rem;
 }
 
-.research-area h3 {
+.research-area h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: var(--text-color);
@@ -421,7 +504,7 @@ a:hover {
     color: var(--text-color);
 }
 
-.publications h4 {
+.publications h3 {
     font-size: 1.25rem;
     margin-bottom: 1rem;
     color: var(--text-color);
@@ -713,7 +796,19 @@ a:hover {
 /* Responsive design */
 @media (max-width: 768px) {
     .nav-tabs {
-        flex-direction: column;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        gap: 0;
+    }
+
+    .nav-tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nav-tabs li {
+        padding: 0 var(--spacing-sm);
+        min-height: 3.5rem;
     }
 
     .content {

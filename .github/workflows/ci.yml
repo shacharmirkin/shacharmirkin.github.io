@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Jekyll build + HTMLProofer
+        run: bundle exec rake test
+        env:
+          JEKYLL_ENV: production
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          version: "0.6.14"
+
+      - name: Sync Python dev deps (uv)
+        run: uv sync --frozen --group dev
+
+      - name: Pytest (site artifacts; build already ran)
+        run: uv run pytest -v tests/test_site_artifacts.py

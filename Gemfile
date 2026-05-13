@@ -1,21 +1,19 @@
-source "https://rubygems.org" # Tells Bundler where to download gems from
+source "https://rubygems.org"
 
-# Add the Jekyll gem itself (you likely already have this if you ran bundle before)
-gem "jekyll", "~> 4.3.0" # Match the version if needed, or use a broader constraint
-
-# Add the theme gem specified in your _config.yml
+gem "jekyll", "~> 4.3.0"
 gem "jekyll-theme-slate"
-
-# Add any plugins you are using (from _config.yml)
 gem "kramdown-parser-gfm"
 gem "sass", "~> 3.7.4"
 gem "jekyll-sass-converter", "~> 2.0"
-# Add other plugins here if you use them
-
-# Required for Ruby 3.0+
 gem "webrick", "~> 1.8"
+gem "rake", "~> 13.0"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+end
+
+group :development do
+  gem "html-proofer", "~> 5.0"
 end

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Snippets
+title: "Snippets — side projects and notes"
+description: "Short posts on side projects, experiments, and informal notes on NLP, LLMs, and data science."
 permalink: /snippets/
 ---
 

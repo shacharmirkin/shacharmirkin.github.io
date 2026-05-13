@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    {% seo %}
+    {% feed_meta %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/assets/images/alpinf-logo-noname.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/alpinf-logo-noname.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" href="{{ '/assets/images/alpinf-logo-noname.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/alpinf-logo-noname.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
     <meta name="theme-color" content="#3b82f6">
+    {% if page.path == 'index.md' %}
+    <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+    <link rel="alternate" hreflang="fr" href="{{ '/fr/' | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+    {% elsif page.path == 'fr/index.md' %}
+    <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+    <link rel="alternate" hreflang="fr" href="{{ '/fr/' | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+    {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     {% if jekyll.environment == "production" and site.google_analytics_id %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
@@ -24,7 +34,7 @@
 </head>
 <body>
     <button class="theme-toggle" title="Toggle dark mode">🌓</button>
-    
+
     <nav class="site-nav">
         <ul class="nav-tabs">
             <li><a href="{{ '/' | relative_url }}" class="nav-tab">Home</a></li>
@@ -41,7 +51,7 @@
     <script>
         // Dark mode toggle
         const themeToggle = document.querySelector('.theme-toggle');
-        
+
         themeToggle.addEventListener('click', () => {
             const currentTheme = document.documentElement.getAttribute('data-theme');
             const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
@@ -71,4 +81,4 @@
         {% endif %}
     </script>
 </body>
-</html> 
+</html>
