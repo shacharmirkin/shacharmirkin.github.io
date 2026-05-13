@@ -66,8 +66,9 @@
         } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
             document.documentElement.setAttribute('data-theme', 'dark');
         }
-
-        {% if jekyll.environment == "production" and site.google_analytics_id %}
+    </script>
+    {% if jekyll.environment == "production" and site.google_analytics_id %}
+    <script>
         document.addEventListener('click', (e) => {
             const link = e.target.closest('a');
             if (!link) return;
@@ -78,7 +79,7 @@
                 link_text: (link.textContent || '').trim().slice(0, 120)
             });
         });
-        {% endif %}
     </script>
+    {% endif %}
 </body>
 </html>
