@@ -10,7 +10,12 @@ permalink: /research
 <div class="research-container">
     <div class="research-intro">
         <p>Here are some highlights of my academic interests.
-        See the complete list of my publications <a href="#all-publications">below</a> or on <a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&hl=en">Google Scholar</a></p>
+        See the complete list of my publications <a href="#all-publications">below</a> or on <a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+        <p class="scholar-badge">
+            <a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">
+                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgoogle-scholar-badge.vercel.app%2Fcitations%3Fuser%3DxsEZbOkAAAAJ" alt="Google Scholar citation count" loading="lazy">
+            </a>
+        </p>
     </div>
 
     <div class="research-areas">

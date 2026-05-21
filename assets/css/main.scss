@@ -479,6 +479,22 @@ a:hover {
     margin-bottom: 3rem;
 }
 
+.scholar-badge {
+    margin-top: 1rem;
+}
+
+.scholar-badge a {
+    display: inline-block;
+    line-height: 0;
+}
+
+/* Default endpoint style: social + Google Scholar logo from the API JSON */
+.scholar-badge img {
+    height: 24px;
+    width: auto;
+    vertical-align: middle;
+}
+
 .research-intro h2 {
     font-size: 1.75rem;
     margin-bottom: 1.5rem;
