@@ -18,14 +18,19 @@ lang: en
             <p>I have worked in research institutes (IBM Research AI, Xerox Research), startups, and corporations, successfully bringing AI projects from design to production across domains such as legal, finance, and healthcare/biomedical. I have nearly 10 years of experience as a manager and team leader, co-supervising graduate students and mentoring junior colleagues.</p>
 
             <p>I hold a PhD in Computer Science, specializing in NLP, and have completed 3.5 years of postdoctoral research. I am the author of multiple patents and around 40 academic publications in top-tier venues (<a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a>: 4,500+ citations; h-index: 23).</p>
-
-            <p>Based in France, I am open to short- or long-term remote projects as a freelancer via my registered company. <a href="{{ '/contact' | relative_url }}">Contact me</a> to discuss your project.</p>
         </div>
 
         <div>
-            <h2>Recent Work</h2>
-            <p>I can't share much about my clients' projects, but you can check out my <a href="{{ '/research' | relative_url }}">academic research</a> and these short <a href="{{ '/snippets' | relative_url }}">snippets</a> to learn more about my other activities.</p>
+            <h2>Services</h2>
+            <p>Based in France, I am open to short- or long-term remote projects as a freelancer via my registered company. Among the services I provide:
+            <ul>
+                <li><strong>Research and algorithmic development</strong></li>
+                <li><strong>Model training, adaptation, and evaluation</strong></li>
+                <li><strong>AI Onboarding and Mentorship:</strong> Getting started with machine learning and AI</li>
+                <li><strong>Scientific & Proposal Review:</strong> Expert, critical evaluation of technical proposals and presentations</li>
+                <li><strong>Technical Advisory:</strong> Focused consulting calls to validate architectures and navigate algorithmic challenges</li>
+            </ul>
+             <a href="{{ '/contact' | relative_url }}">Contact me</a> to discuss your project.</p>
         </div>
     </div>
-
 </div>
