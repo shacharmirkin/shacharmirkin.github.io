@@ -38,7 +38,7 @@ description: "Get in touch for AI consulting, freelance research, or collaborati
 
     <div class="contact-form">
         <h2>Send a Message</h2>
-        <form action="https://formspree.io/f/xjvqjqjq" method="POST">
+        <form action="https://formspree.io/f/mpwpgowg" method="POST">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
