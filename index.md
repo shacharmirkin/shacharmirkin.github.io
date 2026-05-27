@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Shachar Mirkin — Applied AI researcher (NLP, GenAI)"
-description: "Freelance applied AI researcher (PhD). NLP, generative AI, ML — industry and academia. Remote projects via registered company (France)."
+title: "Shachar Mirkin — Applied AI Researcher (NLP, GenAI)"
+description: "Freelance applied AI researcher (PhD) specializing in NLP, generative AI, and machine learning. Industry and academic expertise. Remote consulting via registered company in France."
 lang: en
 ---
 
@@ -13,24 +13,44 @@ lang: en
 
         <div>
             <h2>About Me</h2>
-            <p>I am a freelance applied researcher (PhD) with 20+ years of hands-on expertise in NLP, Generative AI, and Machine Learning, spanning industry and academia.</p>
 
-            <p>I have worked in research institutes (IBM Research AI, Xerox Research), startups, and corporations, successfully bringing AI projects from design to production across domains such as legal, finance, and healthcare/biomedical. I have nearly 10 years of experience as a manager and team leader, co-supervising graduate students and mentoring junior colleagues.</p>
+            <p>
+                I am a freelance applied AI researcher (PhD) with 20+ years of hands-on experience in NLP, generative AI, and machine learning across both industry and academia.
+            </p>
 
-            <p>I hold a PhD in Computer Science, specializing in NLP, and have completed 3.5 years of postdoctoral research. I am the author of multiple patents and around 40 academic publications in top-tier venues (<a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a>: 4,500+ citations; h-index: 23).</p>
+            <p>
+                I have worked in research institutes (IBM Research AI, Xerox Research), startups, and large corporations, delivering AI projects from early research and system design to production deployment in domains including legal, finance, sports, and healthcare/biomedical.
+            </p>
+
+            <p>
+                I also have nearly 10 years of experience leading teams, mentoring junior researchers and engineers, and co-supervising graduate students.
+            </p>
+
+            <p>
+                I hold a PhD in Computer Science specializing in NLP and completed 3.5 years of postdoctoral research. I am the author of multiple patents and around 40 publications in leading venues (<a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a>: 4,500+ citations; h-index: 23).
+            </p>
         </div>
 
         <div>
             <h2>Services</h2>
-            <p>Based in France, I am open to short- or long-term remote projects as a freelancer via my registered company. Among the services I provide:
+
+            <p>
+                Based in France, I am available for short- and long-term remote consulting projects through my registered company.
+                Among the services I provide:
+            </p>
+
             <ul>
-                <li><strong>Research and algorithmic development</strong></li>
-                <li><strong>Model training, adaptation, and evaluation</strong></li>
-                <li><strong>AI Onboarding and Mentorship:</strong> Getting started with machine learning and AI</li>
-                <li><strong>Scientific & Proposal Review:</strong> Expert, critical evaluation of technical proposals and presentations</li>
-                <li><strong>Technical Advisory:</strong> Focused consulting calls to validate architectures and navigate algorithmic challenges</li>
+                <li><strong>Applied AI Research & Algorithm Development</strong></li>
+                <li><strong>Model Training, Adaptation & Evaluation</strong></li>
+                <li><strong>Literature Review & State-of-the-Art Analysis</strong></li>
+                <li><strong>Technical Advisory</strong>: consulting calls on algorithms, architecture, and next steps</li>
+                <li><strong>AI Mentorship & Onboarding</strong>: helping teams adopt modern AI and ML workflows</li>
+                <li><strong>Scientific & Technical Review</strong>: critical evaluation of technical proposals, papers, and presentations</li>
             </ul>
-             <a href="{{ '/contact' | relative_url }}">Contact me</a> to discuss your project.</p>
+
+            <p>
+                <a href="{{ '/contact' | relative_url }}">Contact me</a> to discuss your project.
+            </p>
         </div>
     </div>
 </div>
