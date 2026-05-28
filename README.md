@@ -1,6 +1,6 @@
 # shacharmirkin.github.io
 
-Jekyll site. Build, test, and accessibility tooling:
+Personal site ([shacharmirkin.github.io](https://shacharmirkin.github.io)), built with Jekyll.
 
 - **Build + HTMLProofer:** `bundle exec rake test`
 - **Pytest:** `uv sync --group dev && uv run pytest tests/test_site_artifacts.py -m integration`

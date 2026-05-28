@@ -19,4 +19,3 @@ __pycache__
 # a11y tooling (pa11y / puppeteer)
 tools/a11y/node_modules/
 tools/a11y/.cache/
-
