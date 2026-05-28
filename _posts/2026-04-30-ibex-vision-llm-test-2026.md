@@ -2,7 +2,7 @@
 layout: post
 title: "Alpine Ibex Vision Test"
 date: 2026-04-30 09:00:00 +0200
-categories: [ai]
+categories: []
 tags: [llm, vision, vlm, prompting, capabilities, evaluation]
 excerpt: "My anecdotal vision test, and a lesson about triggering the right capabilities"
 image: /assets/images/ibex.jpeg
