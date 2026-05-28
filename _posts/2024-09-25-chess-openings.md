@@ -6,6 +6,7 @@ categories: []
 tags: [Vibe Coding, Cursor, Streamlit, Chess]
 excerpt: "Creating a little chess app using (almost) only Cursor"
 image: /assets/images/chess-openings.jpg
+image_alt: "Chess board illustrating opening positions"
 ---
 
 When I saw that Lichess openings dataset was shared on Hugging Face, I thought I’d use AI to create an app within 45 minutes (like everyone else says they do) to help my daughter practice openings.

@@ -1,0 +1,19 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "timeout": 30000,
+    "runners": ["axe"],
+    "chromeLaunchConfig": {
+      "args": ["--no-sandbox"]
+    }
+  },
+  "urls": [
+    "http://127.0.0.1:4321/",
+    "http://127.0.0.1:4321/fr/",
+    "http://127.0.0.1:4321/contact/",
+    "http://127.0.0.1:4321/accessibility/",
+    "http://127.0.0.1:4321/snippets/",
+    "http://127.0.0.1:4321/research/",
+    "http://127.0.0.1:4321/2026/04/30/ibex-vision-llm-test-2026/"
+  ]
+}

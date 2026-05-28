@@ -6,6 +6,7 @@ categories: []
 tags: [Research, Soft Robotics, Fabrication, Geometry]
 excerpt: "Flat-fabricated inflatable structures for approximating developable surfaces."
 image: /assets/images/inflatable.jpeg
+image_alt: "Flat-fabricated inflatable structure morphing into a deckchair shape"
 ---
 Today I'm just proudly sharing my son's [paper](https://dl.acm.org/doi/10.1145/3745778.3766669) presented at [SCF2025](https://scf.acm.org/2025/) at MIT 😊
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+nav_title: Research
 title: "Academic research"
 description: "Highlights of academic work in NLP, personalized machine translation, computational argumentation, and a full publication list."
 permalink: /research
@@ -87,42 +88,45 @@ permalink: /research
                 {% endif %}
 
                 <div class="publication">
-                    <h4>
-                        {% if pub.url %}
-                            <a class="paper-title" href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>
-                        {% else %}
-                            {{ pub.title }}
+                    <details>
+                        <summary class="paper-title">{{ pub.title }}</summary>
+                        <p class="authors">{{ pub.authors }}</p>
+                        {% if pub.publication %}
+                            <p class="venue">
+                                {{ pub.publication }}
+                                {% if pub.volume %}
+                                    , Volume {{ pub.volume }}
+                                {% endif %}
+                                {% if pub.number %}
+                                    ({{ pub.number }})
+                                {% endif %}
+                                {% if pub.pages %}
+                                    , pp. {{ pub.pages }}
+                                {% endif %}
+                            </p>
                         {% endif %}
-                    </h4>
-                    <p class="authors">{{ pub.authors }}</p>
-                    {% if pub.publication %}
-                        <p class="venue">
-                            {{ pub.publication }}
-                            {% if pub.volume %}
-                                , Volume {{ pub.volume }}
-                            {% endif %}
-                            {% if pub.number %}
-                                ({{ pub.number }})
-                            {% endif %}
-                            {% if pub.pages %}
-                                , pp. {{ pub.pages }}
+                        <p class="abstract">
+                            {% if pub.abstract %}
+                                {{ pub.abstract }}
+                            {% else %}
+                                Abstract not available.
                             {% endif %}
                         </p>
-                    {% endif %}
-                    <div class="links">
-                        {% if pub.url %}
-                            <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">Paper</a>
-                        {% endif %}
-                        {% if pub.doi %}
-                            <a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>
-                        {% endif %}
-                        {% if pub.pdf %}
-                            <a href="{{ pub.pdf }}" target="_blank" rel="noopener noreferrer">PDF</a>
-                        {% endif %}
-                        {% if pub.code %}
-                            <a href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">Code</a>
-                        {% endif %}
-                    </div>
+                        <div class="links">
+                            {% if pub.url %}
+                                <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">Paper</a>
+                            {% endif %}
+                            {% if pub.doi %}
+                                <a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>
+                            {% endif %}
+                            {% if pub.pdf %}
+                                <a href="{{ pub.pdf }}" target="_blank" rel="noopener noreferrer">PDF</a>
+                            {% endif %}
+                            {% if pub.code %}
+                                <a href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">Code</a>
+                            {% endif %}
+                        </div>
+                    </details>
                 </div>
             {% endfor %}
 

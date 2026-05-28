@@ -1,0 +1,13 @@
+{
+  "name": "shacharmirkin-github-io-a11y",
+  "private": true,
+  "scripts": {
+    "a11y": "bash a11y.sh",
+    "postinstall": "puppeteer browsers install chrome"
+  },
+  "devDependencies": {
+    "pa11y-ci": "^4.0.0",
+    "puppeteer": "^24.0.0",
+    "serve": "^14.2.4"
+  }
+}

@@ -7,6 +7,7 @@ tags: [Community, Meetup, Data Science, Grenoble]
 excerpt: "Join the Grenoble Data Science community"
 pinned: true
 image: /assets/images/grenoble-data-science.jpg
+image_alt: "Grenoble Data Science meetup community"
 ---
 
 I am part of the organizing team for the Grenoble Data Science meetup.

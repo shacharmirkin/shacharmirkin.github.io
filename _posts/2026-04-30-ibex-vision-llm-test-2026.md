@@ -6,9 +6,10 @@ categories: [ai]
 tags: [llm, vision, vlm, prompting, capabilities, evaluation]
 excerpt: "My anecdotal vision test, and a lesson about triggering the right capabilities"
 image: /assets/images/ibex.jpeg
+image_alt: "Herd of alpine ibex on a rocky mountainside, difficult to spot"
 ---
 
-Here's an image of a herd of ibex I took in August 2024 in the [Vercors mountain range](https://vercors.fr/) in France. There are over 20 of them, but yes, they're really hard to see. I even had a hard time spotting them just a few hours after I saw them, so I was curious whether AI could do it. I asked some models whether they could spot any animals in the photo
+Here's an image of a herd of ibex I took in August 2024 in the [Vercors mountain range](https://vercors.fr/) in France. There are over 20 of them, but yes, they're really hard to see. I even had a hard time spotting them just a few hours after I saw them, so I was curious whether AI could do it. I asked some models whether they could spot any animals in the photo.
 
 Back then, nearly all state-of-the-art models [failed miserably](https://x.com/shacharmirkin/status/1827401718604116224), typically detecting only a single ibex, but I did get some [funny responses](http://x.com/shacharmirkin/status/1827751629053149346).
 
@@ -18,49 +19,37 @@ Possibly the most interesting result came when I asked Gemini to annotate them. 
 But when I instead asked it to regenerate the image with the animals painted in blue, it produced the image below.
 The capability was there all along. It was just a matter of framing the task differently to trigger it.
 
+<figure class="post-lightbox">
+  <button type="button" class="post-lightbox__trigger">
+    <img
+      src="/assets/images/blue-ibex.jpeg"
+      alt="Same mountain scene with ibex highlighted in blue by the model"
+      width="400"
+    />
+  </button>
+  <figcaption>Annotated image (select to enlarge)</figcaption>
+</figure>
 
-<div style="text-align:center;">
-  <img
-    id="blue-ibex-preview"
-    src="/assets/images/blue-ibex.jpeg"
-    alt="Blue ibex (click to enlarge)"
-    title="Click to enlarge"
-    width="400"
-    style="cursor:zoom-in;"
-    tabindex="0"
-    role="button"
-    aria-label="Open enlarged blue ibex image"
-  />
-</div>
-
-<dialog id="blue-ibex-lightbox" style="padding:0; border:none; background:transparent; max-width:none; width:100vw; height:100vh; margin:0;">
-  <div style="width:100%; height:100%; display:flex; align-items:center; justify-content:center;">
-    <img src="/assets/images/blue-ibex.jpeg" alt="Blue ibex enlarged" style="max-width:92vw; max-height:92vh; display:block;" />
-  </div>
+<dialog id="blue-ibex-lightbox" class="post-lightbox__dialog" aria-label="Enlarged annotated ibex image">
+  <button type="button" class="post-lightbox__close" aria-label="Close">×</button>
+  <img src="/assets/images/blue-ibex.jpeg" alt="Enlarged view of ibex highlighted in blue" />
 </dialog>
 
 <script>
   (function () {
-    const preview = document.getElementById("blue-ibex-preview");
+    const trigger = document.querySelector(".post-lightbox__trigger");
     const dialog = document.getElementById("blue-ibex-lightbox");
-    if (!preview || !dialog || typeof dialog.showModal !== "function") return;
+    const closeBtn = dialog && dialog.querySelector(".post-lightbox__close");
+    if (!trigger || !dialog || typeof dialog.showModal !== "function") return;
 
     const openDialog = () => dialog.showModal();
     const closeDialog = () => dialog.close();
 
-    preview.addEventListener("click", openDialog);
-    preview.addEventListener("keydown", (event) => {
-      if (event.key === "Enter") openDialog();
-    });
-
+    trigger.addEventListener("click", openDialog);
+    closeBtn && closeBtn.addEventListener("click", closeDialog);
     dialog.addEventListener("click", (event) => {
       if (event.target === dialog) closeDialog();
     });
-
-    dialog.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" || event.key === "Enter") closeDialog();
-    });
+    dialog.addEventListener("cancel", closeDialog);
   })();
 </script>
-
-

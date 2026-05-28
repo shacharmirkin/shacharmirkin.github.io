@@ -7,3 +7,10 @@ repos:
         language: system
         pass_filenames: false
         stages: [pre-push]
+
+      - id: pa11y-a11y
+        name: pa11y accessibility (WCAG2AA)
+        entry: bash -c 'cd "$(git rev-parse --show-toplevel)/tools/a11y" && npm ci && npm run a11y'
+        language: system
+        pass_filenames: false
+        stages: [pre-push]
