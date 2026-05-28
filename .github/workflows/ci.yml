@@ -24,6 +24,18 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: sandbox/package-lock.json
+
+      - name: Accessibility (pa11y-ci)
+        run: |
+          cd sandbox
+          npm ci
+          npm run a11y
+
       - uses: astral-sh/setup-uv@v5
         with:
           enable-cache: true

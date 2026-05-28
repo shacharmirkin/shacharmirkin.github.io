@@ -1,0 +1,49 @@
+{% assign read_lang = page.lang | default: site.lang | default: 'en' %}
+{% assign ra_rate = page.read_aloud_rate | default: site.read_aloud.rate | default: 1 %}
+{% assign ra_pitch = page.read_aloud_pitch | default: site.read_aloud.pitch | default: 1 %}
+{% assign ra_voice = page.read_aloud_voice | default: site.read_aloud.voice_name | default: '' %}
+{% if read_lang == 'fr' %}
+{% assign read_group_label = "Écouter l'article" %}
+{% assign read_play = "Lecture" %}
+{% assign read_pause = "Pause" %}
+{% assign read_resume = "Reprendre" %}
+{% assign read_stop = "Arrêter" %}
+{% assign read_status_playing = "Lecture en cours." %}
+{% assign read_status_paused = "Lecture en pause." %}
+{% assign read_status_stopped = "Lecture arrêtée." %}
+{% assign read_status_done = "Lecture terminée." %}
+{% else %}
+{% assign read_group_label = "Listen to article" %}
+{% assign read_play = "Play" %}
+{% assign read_pause = "Pause" %}
+{% assign read_resume = "Resume" %}
+{% assign read_stop = "Stop" %}
+{% assign read_status_playing = "Now reading aloud." %}
+{% assign read_status_paused = "Reading paused." %}
+{% assign read_status_stopped = "Reading stopped." %}
+{% assign read_status_done = "Finished reading." %}
+{% endif %}
+
+<div
+    class="post-read-aloud"
+    id="post-read-aloud"
+    data-speech-lang="{{ read_lang }}"
+    data-article-title="{{ page.title | xml_escape }}"
+    data-voice-name="{{ ra_voice | xml_escape }}"
+    data-rate="{{ ra_rate }}"
+    data-pitch="{{ ra_pitch }}"
+    data-label-play="{{ read_play | xml_escape }}"
+    data-label-pause="{{ read_pause | xml_escape }}"
+    data-label-resume="{{ read_resume | xml_escape }}"
+    data-status-playing="{{ read_status_playing | xml_escape }}"
+    data-status-paused="{{ read_status_paused | xml_escape }}"
+    data-status-stopped="{{ read_status_stopped | xml_escape }}"
+    data-status-done="{{ read_status_done | xml_escape }}"
+>
+    <div class="post-read-aloud__controls" role="group" aria-label="{{ read_group_label }}">
+        <button type="button" class="post-read-aloud__btn" id="read-aloud-play" aria-label="{{ read_play }}"><span aria-hidden="true">▶</span></button>
+        <button type="button" class="post-read-aloud__btn" id="read-aloud-pause" aria-label="{{ read_pause }}" disabled><span aria-hidden="true">⏸</span></button>
+        <button type="button" class="post-read-aloud__btn" id="read-aloud-stop" aria-label="{{ read_stop }}" disabled><span aria-hidden="true">⏹</span></button>
+    </div>
+    <span id="read-aloud-status" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></span>
+</div>

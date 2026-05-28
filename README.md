@@ -1,1 +1,3 @@
-This repository builds my personal site, [shacharmirkin.github.io](https://shacharmirkin.github.io), with Jekyll.
+Personal site ([shacharmirkin.github.io](https://shacharmirkin.github.io)), built with Jekyll.
+
+Local build, tests, and accessibility tooling: see **[sandbox/README.md](sandbox/README.md)**.

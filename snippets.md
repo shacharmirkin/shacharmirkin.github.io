@@ -1,5 +1,6 @@
 ---
 layout: default
+nav_title: Snippets
 title: "Snippets — side projects and notes"
 description: "Short posts on side projects, experiments, and informal notes on NLP, LLMs, and data science."
 permalink: /snippets/
@@ -29,10 +30,7 @@ This page is a collection of random (not always too serious) side projects, expe
                 <p class="snippet-excerpt">{{ post.excerpt }}</p>
                 {% endif %}
                 <div class="snippet-meta">
-                    <span class="snippet-date">
-                        <i class="fas fa-calendar"></i>
-                        {{ post.date | date: "%B %-d, %Y" }}
-                    </span>
+                    <time class="snippet-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
                     {% if post.tags.size > 0 %}
                     <div class="snippet-tags">
                         {% for tag in post.tags %}
@@ -44,8 +42,8 @@ This page is a collection of random (not always too serious) side projects, expe
             </div>
             {% if post.image %}
             <div class="snippet-image">
-                <a href="{{ post.url | relative_url }}">
-                    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
+                <a href="{{ post.url | relative_url }}" aria-label="View article: {{ post.title | xml_escape }}">
+                    <img src="{{ post.image | relative_url }}" alt="" />
                 </a>
             </div>
             {% endif %}
@@ -64,10 +62,7 @@ This page is a collection of random (not always too serious) side projects, expe
                 <p class="snippet-excerpt">{{ post.excerpt }}</p>
                 {% endif %}
                 <div class="snippet-meta">
-                    <span class="snippet-date">
-                        <i class="fas fa-calendar"></i>
-                        {{ post.date | date: "%B %-d, %Y" }}
-                    </span>
+                    <time class="snippet-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
                     {% if post.tags.size > 0 %}
                     <div class="snippet-tags">
                         {% for tag in post.tags %}
@@ -79,8 +74,8 @@ This page is a collection of random (not always too serious) side projects, expe
             </div>
             {% if post.image %}
             <div class="snippet-image">
-                <a href="{{ post.url | relative_url }}">
-                    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
+                <a href="{{ post.url | relative_url }}" aria-label="View article: {{ post.title | xml_escape }}">
+                    <img src="{{ post.image | relative_url }}" alt="" />
                 </a>
             </div>
             {% endif %}

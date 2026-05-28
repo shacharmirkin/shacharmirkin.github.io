@@ -16,3 +16,7 @@ vendor/bundle/
 .pytest_cache/
 __pycache__
 
+# sandbox (pa11y / puppeteer)
+sandbox/node_modules/
+sandbox/.cache/
+

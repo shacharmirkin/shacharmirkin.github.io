@@ -28,3 +28,35 @@ def test_home_html_has_seo_tags() -> None:
     html = (SITE / "index.html").read_text(encoding="utf-8")
     assert "og:title" in html
     assert "application/ld+json" in html
+
+
+@pytest.mark.integration
+def test_accessibility_page_exists() -> None:
+    assert (SITE / "accessibility" / "index.html").is_file()
+
+
+@pytest.mark.integration
+def test_layout_has_accessibility_landmarks() -> None:
+    html = (SITE / "index.html").read_text(encoding="utf-8")
+    assert 'class="skip-link"' in html
+    assert 'id="main-content"' in html
+    assert "<main" in html
+    assert 'aria-label="Main navigation"' in html
+    assert "site-footer" in html
+
+
+@pytest.mark.integration
+def test_post_layout_has_read_aloud() -> None:
+    post_html = SITE / "2026" / "03" / "13" / "llm-sees-something-else" / "index.html"
+    if not post_html.is_file():
+        candidates = list(SITE.glob("**/index.html"))
+        post_html = next(
+            (p for p in candidates if "post-read-aloud" in p.read_text(encoding="utf-8")),
+            None,
+        )
+        assert post_html is not None, "Build a post page with layout: post"
+    html = post_html.read_text(encoding="utf-8")
+    assert 'id="post-read-aloud"' in html
+    assert 'id="read-aloud-play"' in html
+    assert "post-read-aloud.js" in html
+    assert 'data-rate="' in html

@@ -5,6 +5,13 @@ baseurl: ""
 url: "https://shacharmirkin.github.io"
 lang: en
 
+# Read-aloud (Web Speech API). voice_name: substring match on OS voices (e.g. Samantha, Daniel).
+# Per-post overrides: read_aloud_voice, read_aloud_rate, read_aloud_pitch in front matter.
+read_aloud:
+  rate: 1
+  pitch: 1
+  voice_name: ""
+
 # Build settings
 markdown: kramdown
 permalink: pretty
@@ -46,6 +53,7 @@ header_pages:
 # Do not copy tooling into the published site (see README / sandbox README).
 exclude:
   - tests
+  - sandbox
   - Rakefile
   - Gemfile
   - Gemfile.lock

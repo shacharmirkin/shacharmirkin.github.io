@@ -6,6 +6,7 @@ categories: []
 tags: [NLP, NER, LREC, Research, Benchmarks, Multilingual]
 excerpt: "Universal NER v2 was accepted to LREC 2026."
 image: /assets/images/uner.png
+image_alt: "Universal NER v2 multilingual named entity recognition benchmark"
 ---
 
 

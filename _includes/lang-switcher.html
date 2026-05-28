@@ -7,7 +7,7 @@
 {% elsif page.path == 'fr/index.md' %}
   {% assign is_fr = true %}
 {% endif %}
-<div class="lang-switcher">
-    <a href="{{ en_url }}" class="lang-switcher-link{% if is_en %} active{% endif %}" hreflang="en" lang="en">English</a>
-    <a href="{{ fr_url }}" class="lang-switcher-link{% if is_fr %} active{% endif %}" hreflang="fr" lang="fr">Français</a>
-</div>
+<nav class="lang-switcher" aria-label="{% if page.lang == 'fr' %}Choix de la langue{% else %}Language selection{% endif %}">
+    <a href="{{ en_url }}" class="lang-switcher-link{% if is_en %} active{% endif %}" hreflang="en" lang="en"{% if is_en %} aria-current="true"{% endif %}>English</a>
+    <a href="{{ fr_url }}" class="lang-switcher-link{% if is_fr %} active{% endif %}" hreflang="fr" lang="fr"{% if is_fr %} aria-current="true"{% endif %}>Français</a>
+</nav>
