@@ -11,10 +11,11 @@ vendor/bundle/
 .DS_Store
 .vscode/
 .cursor/
+
 .venv
 
 .pytest_cache/
-__pycache__
+__pycache__/
 
 # a11y tooling (pa11y / puppeteer)
 tools/a11y/node_modules/

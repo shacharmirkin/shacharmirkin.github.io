@@ -4,6 +4,7 @@ nav_title: Home
 title: "Shachar Mirkin — Applied AI Researcher (NLP, GenAI)"
 description: "Freelance applied AI researcher (PhD) specializing in NLP, generative AI, and machine learning. Industry and academic expertise. Remote consulting via registered company in France."
 lang: en
+image: /assets/images/profile.jpg
 ---
 
 <div class="home-container">

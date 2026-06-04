@@ -17,6 +17,11 @@ SITE = REPO / "_site"
 def test_core_files_exist() -> None:
     assert SITE.is_dir(), "Run `bundle exec rake test` first to create _site"
     assert (SITE / "robots.txt").is_file()
+    robots = (SITE / "robots.txt").read_text(encoding="utf-8")
+    assert "Content-Signal:" in robots
+    assert (SITE / "llms.txt").is_file()
+    assert (SITE / "index.md").is_file()
+    assert (SITE / ".well-known" / "agent.json").is_file()
     assert (SITE / "sitemap.xml").is_file()
     assert (SITE / "feed.xml").is_file()
     assert (SITE / "index.html").is_file()
@@ -28,6 +33,7 @@ def test_home_html_has_seo_tags() -> None:
     html = (SITE / "index.html").read_text(encoding="utf-8")
     assert "og:title" in html
     assert "application/ld+json" in html
+    assert '"@type": "Organization"' in html or '"@type":"Organization"' in html
 
 
 @pytest.mark.integration
