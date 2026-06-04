@@ -36,6 +36,11 @@ def test_accessibility_page_exists() -> None:
 
 
 @pytest.mark.integration
+def test_privacy_page_exists() -> None:
+    assert (SITE / "privacy" / "index.html").is_file()
+
+
+@pytest.mark.integration
 def test_layout_has_accessibility_landmarks() -> None:
     html = (SITE / "index.html").read_text(encoding="utf-8")
     assert 'class="skip-link"' in html

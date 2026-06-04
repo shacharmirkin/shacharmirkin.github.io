@@ -1,8 +1,12 @@
 <footer class="site-footer">
     <nav aria-label="{% if page.lang == 'fr' %}Pied de page{% else %}Footer{% endif %}">
         {% if page.lang == 'fr' %}
+        <a href="{{ '/privacy/' | relative_url }}">Confidentialité</a>
+        <span aria-hidden="true"> · </span>
         <a href="{{ '/accessibility/' | relative_url }}">Accessibilité</a>
         {% else %}
+        <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+        <span aria-hidden="true"> · </span>
         <a href="{{ '/accessibility/' | relative_url }}">Accessibility</a>
         {% endif %}
     </nav>

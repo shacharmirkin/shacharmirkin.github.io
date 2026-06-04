@@ -84,6 +84,8 @@ description: "Get in touch for AI consulting, freelance research, or collaborati
                 <textarea id="message" name="message" rows="5" required></textarea>
             </div>
 
+            <p class="form-privacy-notice">Your message is sent via <a href="https://formspree.io/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Formspree</a>. I use your details only to reply. See the <a href="{{ '/privacy/' | relative_url }}">privacy notice</a>.</p>
+
             <button type="submit" class="submit-button">Send Message</button>
         </form>
     </div>
