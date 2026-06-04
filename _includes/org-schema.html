@@ -1,0 +1,36 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url | append: '/#org' }}",
+      "name": "{{ site.social.name | default: site.title | escape }}",
+      "url": "{{ site.url }}/",
+      "logo": "{{ site.url | append: '/assets/images/profile.jpg' }}",
+      "description": {{ site.description | jsonify }},
+      "sameAs": [
+        "https://github.com/shacharmirkin",
+        "https://www.linkedin.com/public-profile/in/shacharmirkin",
+        "https://twitter.com/shacharmirkin",
+        "https://scholar.google.com/citations?user=xsEZbOkAAAAJ&hl=en"
+      ],
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "contactType": "professional inquiries",
+        "url": "{{ site.url | append: '/contact/' }}",
+        "availableLanguage": ["en", "fr"]
+      }]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url | append: '/#website' }}",
+      "url": "{{ site.url }}/",
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "publisher": { "@id": "{{ site.url | append: '/#org' }}" },
+      "inLanguage": ["en", "fr"]
+    }
+  ]
+}
+</script>
