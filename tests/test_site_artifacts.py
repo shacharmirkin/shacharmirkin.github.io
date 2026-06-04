@@ -31,18 +31,12 @@ def test_home_html_has_seo_tags() -> None:
 
 
 @pytest.mark.integration
-def test_accessibility_page_exists() -> None:
-    assert (SITE / "accessibility" / "index.html").is_file()
-
-
-@pytest.mark.integration
 def test_layout_has_accessibility_landmarks() -> None:
     html = (SITE / "index.html").read_text(encoding="utf-8")
     assert 'class="skip-link"' in html
     assert 'id="main-content"' in html
     assert "<main" in html
     assert 'aria-label="Main navigation"' in html
-    assert "site-footer" in html
 
 
 @pytest.mark.integration

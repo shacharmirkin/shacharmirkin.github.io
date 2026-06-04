@@ -10,7 +10,7 @@ vendor/bundle/
 
 .DS_Store
 .vscode/
-
+.cursor/
 .venv
 
 .pytest_cache/
