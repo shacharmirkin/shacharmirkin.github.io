@@ -6,8 +6,8 @@
    ========================================================================== */
 :root {
     /* Light mode (default) */
-    --primary-color: #3b82f6;
-    --primary-hover: #2563eb;
+    --primary-color: #2563eb;
+    --primary-hover: #1d4ed8;
     --secondary-color: #10b981;
     --text-color: #1f2937;
     --text-light: #6b7280;
@@ -15,8 +15,8 @@
     --nav-bg: #f8fafc;
     --nav-hover: #e2e8f0;
     --nav-border: #e2e8f0;
-    --link-color: #3b82f6;
-    --link-hover: #2563eb;
+    --link-color: #1d4ed8;
+    --link-hover: #1e40af;
 
     /* Spacing */
     --spacing-xs: 0.5rem;
@@ -224,7 +224,7 @@ html {
 }
 
 .nav-tabs .active a {
-    color: var(--primary-color);
+    color: var(--link-color);
 }
 
 .nav-tabs .active a::after {
