@@ -1,4 +1,10 @@
 repos:
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.38.0
+    hooks:
+      - id: yamllint
+        types: [yaml]
+
   - repo: local
     hooks:
       - id: jekyll-rake-test

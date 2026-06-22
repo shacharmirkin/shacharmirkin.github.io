@@ -34,9 +34,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add _data/scholar.yml
-          git commit -m "$(cat <<'EOF'
-chore: refresh Google Scholar citation count
-
-EOF
-)"
-          git push
+          git commit -m "chore: refresh Google Scholar citation count"
