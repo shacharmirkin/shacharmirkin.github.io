@@ -55,7 +55,7 @@ description: "Get in touch for AI consulting, freelance research, or collaborati
                 <div class="contact-meeting">
                     <br>
                     <h2>Book a Meeting</h2>
-                    <p>Let’s chat! <a href="https://cal.com/alpinf/" target="_blank" rel="noopener noreferrer">Schedule{% include external-link-hint.html %}</a> a quick call to discuss your project.</p>
+                    <p>Let’s chat! <a href="https://cal.com/alpinf/" target="_blank" rel="noopener noreferrer">Schedule {% include external-link-hint.html %}</a>a quick call to discuss your project.</p>
                 </div>
             </div>
         </div>

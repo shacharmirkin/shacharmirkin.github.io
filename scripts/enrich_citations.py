@@ -3,6 +3,7 @@
 
 Uses OpenAlex (author works + abstract_inverted_index) and arXiv API for arxiv URLs.
 Run from repo root: uv run python scripts/enrich_citations.py
+Weekly CI refreshes scholar.yml only: uv run python scripts/enrich_citations.py --scholar-only
 """
 
 from __future__ import annotations
@@ -162,14 +163,49 @@ def fetch_scholar_citations(session: requests.Session) -> int | None:
     return None
 
 
+def refresh_scholar_yml(session: requests.Session, *, dry_run: bool = False) -> int:
+    scholar = {}
+    if SCHOLAR_PATH.exists():
+        scholar = yaml.safe_load(SCHOLAR_PATH.read_text(encoding="utf-8")) or {}
+
+    citations_count_api = fetch_scholar_citations(session)
+    if citations_count_api is None:
+        print("Scholar badge API failed; leaving scholar.yml unchanged", file=sys.stderr)
+        return 1
+
+    scholar["citations"] = citations_count_api
+    scholar["user_id"] = SCHOLAR_USER_ID
+    scholar["updated_at"] = date.today().isoformat()
+    print(f"Scholar citations: {citations_count_api}")
+
+    if dry_run:
+        print("(dry run — no files written)")
+        return 0
+
+    SCHOLAR_PATH.write_text(
+        yaml.dump(scholar, sort_keys=False, allow_unicode=True),
+        encoding="utf-8",
+    )
+    print(f"Wrote {SCHOLAR_PATH.name}")
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="Print changes without writing files")
     parser.add_argument("--report-only", action="store_true", help="Only print gap report")
+    parser.add_argument(
+        "--scholar-only",
+        action="store_true",
+        help="Only refresh _data/scholar.yml (used by weekly CI)",
+    )
     args = parser.parse_args()
 
     session = requests.Session()
     session.headers["User-Agent"] = "shacharmirkin.github.io-citation-enricher"
+
+    if args.scholar_only:
+        return refresh_scholar_yml(session, dry_run=args.dry_run)
 
     citations: list[dict] = yaml.safe_load(CITATIONS_PATH.read_text(encoding="utf-8"))
     works = fetch_openalex_works(session)
@@ -238,17 +274,6 @@ def main() -> int:
     if args.report_only:
         return 0
 
-    scholar = {}
-    if SCHOLAR_PATH.exists():
-        scholar = yaml.safe_load(SCHOLAR_PATH.read_text(encoding="utf-8")) or {}
-
-    citations_count_api = fetch_scholar_citations(session)
-    if citations_count_api is not None:
-        scholar["citations"] = citations_count_api
-        scholar["user_id"] = SCHOLAR_USER_ID
-        scholar["updated_at"] = date.today().isoformat()
-        print(f"\nScholar citations: {citations_count_api}")
-
     if args.dry_run:
         print("\n(dry run — no files written)")
         return 0
@@ -257,12 +282,10 @@ def main() -> int:
         yaml.dump(citations, sort_keys=False, allow_unicode=True, width=1000),
         encoding="utf-8",
     )
-    if scholar:
-        SCHOLAR_PATH.write_text(
-            yaml.dump(scholar, sort_keys=False, allow_unicode=True),
-            encoding="utf-8",
-        )
-    print(f"\nWrote {CITATIONS_PATH.name} and {SCHOLAR_PATH.name}")
+    print(f"\nWrote {CITATIONS_PATH.name}")
+
+    if refresh_scholar_yml(session) == 0:
+        print(f"Wrote {SCHOLAR_PATH.name}")
     return 0
 
 
