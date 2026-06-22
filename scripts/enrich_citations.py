@@ -15,6 +15,7 @@ import unicodedata
 from datetime import date
 from difflib import SequenceMatcher
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 import yaml
@@ -90,8 +91,13 @@ def fetch_crossref_abstract(entry: dict, session: requests.Session) -> str | Non
     doi = entry.get("doi")
     if doi and not doi.startswith("http"):
         doi_url = f"https://doi.org/{doi.lstrip('doi:')}"
-    elif entry.get("url") and "doi.org" in entry["url"]:
-        doi_url = entry["url"]
+    elif entry.get("url"):
+        parsed_url = urlparse(entry["url"])
+        host = (parsed_url.hostname or "").lower()
+        if host == "doi.org" or host.endswith(".doi.org"):
+            doi_url = entry["url"]
+        else:
+            doi_url = None
     else:
         doi_url = None
 
