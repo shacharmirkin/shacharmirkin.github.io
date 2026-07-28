@@ -55,7 +55,7 @@ description: "Get in touch for AI consulting, freelance research, or collaborati
                 <div class="contact-meeting">
                     <br>
                     <h2>Book a Meeting</h2>
-                    <p>Let’s chat! <a href="https://cal.com/alpinf/" target="_blank" rel="noopener noreferrer">Schedule {% include external-link-hint.html %}</a>a quick call to discuss your project.</p>
+                    <p>Let’s chat! <a href="https://cal.com/alpinf/" target="_blank" rel="noopener noreferrer">Schedule{% include external-link-hint.html %}</a> a quick call to discuss your project.</p>
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@ description: "Get in touch for AI consulting, freelance research, or collaborati
 
     <div class="contact-form">
         <h2>Send a Message</h2>
-        <form action="https://formspree.io/f/mpwpgowg" method="POST" aria-label="Contact form">
+        <form action="https://formspree.io/f/mpwpgowg" method="POST" aria-label="Contact form" id="contact-form">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
@@ -86,6 +86,65 @@ description: "Get in touch for AI consulting, freelance research, or collaborati
 
             <button type="submit" class="submit-button">Send Message</button>
         </form>
+        <p id="contact-form-status" role="status" aria-live="polite" style="display: none; margin-top: 1.5rem; padding: 0.75rem 1rem; border-radius: 8px; font-weight: 600;"></p>
     </div>
 
 </div>
+
+<script>
+    (function () {
+        const form = document.getElementById("contact-form");
+        const status = document.getElementById("contact-form-status");
+
+        if (!form || !status) {
+            return;
+        }
+
+        function updateStatus(message, type) {
+            status.textContent = message;
+            status.style.display = "block";
+
+            if (type === "success") {
+                status.style.backgroundColor = "#ecfdf3";
+                status.style.color = "#166534";
+                status.style.border = "1px solid #86efac";
+                return;
+            }
+
+            if (type === "pending") {
+                status.style.backgroundColor = "#eff6ff";
+                status.style.color = "#1e3a8a";
+                status.style.border = "1px solid #93c5fd";
+                return;
+            }
+
+            status.style.backgroundColor = "#fef2f2";
+            status.style.color = "#991b1b";
+            status.style.border = "1px solid #fca5a5";
+        }
+
+        form.addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            updateStatus("Sending your message...", "pending");
+
+            try {
+                const response = await fetch(form.action, {
+                    method: "POST",
+                    body: new FormData(form),
+                    headers: { Accept: "application/json" }
+                });
+
+                if (response.ok) {
+                    updateStatus("Thanks! Your message was sent successfully.", "success");
+                    form.reset();
+                    return;
+                }
+
+                updateStatus("Sorry, something went wrong. Please try again.", "error");
+            } catch (error) {
+                updateStatus("Sorry, something went wrong. Please try again.", "error");
+            }
+        });
+    })();
+</script>
