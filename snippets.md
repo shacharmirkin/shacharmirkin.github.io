@@ -43,7 +43,7 @@ This page is a collection of random (not always too serious) side projects, expe
             {% if post.image %}
             <div class="snippet-image">
                 <a href="{{ post.url | relative_url }}" aria-label="View article: {{ post.title | xml_escape }}">
-                    <img src="{{ post.image | relative_url }}" alt="" />
+                    <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | xml_escape }}" />
                 </a>
             </div>
             {% endif %}
@@ -75,7 +75,7 @@ This page is a collection of random (not always too serious) side projects, expe
             {% if post.image %}
             <div class="snippet-image">
                 <a href="{{ post.url | relative_url }}" aria-label="View article: {{ post.title | xml_escape }}">
-                    <img src="{{ post.image | relative_url }}" alt="" />
+                    <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | xml_escape }}" />
                 </a>
             </div>
             {% endif %}

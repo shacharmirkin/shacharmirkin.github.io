@@ -59,8 +59,8 @@ permalink: /research
             <div class="publications">
                 <h3>Selected Publications</h3>
                 <ul>
-                    <li>Shachar Mirkin et al. <a href="https://www.researchgate.net/publication/251231328_Confidence-driven_Rewriting_for_Improved_Translation" target="_blank" rel="noopener noreferrer">Confidence-driven Rewriting for Improved Translation</a>. MT Summit 2013.</li>
-                    <li>Sriram Venkatapathy and Shachar Mirkin. <a href="http://www.aclweb.org/anthology/C12-3058" target="_blank" rel="noopener noreferrer">An SMT-driven Authoring Tool</a>. COLING 2012.</li>
+                    <li>Shachar Mirkin et al. <a href="https://aclanthology.org/2013.mtsummit-papers.15/" target="_blank" rel="noopener noreferrer">Confidence-driven Rewriting for Improved Translation</a>. MT Summit 2013.</li>
+                    <li>Sriram Venkatapathy and Shachar Mirkin. <a href="https://aclanthology.org/C12-3058/" target="_blank" rel="noopener noreferrer">An SMT-driven Authoring Tool</a>. COLING 2012.</li>
                 </ul>
             </div>
         </div>

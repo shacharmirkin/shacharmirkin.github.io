@@ -11,7 +11,7 @@ image_alt: "Herd of alpine ibex on a rocky mountainside, difficult to spot"
 
 Here's an image of a herd of ibex I took in August 2024 in the [Vercors mountain range](https://vercors.fr/) in France. There are over 20 of them, but yes, they're really hard to see. I even had a hard time spotting them just a few hours after I saw them, so I was curious whether AI could do it. I asked some models whether they could spot any animals in the photo.
 
-Back then, nearly all state-of-the-art models [failed miserably](https://x.com/shacharmirkin/status/1827401718604116224), typically detecting only a single ibex, but I did get some [funny responses](http://x.com/shacharmirkin/status/1827751629053149346).
+Back then, nearly all state-of-the-art models [failed miserably](https://x.com/shacharmirkin/status/1827401718604116224), typically detecting only a single ibex, but I did get some [funny responses](https://x.com/shacharmirkin/status/1827751629053149346).
 
 In April 2026, I tried it again, and this time I got some much better results, with Gemini 3.1 Pro detecting up to 10 ibex.
 
