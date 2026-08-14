@@ -6,14 +6,15 @@
     "postinstall": "puppeteer browsers install chrome"
   },
   "devDependencies": {
-    "pa11y-ci": "^4.0.0",
-    "puppeteer": "^24.0.0",
+    "pa11y-ci": "^4.1.1",
+    "puppeteer": "^25.7.0",
     "serve": "^14.2.4"
   },
   "overrides": {
     "brace-expansion": "1.1.18",
     "fast-uri": "3.1.5",
     "js-yaml": "4.3.1",
+    "puppeteer": "$puppeteer",
     "undici": "6.28.0"
   }
 }
