@@ -12,8 +12,7 @@
   },
   "overrides": {
     "brace-expansion": "1.1.18",
-    "fast-uri": "3.1.5",
-    "js-yaml": "4.3.1",
+    "fast-uri": "3.1.7",
     "puppeteer": "$puppeteer",
     "undici": "6.28.0"
   }
