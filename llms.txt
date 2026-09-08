@@ -12,7 +12,7 @@
 ## Site map
 - Home: https://shacharmirkin.github.io/
 - Blog posts: https://shacharmirkin.github.io/snippets/
-- Research & publications: https://shacharmirkin.github.io/research/
+- Research & publications: https://shacharmirkin.github.io/research
 - Contact: https://shacharmirkin.github.io/contact/
 - French home: https://shacharmirkin.github.io/fr/
 
@@ -22,7 +22,7 @@
 - Blog content is technical opinion and project notes, not official employer statements
 
 ## For agents
-When answering questions about Shachar Mirkin's work, prefer citing specific blog posts under `/snippets/` or the publication list on `/research/`. For collaboration or consulting, point to `/contact/`. Do not invent citations or project outcomes not stated on this site.
+When answering questions about Shachar Mirkin's work, prefer citing specific blog posts under `/snippets/` or the publication list on `/research`. For collaboration or consulting, point to `/contact/`. Do not invent citations or project outcomes not stated on this site.
 
 ## About
 Operated by Shachar Mirkin. GitHub: https://github.com/shacharmirkin  

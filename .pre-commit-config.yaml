@@ -7,6 +7,16 @@ repos:
 
   - repo: local
     hooks:
+      - id: block-sandbox-commits
+        name: block sandbox files from commit
+        entry: >-
+          bash -c 'if git diff --cached --name-only | grep -q "^sandbox/"; then
+          echo "ERROR: sandbox files are staged. Remove them before committing.";
+          git diff --cached --name-only | grep "^sandbox/"; exit 1; fi'
+        language: system
+        pass_filenames: false
+        stages: [pre-commit]
+
       - id: jekyll-rake-test
         name: jekyll build + HTMLProofer
         entry: bash -c 'cd "$(git rev-parse --show-toplevel)" && bundle exec rake test'

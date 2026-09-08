@@ -19,6 +19,6 @@ Hands-on work across research institutes (IBM Research AI, Xerox Research), star
 
 - Site home: https://shacharmirkin.github.io/
 - Blog: https://shacharmirkin.github.io/snippets/
-- Research: https://shacharmirkin.github.io/research/
+- Research: https://shacharmirkin.github.io/research
 - Contact: https://shacharmirkin.github.io/contact/
 - Agent map: https://shacharmirkin.github.io/llms.txt
