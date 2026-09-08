@@ -3,7 +3,7 @@ layout: default
 nav_title: Research
 title: "Academic research"
 description: "Highlights of academic work in NLP, personalized machine translation, computational argumentation, and a full publication list."
-permalink: /research
+permalink: /research/
 ---
 
 # Academic Research
