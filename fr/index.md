@@ -28,7 +28,7 @@ permalink: /fr/
             </p>
 
             <p>
-                Je suis titulaire d’un doctorat en informatique, spécialisé en NLP, et j’ai effectué 3,5 ans de recherche postdoctorale. Je suis l’auteur de plusieurs brevets et d’environ 40 publications dans des revues et conférences de premier plan (<a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a> : plus de 4&nbsp;500 citations ; h-index : 23).
+                Je suis titulaire d’un doctorat en informatique, spécialisé en NLP, et j’ai effectué 3,5 ans de recherche postdoctorale. Je suis l’auteur de plusieurs brevets et d’environ 40 publications dans des revues et conférences de premier plan (<a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a> : plus de 4&nbsp;800 citations ; h-index : 24).
             </p>
         </div>
 
