@@ -5,7 +5,7 @@ date: 2026-04-19 09:00:00 +0200
 categories: []
 tags: [Community, Meetup, Data Science, Grenoble]
 excerpt: "Join the Grenoble Data Science community"
-pinned: true
+pinned: false
 image: /assets/images/grenoble-data-science.jpg
 image_alt: "Grenoble Data Science meetup community"
 ---
