@@ -3,7 +3,7 @@ layout: post
 title: "WSJ on AI and Israel's election campaigns"
 date: 2026-09-24 11:00:00 +0200
 categories: []
-tags: [elections, Israel, AI, campaign, law]
+tags: [elections, AI, law, social media]
 excerpt: "Monitoring Israeli election campaigns for law violations, mentioned in the Wall Street Journal"
 image: /assets/images/wsj-ai-israel-election-campaigns.png
 image_alt: "Wall Street Journal headline How AI Is Reshaping Election Campaigns in Israel"
