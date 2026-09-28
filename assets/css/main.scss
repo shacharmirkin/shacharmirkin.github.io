@@ -637,6 +637,28 @@ a:hover {
     color: var(--text-color);
 }
 
+.research-area--with-image {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.research-area--with-image .publication-image {
+    max-width: 180px;
+}
+
+.research-area--with-image .publication-image a {
+    display: block;
+    line-height: 0;
+}
+
+.research-area--with-image .publication-image img {
+    max-height: none;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-md);
+}
+
 .publications h3 {
     font-size: 1.25rem;
     margin-bottom: 1rem;
@@ -997,6 +1019,15 @@ a:hover {
 
     .research-container {
         padding: 1rem;
+    }
+
+    .research-area--with-image {
+        grid-template-columns: 1fr;
+    }
+
+    .research-area--with-image .publication-image {
+        max-width: 140px;
+        justify-self: start;
     }
 
     .publication {

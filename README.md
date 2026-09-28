@@ -1,7 +1,3 @@
 # shacharmirkin.github.io
 
 Personal site ([shacharmirkin.github.io](https://shacharmirkin.github.io)), built with Jekyll.
-
-- **Build + HTMLProofer:** `bundle exec rake test`
-- **Pytest:** `uv sync --group dev && uv run pytest tests/test_site_artifacts.py -m integration`
-- **Accessibility (pa11y):** [tools/a11y/README.md](tools/a11y/README.md)

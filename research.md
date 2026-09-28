@@ -22,16 +22,23 @@ permalink: /research/
     </div>
 
     <div class="research-areas">
-        <div class="research-area">
-            <h2>Computational Argumentation and Debating</h2>
-            <p>Research in computational argumentation focuses on understanding and generating arguments, with applications in debating systems and listening comprehension.</p>
-            <div class="publications">
-                <h3>Selected Publications</h3>
-                <ul>
-                    <li>Noam Slonim et al. <a href="https://doi.org/10.1038/s41586-021-03215-w" target="_blank" rel="noopener noreferrer">An autonomous debating system</a>. <strong>Nature</strong> 591, 379–384 (2021).</li>
-                    <li>Shachar Mirkin et al. <a href="https://www.aclweb.org/anthology/D18-1078/" target="_blank" rel="noopener noreferrer">Listening Comprehension over Argumentative Content</a>. EMNLP 2018.</li>
-                    <li>Shachar Mirkin et al. <a href="http://www.lrec-conf.org/proceedings/lrec2018/pdf/66.pdf" target="_blank" rel="noopener noreferrer">A Recorded Debating Dataset</a>. LREC 2018.</li>
-                </ul>
+        <div class="research-area research-area--with-image">
+            <div class="research-area__content">
+                <h2>Computational Argumentation and Debating</h2>
+                <p>Research in computational argumentation focuses on understanding and generating arguments, with applications in debating systems and listening comprehension.</p>
+                <div class="publications">
+                    <h3>Selected Publications</h3>
+                    <ul>
+                        <li>Noam Slonim et al. <a href="https://doi.org/10.1038/s41586-021-03215-w" target="_blank" rel="noopener noreferrer">An autonomous debating system</a>. <strong>Nature</strong> 591, 379–384 (2021).</li>
+                        <li>Shachar Mirkin et al. <a href="https://www.aclweb.org/anthology/D18-1078/" target="_blank" rel="noopener noreferrer">Listening Comprehension over Argumentative Content</a>. EMNLP 2018.</li>
+                        <li>Shachar Mirkin et al. <a href="http://www.lrec-conf.org/proceedings/lrec2018/pdf/66.pdf" target="_blank" rel="noopener noreferrer">A Recorded Debating Dataset</a>. LREC 2018.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="publication-image">
+                <a href="https://doi.org/10.1038/s41586-021-03215-w" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ '/assets/images/nature-cover-591-7850.png' | relative_url }}" alt="Nature cover, 18 March 2021: The Silicon Soapbox — AI system goes head-to-head with humans in competitive debates" width="180" height="239" loading="lazy">
+                </a>
             </div>
         </div>
 
