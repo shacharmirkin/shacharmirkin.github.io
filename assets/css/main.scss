@@ -1210,3 +1210,48 @@ a:hover {
 .post-lightbox__close:focus-visible {
     outline-color: #fff;
 }
+
+/* BibTeX styling */
+.bibtex-details {
+    margin-top: 1rem;
+    border-top: 1px solid var(--nav-border);
+    padding-top: 1rem;
+}
+
+.bibtex-summary {
+    cursor: pointer;
+    color: var(--link-color);
+    font-weight: 600;
+    list-style: none;
+    padding: 0.5rem;
+    background: var(--nav-bg);
+    border-radius: var(--radius-sm);
+    transition: background-color var(--transition-fast);
+}
+
+.bibtex-summary:hover {
+    background: var(--nav-hover);
+    color: var(--link-hover);
+}
+
+.bibtex-summary::-webkit-details-marker {
+    display: none;
+}
+
+.bibtex-code {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    background: var(--nav-bg);
+    border: 1px solid var(--nav-border);
+    border-radius: var(--radius-sm);
+    overflow-x: auto;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.bibtex-code code {
+    color: var(--text-color);
+    white-space: pre;
+    display: block;
+}

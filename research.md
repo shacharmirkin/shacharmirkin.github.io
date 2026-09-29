@@ -135,6 +135,12 @@ permalink: /research/
                                 <a href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">Code</a>
                             {% endif %}
                         </div>
+                        {% if pub.bibtex %}
+                            <details class="bibtex-details">
+                                <summary class="bibtex-summary">BibTeX</summary>
+                                <pre class="bibtex-code"><code>{{ pub.bibtex }}</code></pre>
+                            </details>
+                        {% endif %}
                     </details>
                 </div>
             {% endfor %}

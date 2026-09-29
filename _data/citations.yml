@@ -4,7 +4,7 @@
   year: 2008
   abstract: Semantic inference is often modeled as application of entailment rules, which specify generation of entailed sentences from a source sentence. Efficient generation and representation of entailed consequents is a fundamental problem common to such inference methods. We present a new data structure, termed compact forest, which allows efficient generation and representation of entailed consequents, each represented as a parse tree. Rule-based inference is complemented with a new approximate matching measure inspired by tree kernels, which is computed efficiently over compact forests. Our system also makes use of novel large-scale entailment rule bases, derived from Wikipedia as well as from information about predicates and their argument mapping, gathered from available lexicons and complemented by unsupervised learning. 1
   citation_link: https://scholar.google.com/scholar?q=Efficient+semantic+deduction+and+approximate+matching+over+compact+parse+forests
-
+  bibtex: "@inproceedings{barhaim2008efficient,\n  title={Efficient semantic deduction and approximate matching over compact parse forests},\n  author={Bar-Haim, Roy and Berant, Jonathan and Dagan, Ido and Greental, Iddo and Mirkin, Shachar and Shnarch, Eyal and Szpektor, Idan},\n  booktitle={Proceedings of TAC},\n  year={2008}\n}\n"
 - authors: Mirkin, Shachar; Specia, Lucia; Cancedda, Nicola; Dagan, Ido; Dymetman, Marc; Szpektor, Idan
   title: Source-language entailment modeling for translating unknown terms
   publication: Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP
@@ -14,7 +14,7 @@
   year: 2009
   abstract: This paper addresses the task of handling unknown terms in SMT. We propose using source-language monolingual models and resources to paraphrase the source text prior to translation. We further present a conceptual extension to prior work by allowing translations of entailed texts rather than paraphrases only. A method for performing this process efficiently is presented and applied to some 2500 sentences with unknown terms. Our experiments show that the proposed approach substantially increases the number of properly translated texts.
   citation_link: https://aclanthology.org/P09-1089/
-
+  bibtex: "@inproceedings{mirkin2009source,\n  title={Source-language entailment modeling for translating unknown terms},\n  author={Mirkin, Shachar and Specia, Lucia and Cancedda, Nicola and Dagan, Ido and Dymetman, Marc and Szpektor, Idan},\n  booktitle={Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP},\n  pages={791--799},\n  year={2009},\n  url={https://aclanthology.org/P09-1089/}\n}\n"
 - authors: Mirkin, Shachar; Dagan, Ido; Geffet, Maayan
   title: Integrating pattern-based and distributional similarity methods for lexical entailment acquisition
   publication: Proceedings of the COLING/ACL 2006 Main Conference Poster Sessions
@@ -24,7 +24,7 @@
   year: 2006
   abstract: This paper addresses the problem of acquiring lexical semantic relationships, applied to the lexical entailment relation. Our main contribution is a novel conceptual integration between the two distinct acquisition paradigms for lexical relations - the pattern-based and the distributional similarity approaches. The integrated method exploits mutual complementary information of the two approaches to obtain candidate relations and informative characterizing features. Then, a small size training set is used to construct a more accurate supervised classifier, showing significant increase in both recall and precision over the original approaches.
   citation_link: https://aclanthology.org/P06-2075/
-
+  bibtex: "@inproceedings{shachar2006integrating,\n  title={Integrating pattern-based and distributional similarity methods for lexical entailment acquisition},\n  author={Mirkin, Shachar and Dagan, Ido and Geffet, Maayan},\n  year={2006},\n  booktitle={Proceedings of the COLING/ACL 2006 Main Conference Poster Sessions},\n  pages={579-586},\n  url={https://aclanthology.org/P06-2075/}\n}"
 - authors: Mirkin, Shachar; Dagan, Ido; Shnarch, Eyal
   title: Evaluating the inferential utility of lexical-semantic resources
   publication: Proceedings of the 12th Conference of the European Chapter of the ACL (EACL 2009)
@@ -34,7 +34,7 @@
   year: 2009
   abstract: Lexical-semantic resources are used extensively for applied semantic inference, yet a clear quantitative picture of their current utility and limitations is largely missing.
   citation_link: https://aclanthology.org/E09-1064/
-
+  bibtex: "@inproceedings{shachar2009evaluating,\n  title={Evaluating the inferential utility of lexical-semantic resources},\n  author={Mirkin, Shachar and Dagan, Ido and Shnarch, Eyal},\n  year={2009},\n  booktitle={Proceedings of the 12th Conference of the European Chapter of the ACL (EACL 2009)},\n  pages={558-566},\n  url={https://aclanthology.org/E09-1064/}\n}"
 - authors: Mirkin, Shachar; Dagan, Ido; Padó, Sebastian
   title: Assessing the role of discourse references in entailment inference
   publication: Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics
@@ -44,16 +44,17 @@
   year: 2010
   abstract: Discourse references, notably coreference and bridging, play an important role in many text understanding applications, but their impact on textual entailment is yet to be systematically understood. On the ba-sis of an in-depth analysis of entailment instances, we argue that discourse refer-ences have the potential of substantially improving textual entailment recognition, and identify a number of research direc-tions towards this goal. 1
   citation_link: https://aclanthology.org/P10-1123/
-
+  bibtex: "@inproceedings{shachar2010assessing,\n  title={Assessing the role of discourse references in entailment inference},\n  author={Mirkin, Shachar and Dagan, Ido and Padó, Sebastian},\n  year={2010},\n  booktitle={Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics},\n  pages={1209-1219},\n  url={https://aclanthology.org/P10-1123/}\n}"
 - authors: Abad, Azad; Bentivogli, Luisa; Dagan, Ido; Giampiccolo, Danilo; Mirkin, Shachar; Pianta, Emanuele; Stern, Asher
   title: A Resource for Investigating the Impact of Anaphora and Coreference on Inference
   publication: LREC
   url: https://aclanthology.org/L10-1338/
   pdf: http://www.lrec-conf.org/proceedings/lrec2010/pdf/488_Paper.pdf
   year: 2010
-  abstract: Discourse phenomena play a major role in text processing tasks. However, so far relatively little study has been devoted to the relevance of discourse phenomena for inference. Therefore, an experimental study was carried out to assess the relevance of anaphora and coreference for Textual Entailment (TE), a prominent inference framework. First, the annotation of anaphoric and coreferential links in the RTE-5 Search data set was performed according to a specifically designed annotation scheme. As a result, a new data set was created where all anaphora and coreference instances in the entailing sentences which are relevant to the entailment judgment are solved and annotated. A by-product of the annotation is a new “augmented ” data set, where all the referring expressions which need to be resolved in the entailing sentences are replaced by explicit expressions. Starting from the final output of the annotation, the actual impact of discourse phenomena on inference engines was investigated, identifying the kind of operations that the systems need to apply to address discourse phenomena and trying to find direct mappings between these operation and annotation types. 1.
+  abstract: Discourse phenomena play a major role in text processing tasks. However, so far relatively little study has been devoted to the relevance of discourse phenomena for inference. Therefore, an experimental study was carried out to assess the relevance of anaphora and coreference for Textual Entailment (TE), a prominent inference framework. First, the annotation of anaphoric and coreferential links in the RTE-5 Search data set was performed according to a specifically designed annotation scheme. As a result, a new data set was created where all anaphora and coreference instances in the entailing sentences which are relevant to the entailment judgment are solved and annotated. A by-product of the annotation is a new “augmented ” data set, where all the referring expressions which need to be resolved in the entailing sentences are replaced by explicit expressions. Starting from the final output of the annotation, the actual impact of discourse phenomena on inference engines was investigated,
+    identifying the kind of operations that the systems need to apply to address discourse phenomena and trying to find direct mappings between these operation and annotation types. 1.
   citation_link: https://aclanthology.org/L10-1338/
-
+  bibtex: "@inproceedings{azad2010a,\n  title={A Resource for Investigating the Impact of Anaphora and Coreference on Inference},\n  author={Abad, Azad and Bentivogli, Luisa and Dagan, Ido and Giampiccolo, Danilo and Mirkin, Shachar and Pianta, Emanuele and Stern, Asher},\n  year={2010},\n  booktitle={LREC},\n  url={https://aclanthology.org/L10-1338/}\n}"
 - authors: Mirkin, Shachar; Berant, Jonathan; Dagan, Ido; Shnarch, Eyal
   title: Recognising entailment within discourse
   publication: Proceedings of the 23rd International Conference on Computational Linguistics
@@ -64,23 +65,24 @@
   publisher: Association for Computational Linguistics
   abstract: Texts are commonly interpreted based on the entire discourse in which they are situated. Discourse processing has been shown useful for inference-based application; yet, most systems for textual entailment – a generic paradigm for applied inference – have only addressed discourse considerations via off-the-shelf coreference resolvers. In this paper we explore various discourse aspects in entailment inference, suggest initial solutions for them and investigate their impact on entailment performance. Our experiments suggest that discourse provides useful information, which significantly improves entailment inference, and should be better addressed by future entailment systems. 1
   citation_link: https://aclanthology.org/C10-1087/
-
+  bibtex: "@inproceedings{shachar2010recognising,\n  title={Recognising entailment within discourse},\n  author={Mirkin, Shachar and Berant, Jonathan and Dagan, Ido and Shnarch, Eyal},\n  year={2010},\n  booktitle={Proceedings of the 23rd International Conference on Computational Linguistics},\n  pages={770-778},\n  organization={Association for Computational Linguistics},\n  url={https://aclanthology.org/C10-1087/}\n}"
 - authors: Aziz, Wilker; Dymetman, Marc; Specia, Lucia; Mirkin, Shachar
-  title: "Learning an expert from human annotations in statistical machine translation: The case of out-of-vocabulary words"
+  title: 'Learning an expert from human annotations in statistical machine translation: The case of out-of-vocabulary words'
   publication: Proceedings of the 14th Annual Conference of the European Association for Machine Translation
   url: https://aclanthology.org/2010.eamt-1.31/
   pdf: https://aclanthology.org/2010.eamt-1.31.pdf
   year: 2010
-  abstract: We present a general method for incorporating an “expert ” model into a Statistical Machine Translation (SMT) system, in order to improve its performance on a particular “area of expertise”, and apply this method to the specific task of finding adequate replacements for Out-of-Vocabulary (OOV) words. Candidate replacements are paraphrases and entailed phrases, obtained using monolingual resources. These candidate replacements are transformed into “dynamic biphrases”, generated at decoding time based on the context of each source sentence. Standard SMT features are enhanced with a number of new features aimed at scoring translations produced by using different replacements. Active learning is used to discriminatively train the model parameters from human assessments of the quality of translations. The learning framework yields an SMT system which is able to deal with sentences containing OOV words but also guarantees that the performance is not degraded for input sentences without OOV words. Results of experiments on English-French translation show that this method outperforms previous work addressing OOV words in terms of acceptability. 1
+  abstract: We present a general method for incorporating an “expert ” model into a Statistical Machine Translation (SMT) system, in order to improve its performance on a particular “area of expertise”, and apply this method to the specific task of finding adequate replacements for Out-of-Vocabulary (OOV) words. Candidate replacements are paraphrases and entailed phrases, obtained using monolingual resources. These candidate replacements are transformed into “dynamic biphrases”, generated at decoding time based on the context of each source sentence. Standard SMT features are enhanced with a number of new features aimed at scoring translations produced by using different replacements. Active learning is used to discriminatively train the model parameters from human assessments of the quality of translations. The learning framework yields an SMT system which is able to deal with sentences containing OOV words but also guarantees that the performance is not degraded for input sentences without
+    OOV words. Results of experiments on English-French translation show that this method outperforms previous work addressing OOV words in terms of acceptability. 1
   citation_link: https://aclanthology.org/2010.eamt-1.31/
-
+  bibtex: "@inproceedings{wilker2010learning,\n  title={Learning an expert from human annotations in statistical machine translation: The case of out-of-vocabulary words},\n  author={Aziz, Wilker and Dymetman, Marc and Specia, Lucia and Mirkin, Shachar},\n  year={2010},\n  booktitle={Proceedings of the 14th Annual Conference of the European Association for Machine Translation},\n  url={https://aclanthology.org/2010.eamt-1.31/}\n}"
 - authors: Stern, Asher; Shnarch, Eyal; Mirkin, Shachar; Kotlerman, Lili; Zeichner, Naomi; Dagan, Ido; Lotan, Amnon; Berant, Jonathan
   title: Rule Chaining and Approximate Match in textual inference
   publication: TAC
   year: 2010
   abstract: This paper describes the participation of Bar-Ilan university in the sixth RTE challenge. Our textual-entailment engine, BiuTee, was enhanced with new components that introduce chaining of lexical-entailment rules, and tackle the problem of approximately matching the text and the hypothesis after all available knowledge of entailment rules was utilized. We have also re-engineered our system aiming at an open-source open architecture. BiuTee’s performance is better than the median of all-submissions, and outperforms significantly an IR-oriented baseline. 1
   citation_link: https://scholar.google.com/scholar?q=Rule+Chaining+and+Approximate+Match+in+textual+inference
-
+  bibtex: "@inproceedings{asher2010rule,\n  title={Rule Chaining and Approximate Match in textual inference},\n  author={Stern, Asher and Shnarch, Eyal and Mirkin, Shachar and Kotlerman, Lili and Zeichner, Naomi and Dagan, Ido and Lotan, Amnon and Berant, Jonathan},\n  year={2010},\n  booktitle={TAC}\n}"
 - authors: Mirkin, Shachar; Dagan, Ido; Kotlerman, Lili; Szpektor, Idan
   title: Classification-based contextual preferences
   publication: Proceedings of the TextInfer 2011 Workshop on Textual Entailment
@@ -90,32 +92,33 @@
   year: 2011
   abstract: This paper addresses context matching in tex-tual inference. We formulate the task under the Contextual Preferences framework which broadly captures contextual aspects of infer-ence. We propose a generic classification-based scheme under this framework which co-herently attends to context matching in infer-ence and may be employed in any inference-based task. As a test bed for our scheme we use the Name-based Text Categorization (TC) task. We define an integration of Contextual Prefer-ences into the TC setting and present a concrete self-supervised model which instantiates the generic scheme and is applied to address con-text matching in the TC task. Experiments on standard TC datasets show that our approach outperforms the state of the art in context mod-eling for Name-based TC. 1
   citation_link: https://aclanthology.org/W11-2403/
-
+  bibtex: "@inproceedings{shachar2011classification,\n  title={Classification-based contextual preferences},\n  author={Mirkin, Shachar and Dagan, Ido and Kotlerman, Lili and Szpektor, Idan},\n  year={2011},\n  booktitle={Proceedings of the TextInfer 2011 Workshop on Textual Entailment},\n  pages={20-29},\n  url={https://aclanthology.org/W11-2403/}\n}"
 - authors: Stern, Asher; Mirkin, Shachar; Shnarch, Eyal; Kotlerman, Lili; Dagan, Ido; Lotan, Amnon; Berant, Jonathan
   title: Knowledge and Tree-Edits in Learnable Entailment Proofs
   publication: TAC
   year: 2011
   abstract: This paper describes BIUTEE - Bar Ilan University Textual Entailment Engine. BIUTEE is a natural language inference system in which the hypothesis is proven by the text, based on linguistic- and world- knowledge resources, as well as syntactically motivated tree transformations. The main progress in BIUTEE in the last year is a new confidence model that estimates the validity of the proof found by BIUTEE.
   citation_link: https://scholar.google.com/scholar?q=Knowledge+and+Tree-Edits+in+Learnable+Entailment+Proofs
-
+  bibtex: "@inproceedings{asher2011knowledge,\n  title={Knowledge and Tree-Edits in Learnable Entailment Proofs},\n  author={Stern, Asher and Mirkin, Shachar and Shnarch, Eyal and Kotlerman, Lili and Dagan, Ido and Lotan, Amnon and Berant, Jonathan},\n  year={2011},\n  booktitle={TAC}\n}"
 - authors: Mirkin, Shachar
   title: Context and Discourse in Textual Entailment Inference
   publication: PhD Thesis
   year: 2011
   publisher: Bar-Ilan University
-  abstract: Not provided in source
+  abstract: This thesis addresses applied semantic inference within the Textual Entailment framework, focusing on context and discourse aspects of inference. It demonstrates that standard textual entailment systems rely too heavily on limited coreference resolution, and shows that incorporating broader discourse phenomena, such as bridging relations and verbal references, significantly improves entailment performance. The work explores using discourse references to complement existing entailment knowledge and rules, providing empirical evidence that discourse provides useful information for improved inference systems.
   citation_link: https://scholar.google.com/scholar?q=Context+and+Discourse+in+Textual+Entailment+Inference
-
+  bibtex: "@phdthesis{mirkin2011context,\n  title={Context and Discourse in Textual Entailment Inference},\n  author={Mirkin, Shachar},\n  year={2011},\n  school={Bar-Ilan University}\n}\n"
 - authors: Venkatapathy, Sriram; Mirkin, Shachar
   title: An SMT-driven authoring tool
-  publication: "Proceedings of COLING 2012: Demonstration Papers"
+  publication: 'Proceedings of COLING 2012: Demonstration Papers'
   pages: 459-466
   url: https://aclanthology.org/C12-3058/
   pdf: https://aclanthology.org/C12-3058.pdf
   year: 2012
-  abstract: This paper presents a tool for assisting users in composing texts in a language they do not know. While Machine Translation (MT) is pretty useful for understanding texts in an unfamiliar language, current MT technology has yet to reach the stage where it can be used reliably without a post-editing step. This work attempts to make a step towards achieving this goal. We propose a tool that provides suggestions for the continuation of the text in the source language (that the user knows), creating texts that can be translated to the target language (that the user does not know). In terms of functionality, our tool resembles text prediction applications. However , the target language, through a Statistical Machine Translation (SMT) model, drives the composition and not only the source language. We present the user interface and describe the considerations that underline the suggestion process. A simulation of user interaction shows that composition speed can be substantially reduced and provides initial positive feedback as to the ability to generate better translations.
+  abstract: This paper presents a tool for assisting users in composing texts in a language they do not know. While Machine Translation (MT) is pretty useful for understanding texts in an unfamiliar language, current MT technology has yet to reach the stage where it can be used reliably without a post-editing step. This work attempts to make a step towards achieving this goal. We propose a tool that provides suggestions for the continuation of the text in the source language (that the user knows), creating texts that can be translated to the target language (that the user does not know). In terms of functionality, our tool resembles text prediction applications. However , the target language, through a Statistical Machine Translation (SMT) model, drives the composition and not only the source language. We present the user interface and describe the considerations that underline the suggestion process. A simulation of user interaction shows that composition speed can be substantially reduced
+    and provides initial positive feedback as to the ability to generate better translations.
   citation_link: https://aclanthology.org/C12-3058/
-
+  bibtex: "@inproceedings{sriram2012an,\n  title={An SMT-driven authoring tool},\n  author={Venkatapathy, Sriram and Mirkin, Shachar},\n  year={2012},\n  booktitle={Proceedings of COLING 2012: Demonstration Papers},\n  pages={459-466},\n  url={https://aclanthology.org/C12-3058/}\n}"
 - authors: Mirkin, Shachar; Venkatapathy, Sriram; Dymetman, Marc; Calapodescu, Ioan
   title: 'SORT: An Interactive Source-Rewriting Tool for Improved Translation'
   publication: ACL Demos
@@ -124,16 +127,17 @@
   year: 2013
   abstract: The quality of automatic translation is affected by many factors. One is the divergence between the specific source and target languages. Another lies in the source text itself, as some texts are more complex than others. One way to handle such texts is to modify them prior to translation. Yet, an important factor that is often overlooked is the source translatability with respect to the specific translation system and the specific model that are being used. In this paper we present an interactive system where source modifications are induced by confidence estimates that are derived from the translation model in use. Modifications are automatically generated and proposed for the user’s approval. Such a system can reduce postediting effort, replacing it by cost-effective pre-editing that can be done by monolinguals. 1
   citation_link: https://aclanthology.org/P13-4015/
-
+  bibtex: "@inproceedings{shachar2013sort,\n  title={SORT: An Interactive Source-Rewriting Tool for Improved Translation},\n  author={Mirkin, Shachar and Venkatapathy, Sriram and Dymetman, Marc and Calapodescu, Ioan},\n  year={2013},\n  booktitle={ACL Demos},\n  url={https://aclanthology.org/P13-4015/}\n}"
 - authors: Darling, William; Archambeau, Cédric; Mirkin, Shachar; Bouchard, Guillaume
   title: Error prediction with partial feedback
   publication: 'Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2013, Prague, Czech Republic, September 23-27, 2013, Proceedings, Part II 13'
   pages: 80-94
   year: 2013
   publisher: Springer Berlin Heidelberg
-  abstract: Not provided in source
+  doi: https://doi.org/10.1007/978-3-642-40991-2_6
+  abstract: In this paper, we propose a probabilistic framework for predicting the root causes of errors in data processing pipelines made up of several components when we only have access to partial feedback; that is, we are aware when some error has occurred in one or more of the components, but we do not know which one. The proposed error model enables us to direct the user feedback to the correct components in the pipeline to either automatically correct errors as they occur, retrain the component with assimilated training examples, or take other corrective action. We present the model and describe an Expectation Maximization (EM)-based algorithm to learn the model parameters and predict the error configuration. We demonstrate the accuracy and usefulness of our method first on synthetic data, and then on two distinct tasks error correction in a 2-component opinion summarization system, and phrase error detection in statistical machine translation.
   citation_link: https://scholar.google.com/scholar?q=Error+prediction+with+partial+feedback
-
+  bibtex: "@inproceedings{darling2013error,\n  title={Error Prediction with Partial Feedback},\n  author={Darling, William and Archambeau, C{\\'e}dric and Mirkin, Shachar and Bouchard, Guillaume},\n  booktitle={European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases},\n  pages={80--94},\n  year={2013},\n  publisher={Springer Berlin Heidelberg},\n  doi={10.1007/978-3-642-40991-2_6}\n}\n"
 - authors: Mirkin, Shachar; Cancedda, Nicola
   title: Assessing quick update methods of statistical translation models
   publication: Proceedings of the International Workshop of Spoken Language Translation (IWSLT)
@@ -143,16 +147,16 @@
   year: 2013
   abstract: International audience
   citation_link: https://aclanthology.org/2013.iwslt-papers.10/
-
+  bibtex: "@inproceedings{shachar2013assessing,\n  title={Assessing quick update methods of statistical translation models},\n  author={Mirkin, Shachar and Cancedda, Nicola},\n  year={2013},\n  booktitle={Proceedings of the International Workshop of Spoken Language Translation (IWSLT)},\n  pages={264-271},\n  url={https://aclanthology.org/2013.iwslt-papers.10/}\n}"
 - authors: Mirkin, Shachar; Venkatapathy, Sriram; Dymetman, Marc
   title: Confidence-driven Rewriting for Improved Translation
   publication: MT Summit
   url: https://aclanthology.org/2013.mtsummit-posters.8/
   pdf: https://aclanthology.org/2013.mtsummit-posters.8.pdf
   year: 2013
-  abstract: Not provided in source
+  abstract: Some source texts are more difficult to translate than others. One way to handle such texts is to modify them prior to translation. Yet, a prominent factor that is often overlooked is the source translatability with respect to the specific translation system and the specific model that are being used. We present an approach, and an interactive tool implementing it, where source sentences are rewritten in order to maximize confidence estimates with respect to the translation model. The automatically-generated rewritings are then proposed for the user's approval. Such an approach can reduce post-editing effort, replacing it by cost-effective pre-editing that can be done by monolinguals.
   citation_link: https://aclanthology.org/2013.mtsummit-posters.8/
-
+  bibtex: "@inproceedings{mirkin2013confidence,\n  title={Confidence-driven Rewriting for Improved Translation},\n  author={Mirkin, Shachar and Venkatapathy, Sriram and Dymetman, Marc},\n  booktitle={Proceedings of MT Summit XIV},\n  year={2013},\n  url={https://aclanthology.org/2013.mtsummit-posters.8/}\n}\n"
 - authors: Gupta, Anand; Kaur, Manpreet; Mirkin, Shachar; Singh, Adarsh; Goyal, Aseem
   title: Text summarization through entailment-based minimum vertex cover
   publication: Proceedings of the Third Joint Conference on Lexical and Computational Semantics (* SEM 2014)
@@ -162,14 +166,14 @@
   year: 2014
   abstract: Sentence Connectivity is a textual characteristic that may be incorporated intelligently for the selection of sentences of a well meaning summary. However, the existing summarization methods do not utilize its potential fully. The present paper introduces a novel method for singledocument text summarization. It poses the text summarization task as an optimization problem, and attempts to solve it using Weighted Minimum Vertex Cover (WMVC), a graph-based algorithm. Textual entailment, an established indicator of semantic relationships between text units, is used to measure sentence connectivity and construct the graph on which WMVC operates. Experiments on a standard summarization dataset show that the suggested algorithm outperforms related methods.
   citation_link: https://aclanthology.org/S14-1010/
-
+  bibtex: "@inproceedings{anand2014text,\n  title={Text summarization through entailment-based minimum vertex cover},\n  author={Gupta, Anand and Kaur, Manpreet and Mirkin, Shachar and Singh, Adarsh and Goyal, Aseem},\n  year={2014},\n  booktitle={Proceedings of the Third Joint Conference on Lexical and Computational Semantics (* SEM 2014)},\n  pages={75-80},\n  url={https://aclanthology.org/S14-1010/}\n}"
 - authors: Mirkin, Shachar; Bar-Haim, Roy; Dagan, Ido; Shnarch, Eyal; Stern, Asher; Szpektor, Idan; Berant, Jonathan
   title: Addressing Discourse and Document Structure in the RTE Search Task
   publication: TAC
   year: 2009
   abstract: 'This paper describes Bar-Ilan University’s submissions to RTE-5. This year we focused on the Search pilot, enhancing our entailment system to address two main issues introduced by this new setting: scalability and, primarily, document-level discourse. Our system achieved the highest score on the Search task amongst participating groups, and proposes first steps towards addressing this challenging setting. 1'
   citation_link: https://scholar.google.com/scholar?q=Addressing+Discourse+and+Document+Structure+in+the+RTE+Search+Task
-
+  bibtex: "@inproceedings{shachar2009addressing,\n  title={Addressing Discourse and Document Structure in the RTE Search Task},\n  author={Mirkin, Shachar and Bar-Haim, Roy and Dagan, Ido and Shnarch, Eyal and Stern, Asher and Szpektor, Idan and Berant, Jonathan},\n  year={2009},\n  booktitle={TAC}\n}"
 - authors: Mirkin, Shachar; Besacier, Laurent
   title: Data Selection for Compact Adapted SMT Models
   publication: Proceedings of AMTA
@@ -178,7 +182,7 @@
   year: 2014
   abstract: Data selection is a common technique for adapting statistical translation models for a specific domain, which has been shown to both improve translation quality and to reduce model size. Selection relies on some in-domain data, of the same domain of the texts expected to be trans-lated. Selecting the sentence-pairs that are most similar to the in-domain data from a pool of parallel texts has been shown to be effective; yet, this approach holds the risk of resulting in a limited coverage, when necessary n-grams that do appear in the pool are less similar to in-domain data that is available in advance. Some methods select additional data based on the actual text that needs to be translated. While useful, this is not always a practical scenario. In this work we describe an extensive exploration of data selection techniques over Arabic to French datasets, and propose methods to address both similarity and coverage considerations while maintaining a limited model size. 1
   citation_link: https://aclanthology.org/2014.amta-researchers.23/
-
+  bibtex: "@inproceedings{shachar2014data,\n  title={Data Selection for Compact Adapted SMT Models},\n  author={Mirkin, Shachar and Besacier, Laurent},\n  year={2014},\n  booktitle={Proceedings of AMTA},\n  url={https://aclanthology.org/2014.amta-researchers.23/}\n}"
 - authors: Wuebker, Joern; Ney, Hermann; Martínez-Villaronga, Adrià; Giménez Pastor, Adrián; Juan Císcar, Alfonso; Servan, Christophe; Dymetman, Marc; Mirkin, Shachar
   title: Comparison of data selection techniques for the translation of video lectures
   year: 2014
@@ -187,14 +191,15 @@
   pdf: https://aclanthology.org/2014.amta-researchers.15.pdf
   abstract: For the task of online translation of scientific video lectures, using huge models is not possi-ble. In order to get smaller and efficient models, we perform data selection. In this paper, we perform a qualitative and quantitative comparison of several data selection techniques, based on cross-entropy and infrequent n-gram criteria. In terms of BLEU, a combination of transla-tion and language model cross-entropy achieves the most stable results. As another important criterion for measuring translation quality in our application, we identify the number of out-of-vocabulary words. Here, infrequent n-gram recovery shows superior performance. Finally, we combine the two selection techniques in order to benefit from both their strengths. 1
   citation_link: https://aclanthology.org/2014.amta-researchers.15/
-
+  bibtex: "@inproceedings{joern2014comparison,\n  title={Comparison of data selection techniques for the translation of video lectures},\n  author={Wuebker, Joern and Ney, Hermann and Martínez-Villaronga, Adrià and Giménez Pastor, Adrián and Juan Císcar, Alfonso and Servan, Christophe and Dymetman, Marc and Mirkin, Shachar},\n  year={2014},\n  organization={Association for Machine Translation in the Americas},\n  url={https://aclanthology.org/2014.amta-researchers.15/}\n}"
 - authors: Venkatapathy, Sriram; Mirkin, Shachar
   title: Machine translation-driven authoring system and method
   year: 2015
   publisher: US Patent 9,047,274
-  abstract: Not provided in source
+  url: https://patents.google.com/patent/US9047274
+  abstract: An authoring system assists users in composing source language text by providing real-time suggestions to improve translatability into a target language. The system uses a suggestion model that evaluates candidate phrases based on translatability scores derived from statistical machine translation biphrase tables. The process is iterative users select suggested completions to build the source text, which is then translated by an SMT decoder. This technology enables monolinguals to author texts that can be reliably translated without requiring post-editing by bilinguals.
   citation_link: https://scholar.google.com/scholar?q=Machine+translation-driven+authoring+system+and+method
-
+  bibtex: "@misc{venkatapathy2015machine,\n  title={Machine translation-driven authoring system and method},\n  author={Venkatapathy, Sriram and Mirkin, Shachar},\n  year={2015},\n  note={US Patent 9,047,274},\n  url={https://patents.google.com/patent/US9047274}\n}\n"
 - authors: Mirkin, Shachar
   title: Incrementally Updating the SMT Reordering Model
   publication: Proceedings of The 28th Pacific Asia Conference on Language, Information and Computing (PACLIC), Phuket, Thailand
@@ -203,28 +208,31 @@
   year: 2014
   abstract: This work is concerned with incrementally training statistical machine translation (SMT) models when new data becomes available.That, in contrast to re-training new models based on the entire accumulated data.Incremental training provides a way to perform faster, more frequent model updates, enabling keeping the SMT system up-to-date with the most recent data.Specifically, we address incrementally updating the reordering model (RM), a component in phrase-based machine translation that models phrase order changes between the source and the target languages, and for which incremental training has not been proposed so far.First, we show that updating the reordering model is helpful for improving translation quality.Second, we present an algorithm for updating the reordering model within the popular Moses SMT system.Our method produces the exact same model as when training the model from scratch, but doing so much faster.
   citation_link: https://aclanthology.org/Y14-1033/
-
+  bibtex: "@inproceedings{shachar2014incrementally,\n  title={Incrementally Updating the SMT Reordering Model},\n  author={Mirkin, Shachar},\n  year={2014},\n  booktitle={Proceedings of The 28th Pacific Asia Conference on Language, Information and Computing (PACLIC), Phuket, Thailand},\n  url={https://aclanthology.org/Y14-1033/}\n}"
 - authors: Mirkin, Shachar; Venkatapathy, Sriram; Dymetman, Marc
   title: Confidence-driven rewriting of source texts for improved translation
   year: 2014
   publisher: US Patent App. 13/908,157
-  abstract: Not provided in source
+  url: https://patents.google.com/patent/US20140358519
+  abstract: A method and system for improving machine translation quality by automatically rewriting source sentences using confidence estimation. The system identifies sentences likely to be poorly translated and suggests alternative phrasings to a monolingual user. Source modifications are induced by confidence estimates derived from the translation model in use. Modifications are automatically generated and proposed for the user's approval. This approach reduces post-editing effort by replacing it with cost-effective pre-editing that can be performed by monolinguals.
   citation_link: https://scholar.google.com/scholar?q=Confidence-driven+rewriting+of+source+texts+for+improved+translation
-
+  bibtex: "@misc{mirkin2014confidence,\n  title={Confidence-driven rewriting of source texts for improved translation},\n  author={Mirkin, Shachar and Venkatapathy, Sriram and Dymetman, Marc},\n  year={2014},\n  note={US Patent App. 13/908,157},\n  url={https://patents.google.com/patent/US20140358519}\n}\n"
 - authors: Jacquet, Guillaume; Mirkin, Shachar
   title: Refining inference rules with temporal event clustering
   year: 2015
   publisher: US Patent App. 14/070,786
-  abstract: Not provided in source
+  url: https://patents.google.com/patent/US20150127323
+  abstract: A method for computing similarity between paths by extracting triples from a text corpus, clustering documents based on textual and temporal similarity, and calculating similarity scores using both corpus statistics and cluster-based predicate occurrences. The process enables generating inference rules when computed event-based path similarity meets a predefined threshold. This approach improves semantic inference by leveraging the temporal relationships between events in document collections.
   citation_link: https://scholar.google.com/scholar?q=Refining+inference+rules+with+temporal+event+clustering
-
+  bibtex: "@misc{jacquet2015refining,\n  title={Refining inference rules with temporal event clustering},\n  author={Jacquet, Guillaume and Mirkin, Shachar},\n  year={2015},\n  note={US Patent App. 14/070,786},\n  url={https://patents.google.com/patent/US20150127323}\n}\n"
 - authors: Mirkin, Shachar; Lagos, Nikolaos; Calapodescu, loan
   title: Semantic refining of cross-lingual information retrieval results
   year: 2015
   publisher: US Patent App. 14/276,252
-  abstract: Not provided in source
+  url: https://patents.google.com/patent/US20150199339
+  abstract: A method for cross-language information retrieval that receives an input query in a source language, translates it to a target language, retrieves documents from a document collection, translates the retrieved documents back into the source language, and assesses entailment relationships between the translated documents and the input query. The set of translated documents is refined based on the assessment of the entailment relationship, improving the quality of cross-lingual search results by filtering out documents that do not truly match the query intent.
   citation_link: https://scholar.google.com/scholar?q=Semantic+refining+of+cross-lingual+information+retrieval+results
-
+  bibtex: "@misc{mirkin2015semantic,\n  title={Semantic refining of cross-lingual information retrieval results},\n  author={Mirkin, Shachar and Lagos, Nikolaos and Calapodescu, Ioan},\n  year={2015},\n  note={US Patent App. 14/276,252},\n  url={https://patents.google.com/patent/US20150199339}\n}\n"
 - authors: Nowson, Scott; Perez, Julien; Brun, Caroline; Mirkin, Shachar; Roux, Claude
   title: XRCE personal language analytics engine for multilingual author profiling
   publication: Working Notes Papers of the CLEF
@@ -232,7 +240,7 @@
   year: 2015
   abstract: This technical notebook describes the methodology used - and results achieved - for the PAN 2015 Author Profiling Challenge by the team from Xe- rox Research Centre Europe (XRCE). This year, personality traits are introduced alongside age and gender in a corpus of tweets in four languages - English, Span- ish, Italian and Dutch. We describe a largely language agnostic methodology for classification which uses language specific linguistic processing to generate fea- tures. We also report on experiments in which we use machine translation to accommodate for languages in which there is less training data. Native language results are successful, but socio-demographic signals in language seem to be lost under MT conditions.
   citation_link: https://scholar.google.com/scholar?q=XRCE+personal+language+analytics+engine+for+multilingual+author+profiling
-
+  bibtex: "@inproceedings{scott2015xrce,\n  title={XRCE personal language analytics engine for multilingual author profiling},\n  author={Nowson, Scott and Perez, Julien and Brun, Caroline and Mirkin, Shachar and Roux, Claude},\n  year={2015},\n  booktitle={Working Notes Papers of the CLEF},\n  pages={1412-1424}\n}"
 - authors: Mirkin, Shachar; Meunier, Jean-Luc
   title: 'Personalized machine translation: Predicting translational preferences'
   publication: Proceedings of the 2015 conference on empirical methods in natural language processing
@@ -242,7 +250,7 @@
   year: 2015
   abstract: Machine Translation (MT) has advanced in recent years to produce better translations for clients' specific domains, and sophisticated tools allow professional translators to obtain translations according to their prior edits. We suggest that MT should be further personalized to the end-user level -the receiver or the author of the text -as done in other applications. As a step in that direction, we propose a method based on a recommender systems approach where the user's preferred translation is predicted based on preferences of similar users. In our experiments, this method outperforms a set of non-personalized methods, suggesting that user preference information can be employed to provide better-suited translations for each user.
   citation_link: https://aclanthology.org/D15-1238/
-
+  bibtex: "@inproceedings{shachar2015personalized,\n  title={Personalized machine translation: Predicting translational preferences},\n  author={Mirkin, Shachar and Meunier, Jean-Luc},\n  year={2015},\n  booktitle={Proceedings of the 2015 conference on empirical methods in natural language processing},\n  pages={2019-2025},\n  url={https://aclanthology.org/D15-1238/}\n}"
 - authors: Mirkin, Shachar; Nowson, Scott; Brun, Caroline; Perez, Julien
   title: Motivating Personality-aware Machine Translation
   publication: The 2015 Conference on Empirical Methods on Natural Language Processing (EMNLP)
@@ -251,21 +259,23 @@
   year: 2015
   abstract: Language use is known to be influenced by personality traits as well as by sociodemographic characteristics such as age or mother tongue.As a result, it is possible to automatically identify these traits of the author from her texts.It has recently been shown that knowledge of such dimensions can improve performance in NLP tasks such as topic and sentiment modeling.We posit that machine translation is another application that should be personalized.In order to motivate this, we explore whether translation preserves demographic and psychometric traits.We show that, largely, both translation of the source training data into the target language, and the target test data into the source language has a detrimental effect on the accuracy of predicting author traits.We argue that this supports the need for personal and personality-aware machine translation models.
   citation_link: https://aclanthology.org/D15-1130/
-
+  bibtex: "@inproceedings{shachar2015motivating,\n  title={Motivating Personality-aware Machine Translation},\n  author={Mirkin, Shachar and Nowson, Scott and Brun, Caroline and Perez, Julien},\n  year={2015},\n  booktitle={The 2015 Conference on Empirical Methods on Natural Language Processing (EMNLP)},\n  url={https://aclanthology.org/D15-1130/}\n}"
 - authors: Mirkin, Shachar
   title: System and method for incrementally updating a reordering model for a statistical machine translation system
   year: 2016
   publisher: US Patent 9,442,922
-  abstract: Not provided in source
+  url: https://patents.google.com/patent/US9442922
+  abstract: A method for incrementally updating a reordering model in a statistical machine translation system. The process involves extracting phrase pairs from new training data to generate a new reordering file, then merging this with existing data to update the model. This approach allows for faster, more frequent updates compared to retraining from scratch, enabling the SMT system to be kept up-to-date with the most recent data. The system uses an RM update component to generate an updated reordering table while maintaining feature scores for orientation types and incorporating new counts.
   citation_link: https://scholar.google.com/scholar?q=System+and+method+for+incrementally+updating+a+reordering+model+for+a+statistical+machine+translation+system
-
+  bibtex: "@misc{mirkin2016system,\n  title={System and method for incrementally updating a reordering model for a statistical machine translation system},\n  author={Mirkin, Shachar},\n  year={2016},\n  note={US Patent 9,442,922},\n  url={https://patents.google.com/patent/US9442922}\n}\n"
 - authors: Gupta, Anand; Kaur, Manpreet; Mirkin, Shachar
   title: Method and system for summarizing a document
   year: 2016
   publisher: US Patent App. 14/680,096
-  abstract: Not provided in source
+  url: https://patents.google.com/patent/US20160299881
+  abstract: A method and system for summarizing an electronic document using natural language processing and graph-based algorithms. The method extracts sentences from the document, creates a graph with nodes representing sentences, and places edges between sentence pairs based on entailment scores. A minimum vertex cover algorithm is applied to the graph to identify an optimal set of sentences for the summary. This approach leverages textual entailment to model sentence connectivity and produces summaries that capture the key information in the document.
   citation_link: https://scholar.google.com/scholar?q=Method+and+system+for+summarizing+a+document
-
+  bibtex: "@misc{gupta2016method,\n  title={Method and system for summarizing a document},\n  author={Gupta, Anand and Kaur, Manpreet and Mirkin, Shachar},\n  year={2016},\n  note={US Patent App. 14/680,096},\n  url={https://patents.google.com/patent/US20160299881}\n}\n"
 - authors: Rabinovich, Ella; Mirkin, Shachar; Patel, Raj Nath; Specia, Lucia; Wintner, Shuly
   title: 'Personalized Machine Translation: Preserving Original Author Traits'
   publication: EACL 2017
@@ -274,28 +284,30 @@
   year: 2017
   abstract: 'Ella Rabinovich, Raj Nath Patel, Shachar Mirkin, Lucia Specia, Shuly Wintner. Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 1, Long Papers. 2017.'
   citation_link: https://aclanthology.org/E17-1101/
-
+  bibtex: "@inproceedings{ella2017personalized,\n  title={Personalized Machine Translation: Preserving Original Author Traits},\n  author={Rabinovich, Ella and Mirkin, Shachar and Patel, Raj Nath and Specia, Lucia and Wintner, Shuly},\n  year={2017},\n  booktitle={EACL 2017},\n  url={https://aclanthology.org/E17-1101/}\n}"
 - authors: Sriram Venkatapathy, Shachar Mirkin, Marc Dymetman
   title: Learning generation templates from dialog transcripts
   year: 2016
   publisher: US Patent 9,473,637
-  abstract: Not provided in source
+  url: https://patents.google.com/patent/US9473637
+  abstract: A system for generating agent responses in call centers using weighted finite state automata (WFSA). The system constructs word lattices from training dialogs by clustering agent utterances based on preceding customer context and grammatical dependency features. These lattices are assigned conditional probabilities relative to specific dialog acts, which are then used to rank, select, and instantiate the most relevant utterance patterns. This approach enables the generation of fluent, contextually appropriate responses to dialog acts recommended by a dialog manager.
   citation_link: https://scholar.google.com/scholar?q=Learning+generation+templates+from+dialog+transcripts
-
+  bibtex: "@misc{venkatapathy2016learning,\n  title={Learning generation templates from dialog transcripts},\n  author={Venkatapathy, Sriram and Mirkin, Shachar and Dymetman, Marc},\n  year={2016},\n  note={US Patent 9,473,637},\n  url={https://patents.google.com/patent/US9473637}\n}\n"
 - authors: Mirkin, Shachar; Meunier, Jean-Luc
   title: System and method for predicting an optimal machine translation system for a user based on an updated user profile
   year: 2018
   publisher: US Patent US-10025779-B2
-  abstract: Not provided in source
+  url: https://patents.google.com/patent/US10025779
+  abstract: A method for identifying an optimal machine translation system for a user using a collaborative filtering approach. The system maintains user profiles containing pairwise rankings of various translation systems. To predict the best system for a specific user, it identifies nearest neighbors who share similar translation preferences based on existing rankings. If data is missing for a user, the system fills these gaps by computing weighted averages of the rankings provided by these nearest neighbors. This updated profile then determines the optimal translation system to use, providing personalized machine translation recommendations.
   citation_link: https://scholar.google.com/scholar?q=System+and+method+for+predicting+an+optimal+machine+translation+system+for+a+user+based+on+an+updated+user+profile
-
+  bibtex: "@misc{mirkin2018system,\n  title={System and method for predicting an optimal machine translation system for a user based on an updated user profile},\n  author={Mirkin, Shachar and Meunier, Jean-Luc},\n  year={2018},\n  note={US Patent 10,025,779},\n  url={https://patents.google.com/patent/US10025779}\n}\n"
 - authors: Pahuja, Vardaan; Laha, Anirban; Mirkin, Shachar; Raykar, Vikas; Kotlerman, Lili; Lev, Guy
   title: Joint Learning of Correlated Sequence Labelling Tasks Using Bidirectional Recurrent Neural Networks
   publication: Interspeech 2017
   year: 2017
   abstract: The stream of words produced by Automatic Speech Recognition (ASR) systems is typically devoid of punctuations and formatting. Most natural language processing applications expect segmented and well-formatted texts as input, which is not available in ASR output. This paper proposes a novel technique of jointly modeling multiple correlated tasks such as punctuation and capitalization using bidirectional recurrent neural networks, which leads to improved performance for each of these tasks. This method could be extended for joint modeling of any other correlated sequence labeling tasks.
   citation_link: https://scholar.google.com/scholar?q=Joint+Learning+of+Correlated+Sequence+Labelling+Tasks+Using+Bidirectional+Recurrent+Neural+Networks
-
+  bibtex: "@inproceedings{vardaan2017joint,\n  title={Joint Learning of Correlated Sequence Labelling Tasks Using Bidirectional Recurrent Neural Networks},\n  author={Pahuja, Vardaan and Laha, Anirban and Mirkin, Shachar and Raykar, Vikas and Kotlerman, Lili and Lev, Guy},\n  year={2017},\n  booktitle={Interspeech 2017}\n}"
 - authors: Mirkin, Shachar; Jacovi, Michal; Lavee, Tamar; Kuo, Hong-Kwang; Thomas, Samuel; Sager, Leslie; Kotlerman, Lili; Venezian, Elad; Slonim, Noam
   title: A recorded debating dataset
   publication: Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)
@@ -304,14 +316,14 @@
   year: 2018
   abstract: This paper describes an English audio and textual dataset of debating speeches, a unique resource for the growing research field of computational argumentation and debating technologies. We detail the process of speech recording by professional debaters, the transcription of the speeches with an Automatic Speech Recognition (ASR) system, their consequent automatic processing to produce a text that is more "NLP-friendly", and in parallel -- the manual transcription of the speeches in order to produce gold-standard "reference" transcripts. We release 60 speeches on various controversial topics, each in five formats corresponding to the different stages in the production of the data. The intention is to allow utilizing this resource for multiple research purposes, be it the addition of in-domain training data for a debate-specific ASR system, or applying argumentation mining on either noisy or clean debate transcripts. We intend to make further releases of this data in the future.
   citation_link: https://aclanthology.org/L18-1037/
-
+  bibtex: "@inproceedings{shachar2018a,\n  title={A recorded debating dataset},\n  author={Mirkin, Shachar and Jacovi, Michal and Lavee, Tamar and Kuo, Hong-Kwang and Thomas, Samuel and Sager, Leslie and Kotlerman, Lili and Venezian, Elad and Slonim, Noam},\n  year={2018},\n  booktitle={Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)},\n  url={https://aclanthology.org/L18-1037/}\n}"
 - authors: Mass, Yosi; Kotlerman, Lili; Mirkin, Shachar; Venezian, Elad; Witzling, Gera; Slonim, Noam
   title: What did you mention? a large scale mention detection benchmark for spoken and written text
   publication: arXiv preprint arXiv:1801.07507
   year: 2018
   abstract: We describe a large, high-quality benchmark for the evaluation of Mention Detection tools. The benchmark contains annotations of both named entities as well as other types of entities, annotated on different types of text, ranging from clean text taken from Wikipedia, to noisy spoken data. The benchmark was built through a highly controlled crowd sourcing process to ensure its quality. We describe the benchmark, the process and the guidelines that were used to build it. We then demonstrate the results of a state-of-the-art system running on that benchmark.
   citation_link: https://arxiv.org/abs/1801.07507
-
+  bibtex: "@inproceedings{yosi2018what,\n  title={What did you mention? a large scale mention detection benchmark for spoken and written text},\n  author={Mass, Yosi and Kotlerman, Lili and Mirkin, Shachar and Venezian, Elad and Witzling, Gera and Slonim, Noam},\n  year={2018},\n  booktitle={arXiv preprint arXiv:1801.07507}\n}"
 - authors: Mirkin, Shachar; Moshkowich, Guy; Orbach, Matan; Kotlerman, Lili; Kantor, Yoav; Lavee, Tamar; Jacovi, Michal; Bilu, Yonatan; Aharonov, Ranit; Slonim, Noam
   title: Listening comprehension over argumentative content
   publication: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing
@@ -321,28 +333,41 @@
   year: 2018
   abstract: Shachar Mirkin, Guy Moshkowich, Matan Orbach, Lili Kotlerman, Yoav Kantor, Tamar Lavee, Michal Jacovi, Yonatan Bilu, Ranit Aharonov, Noam Slonim. Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. 2018.
   citation_link: https://aclanthology.org/D18-1078/
-
+  bibtex: "@inproceedings{shachar2018listening,\n  title={Listening comprehension over argumentative content},\n  author={Mirkin, Shachar and Moshkowich, Guy and Orbach, Matan and Kotlerman, Lili and Kantor, Yoav and Lavee, Tamar and Jacovi, Michal and Bilu, Yonatan and Aharonov, Ranit and Slonim, Noam},\n  year={2018},\n  booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},\n  pages={719-724},\n  url={https://aclanthology.org/D18-1078/}\n}"
 - authors: Lavee, Tamar; Orbach, Matan; Kotlerman, Lili; Kantor, Yoav; Gretz, Shai; Dankin, Lena; Mirkin, Shachar; Jacovi, Michal; Bilu, Yonatan; Aharonov, Ranit
   title: 'Towards effective rebuttal: Listening comprehension using corpus-wide claim mining'
   publication: Proceedings of the 6th Workshop on Argument Mining
   pages: 58-66
   year: 2019
-  abstract: |
-    Engaging in a live debate requires, among other things, the ability to
-    effectively rebut arguments claimed by your opponent. In particular, this
-    requires identifying these arguments. Here, we suggest doing so by
-    automatically mining claims from a corpus of news articles containing billions
-    of sentences, and searching for them in a given speech. This raises the
-    question of whether such claims indeed correspond to those made in spoken
-    speeches. To this end, we collected a large dataset of $400$ speeches in
-    English discussing $200$ controversial topics, mined claims for each topic, and
-    asked annotators to identify the mined claims mentioned in each speech. Results
-    show that in the vast majority of speeches debaters indeed make use of such
-    claims. In addition, we present several baselines for the automatic detection
-    of mined claims in speeches, forming the basis for future work. All collected
-    data is freely available for research.
-  citation_link: https://scholar.google.com/scholar?q=Towards+effective+rebuttal%3A+Listening+comprehension+using+corpus-wide+claim+mining
+  abstract: 'Engaging in a live debate requires, among other things, the ability to
 
+    effectively rebut arguments claimed by your opponent. In particular, this
+
+    requires identifying these arguments. Here, we suggest doing so by
+
+    automatically mining claims from a corpus of news articles containing billions
+
+    of sentences, and searching for them in a given speech. This raises the
+
+    question of whether such claims indeed correspond to those made in spoken
+
+    speeches. To this end, we collected a large dataset of $400$ speeches in
+
+    English discussing $200$ controversial topics, mined claims for each topic, and
+
+    asked annotators to identify the mined claims mentioned in each speech. Results
+
+    show that in the vast majority of speeches debaters indeed make use of such
+
+    claims. In addition, we present several baselines for the automatic detection
+
+    of mined claims in speeches, forming the basis for future work. All collected
+
+    data is freely available for research.
+
+    '
+  citation_link: https://scholar.google.com/scholar?q=Towards+effective+rebuttal%3A+Listening+comprehension+using+corpus-wide+claim+mining
+  bibtex: "@inproceedings{tamar2019towards,\n  title={Towards effective rebuttal: Listening comprehension using corpus-wide claim mining},\n  author={Lavee, Tamar and Orbach, Matan and Kotlerman, Lili and Kantor, Yoav and Gretz, Shai and Dankin, Lena and Mirkin, Shachar and Jacovi, Michal and Bilu, Yonatan and Aharonov, Ranit},\n  year={2019},\n  booktitle={Proceedings of the 6th Workshop on Argument Mining},\n  pages={58-66}\n}"
 - authors: Orbach, Matan; Bilu, Yonatan; Gera, Ariel; Kantor, Yoav; Dankin, Lena; Lavee, Tamar; Kotlerman, Lili; Mirkin, Shachar; Jacovi, Michal; Aharonov, Ranit
   title: A Dataset of General-Purpose Rebuttal
   publication: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)
@@ -351,7 +376,7 @@
   year: 2019
   abstract: Matan Orbach, Yonatan Bilu, Ariel Gera, Yoav Kantor, Lena Dankin, Tamar Lavee, Lili Kotlerman, Shachar Mirkin, Michal Jacovi, Ranit Aharonov, Noam Slonim. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP). 2019.
   citation_link: https://aclanthology.org/D19-1561/
-
+  bibtex: "@inproceedings{matan2019a,\n  title={A Dataset of General-Purpose Rebuttal},\n  author={Orbach, Matan and Bilu, Yonatan and Gera, Ariel and Kantor, Yoav and Dankin, Lena and Lavee, Tamar and Kotlerman, Lili and Mirkin, Shachar and Jacovi, Michal and Aharonov, Ranit},\n  year={2019},\n  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},\n  url={https://aclanthology.org/D19-1561/}\n}"
 - authors: Slonim, Noam; Bilu, Yonatan; Alzate, Carlos; Bar-Haim, Roy; Bogin, Ben; Bonin, Francesca; Choshen, Leshem; Cohen-Karlik, Edo; Dankin, Lena; Edelstein, Lilach
   title: An autonomous debating system
   publication: Nature
@@ -359,11 +384,13 @@
   number: '7850'
   pages: 379-384
   url: https://www.nature.com/articles/s41586-021-03215-w
+  doi: https://doi.org/10.1038/s41586-021-03215-w
   year: 2021
   publisher: Nature Publishing Group UK London
-  abstract: Not provided in source
+  abstract: Artificial intelligence (AI) is defined as the ability of machines to perform tasks that are usually associated with intelligent beings. Argument and debate are fundamental capabilities of human intelligence, essential for a wide range of human activities, and common to all human societies. The development of computational argumentation technologies is therefore an important emerging discipline in AI research. Here we present Project Debater, an autonomous debating system that can engage in a competitive debate with humans. We provide a complete description of the system's architecture, a thorough and systematic evaluation of its operation across a wide range of debate topics, and a detailed account of the system's performance in its public debut against three expert human debaters. We also highlight the fundamental differences between debating with humans as opposed to challenging humans in game competitions, the latter being the focus of classical 'grand challenges' pursued
+    by the AI research community over the past few decades. We suggest that such challenges lie in the 'comfort zone' of AI, whereas debating with humans lies in a different territory, in which humans still prevail, and for which novel paradigms are required to make substantial progress.
   citation_link: https://www.nature.com/articles/s41586-021-03215-w
-
+  bibtex: "@article{slonim2021autonomous,\n  title={An autonomous debating system},\n  author={Slonim, Noam and Bilu, Yonatan and Alzate, Carlos and Bar-Haim, Roy and Bogin, Ben and Bonin, Francesca and Choshen, Leshem and Cohen-Karlik, Edo and Dankin, Lena and Edelstein, Lilach and others},\n  journal={Nature},\n  volume={591},\n  number={7850},\n  pages={379--384},\n  year={2021},\n  publisher={Nature Publishing Group UK London},\n  doi={10.1038/s41586-021-03215-w}\n}\n"
 - authors: Teehan, Ryan; Clinciu, Miruna; Serikov, Oleg; Szczechla, Eliza; Seelam, Natasha; Mirkin, Shachar; Gokaslan, Aaron
   title: Emergent Structures and Training Dynamics in Large Language Models
   publication: Challenges & Perspectives in Creating Large Language Models
@@ -372,7 +399,7 @@
   year: 2022
   abstract: 'Ryan Teehan, Miruna Clinciu, Oleg Serikov, Eliza Szczechla, Natasha Seelam, Shachar Mirkin, Aaron Gokaslan. Proceedings of BigScience Episode #5 -- Workshop on Challenges & Perspectives in Creating Large Language Models. 2022.'
   citation_link: https://aclanthology.org/2022.bigscience-1.11/
-
+  bibtex: "@inproceedings{ryan2022emergent,\n  title={Emergent Structures and Training Dynamics in Large Language Models},\n  author={Teehan, Ryan and Clinciu, Miruna and Serikov, Oleg and Szczechla, Eliza and Seelam, Natasha and Mirkin, Shachar and Gokaslan, Aaron},\n  year={2022},\n  booktitle={Challenges & Perspectives in Creating Large Language Models},\n  url={https://aclanthology.org/2022.bigscience-1.11/}\n}"
 - authors: Scao, Teven Le; Fan, Angela; Akiki, Christopher; Pavlick, Ellie; Ilić, Suzana; Hesslow, Daniel; Castagné, Roman; Luccioni, Alexandra Sasha; Yvon, François; Gallé, Matthias
   title: 'Bloom: A 176b-parameter open-access multilingual language model'
   publication: arXiv preprint arXiv:2211.05100
@@ -381,17 +408,20 @@
   year: 2022
   abstract: Large language models (LLMs) have been shown to be able to perform new tasks based on a few demonstrations or natural language instructions. While these capabilities have led to widespread adoption, most LLMs are developed by resource-rich organizations and are frequently kept from the public. As a step towards democratizing this powerful technology, we present BLOOM, a 176B-parameter open-access language model designed and built thanks to a collaboration of hundreds of researchers. BLOOM is a decoder-only Transformer language model that was trained on the ROOTS corpus, a dataset comprising hundreds of sources in 46 natural and 13 programming languages (59 in total). We find that BLOOM achieves competitive performance on a wide variety of benchmarks, with stronger results after undergoing multitask prompted finetuning. To facilitate future research and applications using LLMs, we publicly release our models and code under the Responsible AI License.
   citation_link: https://arxiv.org/abs/2211.05100
-
-- authors: Vayani, Ashmal; Dissanayake, Dinura; Watawana, Hasindri; Ahsan, Noor; Sasikumar, Nevasini; Thawakar, Omkar; Ademtew, Henok Biadglign; Hmaiti, Yahya; Kumar, Amandeep; Kuckreja, Kartik; Maslych, Mykola; Al Ghallabi, Wafa; Mihaylov, Mihail Minkov; Qin, Chao; Shaker, Abdelrahman M; Zhang, Mike; Ihsani, Mahardika Krisna; Esplana, Amiel Gian; Gokani, Monil; Mirkin, Shachar; Singh, Harsh; Srivastava, Ashay; Hamerlik, Endre; Izzati, Fathinah Asma; Maani, Fadillah Adamsyah; Cavada, Sebastian; Chim, Jenny; Gupta, Rohit; Manjunath, Sanjay; Zhumakhanova, Kamila; Rabevohitra, Feno Heriniaina; Amirudin, Azril Hafizi; Ridzuan, Muhammad; Abdul Kareem, Daniya Najiha; More, Ketan Pravin; Li, Kunyang; Shakya, Pramesh; Saad, Muhammad; Ghasemaghaei, Amirpouya; Djanibekov, Amirbek; Azizov, Dilshod; Jankovic, Branislava; Bhatia, Naman; Cabrera, Alvaro; Obando-Ceron, Johan; Otieno, Olympiah; Farestam, Febian; Rabbani, Muztoba; Ballah, Sanoojan; Sanjeev, Santosh; Shtanchaev, Abduragim; Fatima, Maheen; Nguyen, Thao; Kareem, Amrin; Aremu, Toluwani; Xavier, Nathan Augusto Zacarias; Bhatkal, Amit; Toyin, Hawau Olamide; Chadha, Aman; Cholakkal, Hisham; Anwer, Rao Muhammad; Felsberg, Michael; Laaksonen, Jorma; Solorio, Thamar; Choudhury, Monojit; Laptev, Ivan; Shah, Mubarak; Khan, Salman; Khan, Fahad Shahbaz
+  bibtex: "@inproceedings{tevenle2022bloom,\n  title={Bloom: A 176b-parameter open-access multilingual language model},\n  author={Scao, Teven Le and Fan, Angela and Akiki, Christopher and Pavlick, Ellie and Ilić, Suzana and Hesslow, Daniel and Castagné, Roman and Luccioni, Alexandra Sasha and Yvon, François and Gallé, Matthias},\n  year={2022},\n  booktitle={arXiv preprint arXiv:2211.05100},\n  url={https://arxiv.org/abs/2211.05100}\n}"
+- authors: Vayani, Ashmal; Dissanayake, Dinura; Watawana, Hasindri; Ahsan, Noor; Sasikumar, Nevasini; Thawakar, Omkar; Ademtew, Henok Biadglign; Hmaiti, Yahya; Kumar, Amandeep; Kuckreja, Kartik; Maslych, Mykola; Al Ghallabi, Wafa; Mihaylov, Mihail Minkov; Qin, Chao; Shaker, Abdelrahman M; Zhang, Mike; Ihsani, Mahardika Krisna; Esplana, Amiel Gian; Gokani, Monil; Mirkin, Shachar; Singh, Harsh; Srivastava, Ashay; Hamerlik, Endre; Izzati, Fathinah Asma; Maani, Fadillah Adamsyah; Cavada, Sebastian; Chim, Jenny; Gupta, Rohit; Manjunath, Sanjay; Zhumakhanova, Kamila; Rabevohitra, Feno Heriniaina; Amirudin, Azril Hafizi; Ridzuan, Muhammad; Abdul Kareem, Daniya Najiha; More, Ketan Pravin; Li, Kunyang; Shakya, Pramesh; Saad, Muhammad; Ghasemaghaei, Amirpouya; Djanibekov, Amirbek; Azizov, Dilshod; Jankovic, Branislava; Bhatia, Naman; Cabrera, Alvaro; Obando-Ceron, Johan; Otieno, Olympiah; Farestam, Febian; Rabbani, Muztoba; Ballah, Sanoojan; Sanjeev, Santosh; Shtanchaev, Abduragim; Fatima, Maheen;
+    Nguyen, Thao; Kareem, Amrin; Aremu, Toluwani; Xavier, Nathan Augusto Zacarias; Bhatkal, Amit; Toyin, Hawau Olamide; Chadha, Aman; Cholakkal, Hisham; Anwer, Rao Muhammad; Felsberg, Michael; Laaksonen, Jorma; Solorio, Thamar; Choudhury, Monojit; Laptev, Ivan; Shah, Mubarak; Khan, Salman; Khan, Fahad Shahbaz
   title: 'All languages matter: Evaluating lmms on culturally diverse 100 languages'
   publication: Proceedings of the Computer Vision and Pattern Recognition Conference
   pages: 19565-19575
   url: https://openaccess.thecvf.com/content/CVPR2025/html/Vayani_All_Languages_Matter_Evaluating_LMMs_on_Culturally_Diverse_100_Languages_CVPR_2025_paper.html
   pdf: https://openaccess.thecvf.com/content/CVPR2025/papers/Vayani_All_Languages_Matter_Evaluating_LMMs_on_Culturally_Diverse_100_Languages_CVPR_2025_paper.pdf
   year: 2025
-  abstract: Existing Large Multimodal Models (LMMs) generally focus on only a few regions and languages. As LMMs continue to improve, it is increasingly important to ensure they understand cultural contexts, respect local sensitivities, and support low-resource languages, all while effectively integrating corresponding visual cues. In pursuit of culturally diverse global multimodal models, our proposed All Languages Matter Benchmark (ALM-bench) represents the largest and most comprehensive effort to date for evaluating LMMs across 100 languages. ALM-bench challenges existing models by testing their ability to understand and reason about culturally diverse images paired with text in various languages, including many low-resource languages traditionally underrepresented in LMM research. The benchmark offers a robust and nuanced evaluation framework featuring various question formats, including true/false, multiple choice, and open-ended questions, which are further divided into short and long-answer categories. ALM-bench design ensures a comprehensive assessment of a model’s ability to handle varied levels of difficulty in visual and linguistic reasoning. To capture the rich tapestry of global cultures, ALM-bench carefully curates content from 13 distinct cultural aspects, ranging from traditions and rituals to famous personalities and celebrations. Through this, ALM-bench not only provides a rigorous testing ground for state-of-the-art open and closed-source LMMs but also highlights the importance of cultural and linguistic inclusivity, encouraging the development of models that can serve diverse global populations effectively. Our benchmark is publicly available at https://mbzuai-oryx.github.io/ALM-Bench/.
+  abstract: Existing Large Multimodal Models (LMMs) generally focus on only a few regions and languages. As LMMs continue to improve, it is increasingly important to ensure they understand cultural contexts, respect local sensitivities, and support low-resource languages, all while effectively integrating corresponding visual cues. In pursuit of culturally diverse global multimodal models, our proposed All Languages Matter Benchmark (ALM-bench) represents the largest and most comprehensive effort to date for evaluating LMMs across 100 languages. ALM-bench challenges existing models by testing their ability to understand and reason about culturally diverse images paired with text in various languages, including many low-resource languages traditionally underrepresented in LMM research. The benchmark offers a robust and nuanced evaluation framework featuring various question formats, including true/false, multiple choice, and open-ended questions, which are further divided into short and long-answer
+    categories. ALM-bench design ensures a comprehensive assessment of a model’s ability to handle varied levels of difficulty in visual and linguistic reasoning. To capture the rich tapestry of global cultures, ALM-bench carefully curates content from 13 distinct cultural aspects, ranging from traditions and rituals to famous personalities and celebrations. Through this, ALM-bench not only provides a rigorous testing ground for state-of-the-art open and closed-source LMMs but also highlights the importance of cultural and linguistic inclusivity, encouraging the development of models that can serve diverse global populations effectively. Our benchmark is publicly available at https://mbzuai-oryx.github.io/ALM-Bench/.
   citation_link: https://openaccess.thecvf.com/content/CVPR2025/html/Vayani_All_Languages_Matter_Evaluating_LMMs_on_Culturally_Diverse_100_Languages_CVPR_2025_paper.html
-
+  bibtex: "@inproceedings{ashmal2025all,\n  title={All languages matter: Evaluating lmms on culturally diverse 100 languages},\n  author={Vayani, Ashmal and Dissanayake, Dinura and Watawana, Hasindri and Ahsan, Noor and Sasikumar, Nevasini and Thawakar, Omkar and Ademtew, Henok Biadglign and Hmaiti, Yahya and Kumar, Amandeep and Kuckreja, Kartik and Maslych, Mykola and Al Ghallabi, Wafa and Mihaylov, Mihail Minkov and Qin, Chao and Shaker, Abdelrahman M and Zhang, Mike and Ihsani, Mahardika Krisna and Esplana, Amiel Gian and Gokani, Monil and Mirkin, Shachar and Singh, Harsh and Srivastava, Ashay and Hamerlik, Endre and Izzati, Fathinah Asma and Maani, Fadillah Adamsyah and Cavada, Sebastian and Chim, Jenny and Gupta, Rohit and Manjunath, Sanjay and Zhumakhanova, Kamila and Rabevohitra, Feno Heriniaina and Amirudin, Azril Hafizi and Ridzuan, Muhammad and Abdul Kareem, Daniya Najiha and More, Ketan Pravin and Li, Kunyang and Shakya, Pramesh and Saad, Muhammad and Ghasemaghaei, Amirpouya and\
+    \ Djanibekov, Amirbek and Azizov, Dilshod and Jankovic, Branislava and Bhatia, Naman and Cabrera, Alvaro and Obando-Ceron, Johan and Otieno, Olympiah and Farestam, Febian and Rabbani, Muztoba and Ballah, Sanoojan and Sanjeev, Santosh and Shtanchaev, Abduragim and Fatima, Maheen and Nguyen, Thao and Kareem, Amrin and Aremu, Toluwani and Xavier, Nathan Augusto Zacarias and Bhatkal, Amit and Toyin, Hawau Olamide and Chadha, Aman and Cholakkal, Hisham and Anwer, Rao Muhammad and Felsberg, Michael and Laaksonen, Jorma and Solorio, Thamar and Choudhury, Monojit and Laptev, Ivan and Shah, Mubarak and Khan, Salman and Khan, Fahad Shahbaz},\n  year={2025},\n  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},\n  pages={19565-19575},\n  url={https://openaccess.thecvf.com/content/CVPR2025/html/Vayani_All_Languages_Matter_Evaluating_LMMs_on_Culturally_Diverse_100_Languages_CVPR_2025_paper.html}\n}"
 - authors: Blevins, Terra; Mayhew, Stephen; Suppa, Marek; Gonen, Hila; Mirkin, Shachar; Pais, Vasile; Dobrovoljc, Kaja; Giouli, Voula; Kevin, Jun; Yılandiloğlu, Enes; Jang, Eugene; Kim, Eungseo; Seo, Jeongyeon; Gialis, Xenophon; Pinter, Yuval
   title: 'Universal NER v2: Towards a Massively Multilingual Named Entity Recognition Benchmark'
   publication: LREC 2026
@@ -400,3 +430,4 @@
   pdf: https://arxiv.org/pdf/2604.12744
   abstract: While multilingual language models promise to bring the benefits of LLMs to speakers of many languages, gold-standard evaluation benchmarks in most languages to interrogate these assumptions remain scarce. The Universal NER project, now entering its fourth year, is dedicated to building gold-standard multilingual Named Entity Recognition (NER) benchmark datasets. Inspired by existing massively multilingual efforts for other core NLP tasks (e.g., Universal Dependencies), the project uses a general tagset and thorough annotation guidelines to collect standardized, cross-lingual annotations of named entity spans. The first installment (UNER v1) was released in 2024, and the project has continued and expanded since then, with various organizers, annotators, and collaborators in an active community.
   citation_link: https://arxiv.org/abs/2604.12744
+  bibtex: "@inproceedings{terra2026universal,\n  title={Universal NER v2: Towards a Massively Multilingual Named Entity Recognition Benchmark},\n  author={Blevins, Terra and Mayhew, Stephen and Suppa, Marek and Gonen, Hila and Mirkin, Shachar and Pais, Vasile and Dobrovoljc, Kaja and Giouli, Voula and Kevin, Jun and Yılandiloğlu, Enes and Jang, Eugene and Kim, Eungseo and Seo, Jeongyeon and Gialis, Xenophon and Pinter, Yuval},\n  year={2026},\n  booktitle={LREC 2026},\n  url={https://arxiv.org/abs/2604.12744}\n}"
