@@ -98,7 +98,12 @@ permalink: /research/
 
                 <div class="publication">
                     <details>
-                        <summary class="paper-title">{{ pub.title }}</summary>
+                        <summary class="paper-title{% if pub.thumbnail %} paper-title--with-thumb{% endif %}">
+                            {% if pub.thumbnail %}
+                                <img class="publication-thumb" src="{{ pub.thumbnail | relative_url }}" alt="" width="56" height="74" loading="lazy" decoding="async">
+                            {% endif %}
+                            <span class="paper-title__text">{{ pub.title }}</span>
+                        </summary>
                         <p class="authors">{{ pub.authors }}</p>
                         {% if pub.publication %}
                             <p class="venue">
@@ -123,7 +128,17 @@ permalink: /research/
                         </p>
                         <div class="links">
                             {% if pub.url %}
-                                <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">Paper</a>
+                                {% if pub.url contains 'patents.google.com' %}
+                                    <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">Patent page</a>
+                                {% else %}
+                                    <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">Paper page</a>
+                                {% endif %}
+                            {% elsif pub.citation_link %}
+                                {% if pub.citation_link contains 'patents.google.com' %}
+                                    <a href="{{ pub.citation_link }}" target="_blank" rel="noopener noreferrer">Patent page</a>
+                                {% else %}
+                                    <a href="{{ pub.citation_link }}" target="_blank" rel="noopener noreferrer">Paper page</a>
+                                {% endif %}
                             {% endif %}
                             {% if pub.doi %}
                                 <a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">DOI</a>
@@ -138,7 +153,13 @@ permalink: /research/
                         {% if pub.bibtex %}
                             <details class="bibtex-details">
                                 <summary class="bibtex-summary">BibTeX</summary>
-                                <pre class="bibtex-code"><code>{{ pub.bibtex }}</code></pre>
+                                <div class="bibtex-panel">
+                                    <div class="bibtex-toolbar">
+                                        <button type="button" class="bibtex-copy">Copy</button>
+                                        <span class="bibtex-copy-status" aria-live="polite" hidden></span>
+                                    </div>
+                                    <pre class="bibtex-code"><code>{{ pub.bibtex }}</code></pre>
+                                </div>
                             </details>
                         {% endif %}
                     </details>
@@ -154,3 +175,5 @@ permalink: /research/
     </div>
 
 </div>
+
+<script src="{{ '/assets/js/bibtex-copy.js' | relative_url }}" defer></script>

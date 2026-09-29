@@ -723,9 +723,41 @@ a:hover {
     font-weight: 600;
     font-size: 1.2rem;
     cursor: pointer;
+    list-style: none;
+}
+
+.publication summary.paper-title--with-thumb {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.publication summary.paper-title::-webkit-details-marker {
+    display: none;
+}
+
+.publication-thumb {
+    flex: 0 0 auto;
+    width: 56px;
+    height: 74px;
+    object-fit: cover;
+    object-position: top left;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--nav-border);
+    background: var(--bg-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.paper-title__text {
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 .publication summary.paper-title:hover {
+    color: var(--link-hover);
+}
+
+.publication summary.paper-title:hover .paper-title__text {
     color: var(--link-hover);
 }
 
@@ -1238,8 +1270,47 @@ a:hover {
     display: none;
 }
 
-.bibtex-code {
+.bibtex-panel {
     margin-top: 0.5rem;
+}
+
+.bibtex-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.bibtex-copy {
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--link-color);
+    background: var(--nav-bg);
+    border: 1px solid var(--nav-border);
+    border-radius: var(--radius-sm);
+    padding: 0.35rem 0.75rem;
+    cursor: pointer;
+    transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.bibtex-copy:hover:not(:disabled) {
+    background: var(--nav-hover);
+    color: var(--link-hover);
+}
+
+.bibtex-copy:disabled {
+    opacity: 0.85;
+    cursor: default;
+}
+
+.bibtex-copy-status {
+    font-size: 0.875rem;
+    color: var(--text-light);
+}
+
+.bibtex-code {
+    margin-top: 0;
     padding: 1rem;
     background: var(--nav-bg);
     border: 1px solid var(--nav-border);
