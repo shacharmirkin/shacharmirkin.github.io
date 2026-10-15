@@ -20,19 +20,13 @@
             {% if rec.excerpt and rec.excerpt != blank %}
             <details class="recommendation-details">
                 <summary>
-                    <blockquote class="recommendation-quote">
-                        <p>{{ rec.excerpt }}</p>
-                    </blockquote>
+                    <span class="recommendation-quote">{{ rec.excerpt }}</span>
                     <span class="recommendation-more">{% if is_fr %}Lire la suite{% else %}Read more{% endif %}</span>
                 </summary>
-                <blockquote class="recommendation-quote recommendation-quote--full">
-                    <p>{{ rec.quote }}</p>
-                </blockquote>
+                <div class="recommendation-quote recommendation-quote--full">{{ rec.quote }}</div>
             </details>
             {% else %}
-            <blockquote class="recommendation-quote">
-                <p>{{ rec.quote }}</p>
-            </blockquote>
+            <div class="recommendation-quote">{{ rec.quote }}</div>
             {% endif %}
         </li>
         {% endfor %}
@@ -41,10 +35,7 @@
     {% assign src = site.data.recommendations.sources %}
     {% if src.linkedin or src.malt %}
     <p class="recommendations-more-link">
-        {% if is_fr %}Voir aussi sur{% else %}See also on{% endif %}
-        {% if src.linkedin %}<a href="{{ src.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn{% include external-link-hint.html lang=include.lang %}</a>{% endif %}
-        {% if src.linkedin and src.malt %} · {% endif %}
-        {% if src.malt %}<a href="{{ src.malt }}" target="_blank" rel="noopener noreferrer">Malt{% include external-link-hint.html lang=include.lang %}</a>{% endif %}
+        {% if is_fr %}Voir aussi sur{% else %}See also on{% endif %}{% if src.linkedin %} <a href="{{ src.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn{% include external-link-hint.html lang=include.lang %}</a>{% endif %}{% if src.linkedin and src.malt %} ·{% endif %}{% if src.malt %} <a href="{{ src.malt }}" target="_blank" rel="noopener noreferrer">Malt{% include external-link-hint.html lang=include.lang %}</a>{% endif %}
     </p>
     {% endif %}
 </section>

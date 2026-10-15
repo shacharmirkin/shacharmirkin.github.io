@@ -567,6 +567,15 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Override global “underline links in lists” for the page TOC. */
+#main-content .home-toc-list a {
+    text-decoration: none;
+}
+
+#main-content .home-toc-list a:hover {
+    text-decoration: underline;
+}
+
 #about,
 #services,
 #recommendations {
@@ -617,6 +626,7 @@ a:hover {
 }
 
 .recommendation-quote {
+    display: block;
     margin: 0;
     padding: 0;
     border: 0;
@@ -626,21 +636,19 @@ a:hover {
     line-height: 1.6;
 }
 
-.recommendation-quote p {
-    margin: 0 0 0.75rem;
-}
-
-.recommendation-quote p:last-child {
-    margin-bottom: 0;
-}
-
 .recommendation-details > summary {
+    display: block;
     list-style: none;
     cursor: pointer;
 }
 
 .recommendation-details > summary::-webkit-details-marker {
     display: none;
+}
+
+/* Chrome can still lay out closed <details> body with some nested markup; force-hide. */
+.recommendation-details:not([open]) > .recommendation-quote--full {
+    display: none !important;
 }
 
 .recommendation-details[open] > summary .recommendation-quote,
