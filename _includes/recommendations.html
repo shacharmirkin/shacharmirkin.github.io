@@ -1,0 +1,51 @@
+{% assign recs = site.data.recommendations.items | where_exp: "r", "r.featured != false" %}
+{% if recs and recs.size > 0 %}
+{% assign is_fr = false %}
+{% if include.lang == 'fr' %}{% assign is_fr = true %}{% endif %}
+<section class="recommendations" id="recommendations" aria-labelledby="recommendations-heading">
+    <h2 id="recommendations-heading">{% if is_fr %}Dernières recommandations{% else %}Latest recommendations{% endif %}</h2>
+
+    <ul class="recommendations-list">
+        {% for rec in recs %}
+        <li class="recommendation">
+            <header class="recommendation-meta">
+                <cite class="recommendation-author">{{ rec.name }}</cite>
+                {% if rec.role or rec.company %}
+                <span class="recommendation-role">{% if rec.role %}{{ rec.role }}{% endif %}{% if rec.role and rec.company %}, {% endif %}{% if rec.company %}{{ rec.company }}{% endif %}</span>
+                {% endif %}
+                {% if rec.source %}
+                <span class="recommendation-source">{% if rec.source == 'malt' %}Malt{% elsif rec.source == 'linkedin' %}LinkedIn{% else %}{{ rec.source }}{% endif %}</span>
+                {% endif %}
+            </header>
+            {% if rec.excerpt and rec.excerpt != blank %}
+            <details class="recommendation-details">
+                <summary>
+                    <blockquote class="recommendation-quote">
+                        <p>{{ rec.excerpt }}</p>
+                    </blockquote>
+                    <span class="recommendation-more">{% if is_fr %}Lire la suite{% else %}Read more{% endif %}</span>
+                </summary>
+                <blockquote class="recommendation-quote recommendation-quote--full">
+                    <p>{{ rec.quote }}</p>
+                </blockquote>
+            </details>
+            {% else %}
+            <blockquote class="recommendation-quote">
+                <p>{{ rec.quote }}</p>
+            </blockquote>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+
+    {% assign src = site.data.recommendations.sources %}
+    {% if src.linkedin or src.malt %}
+    <p class="recommendations-more-link">
+        {% if is_fr %}Voir aussi sur{% else %}See also on{% endif %}
+        {% if src.linkedin %}<a href="{{ src.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn{% include external-link-hint.html lang=include.lang %}</a>{% endif %}
+        {% if src.linkedin and src.malt %} · {% endif %}
+        {% if src.malt %}<a href="{{ src.malt }}" target="_blank" rel="noopener noreferrer">Malt{% include external-link-hint.html lang=include.lang %}</a>{% endif %}
+    </p>
+    {% endif %}
+</section>
+{% endif %}

@@ -1,0 +1,10 @@
+{% assign is_fr = false %}
+{% if include.lang == 'fr' %}{% assign is_fr = true %}{% endif %}
+<nav class="home-toc" aria-label="{% if is_fr %}Sur cette page{% else %}On this page{% endif %}">
+    <span class="home-toc-label">{% if is_fr %}Sur cette page{% else %}On this page{% endif %}</span>
+    <ul class="home-toc-list">
+        <li><a href="#about">{% if is_fr %}À propos{% else %}About{% endif %}</a></li>
+        <li><a href="#services">{% if is_fr %}Prestations{% else %}Services{% endif %}</a></li>
+        <li><a href="#recommendations">{% if is_fr %}Recommandations{% else %}Recommendations{% endif %}</a></li>
+    </ul>
+</nav>

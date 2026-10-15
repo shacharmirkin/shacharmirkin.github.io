@@ -12,9 +12,10 @@ image: /assets/images/profile.jpg
 
     <div class="content-section">
         {% include lang-switcher.html %}
+        {% include home-toc.html lang=page.lang %}
 
-        <div>
-            <h2>About Me</h2>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
 
             <p>
                 I am a freelance applied AI researcher (PhD) with 20+ years of hands-on experience in NLP, generative AI, and machine learning across both industry and academia.
@@ -31,10 +32,10 @@ image: /assets/images/profile.jpg
             <p>
                 I hold a PhD in Computer Science specializing in NLP and completed 3.5 years of postdoctoral research. I am the author of multiple patents and around 40 publications in leading venues (<a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a>: 4,800+ citations; h-index: 24).
             </p>
-        </div>
+        </section>
 
-        <div>
-            <h2>Services</h2>
+        <section id="services" aria-labelledby="services-heading">
+            <h2 id="services-heading">Services</h2>
 
             <p>
                 Based in France, I am available for short- and long-term remote consulting projects through my registered company.
@@ -53,6 +54,8 @@ image: /assets/images/profile.jpg
             <p>
                 <a href="{{ '/contact' | relative_url }}">Contact me</a> to discuss your project.
             </p>
-        </div>
+        </section>
+
+        {% include recommendations.html lang=page.lang %}
     </div>
 </div>

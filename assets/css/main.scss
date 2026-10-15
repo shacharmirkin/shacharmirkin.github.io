@@ -530,6 +530,174 @@ a:hover {
     line-height: 1.6;
 }
 
+/* Home in-page shortcuts */
+.home-toc {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 1rem;
+    margin: 0 0 1.75rem;
+    padding: 0.65rem 0 0.85rem;
+    border-bottom: 1px solid var(--nav-border);
+}
+
+.home-toc-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.home-toc-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.home-toc-list a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.home-toc-list a:hover {
+    text-decoration: underline;
+}
+
+#about,
+#services,
+#recommendations {
+    scroll-margin-top: calc(var(--site-nav-height) + 0.75rem);
+}
+
+/* Recommendations (home) */
+.recommendations {
+    margin-top: 0.5rem;
+}
+
+.recommendations-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .recommendations-list {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem 1.25rem;
+    }
+}
+
+.recommendation {
+    position: relative;
+    margin: 0;
+    padding: 1.1rem 1.15rem 1.15rem;
+    background: var(--nav-bg);
+    border: 1px solid var(--nav-border);
+    border-radius: var(--radius-md);
+}
+
+.recommendation::before {
+    content: "“";
+    position: absolute;
+    top: 0.35rem;
+    right: 0.85rem;
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    font-size: 2.75rem;
+    line-height: 1;
+    color: var(--primary-color);
+    opacity: 0.28;
+    pointer-events: none;
+}
+
+.recommendation-quote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: var(--text-color);
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    font-size: 1.02rem;
+    line-height: 1.6;
+}
+
+.recommendation-quote p {
+    margin: 0 0 0.75rem;
+}
+
+.recommendation-quote p:last-child {
+    margin-bottom: 0;
+}
+
+.recommendation-details > summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.recommendation-details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.recommendation-details[open] > summary .recommendation-quote,
+.recommendation-details[open] > summary .recommendation-more {
+    display: none;
+}
+
+.recommendation-more {
+    display: inline-block;
+    margin-top: 0.45rem;
+    color: var(--link-color);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.recommendation-details > summary:hover .recommendation-more {
+    color: var(--link-hover);
+}
+
+.recommendation-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    margin: 0 0 0.75rem;
+    padding-right: 1.5rem;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.recommendation-author {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.recommendation-role {
+    line-height: 1.35;
+}
+
+.recommendation-source {
+    margin-top: 0.15rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--text-light);
+}
+
+.recommendations-more-link {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+    color: var(--text-light);
+}
+
 .lang-switcher {
     display: inline-flex;
     gap: 8px;

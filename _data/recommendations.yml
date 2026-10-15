@@ -1,0 +1,86 @@
+# Curated recommendations shown on the home page.
+# Add items with: name, role, company (optional), source (linkedin|malt),
+# date (YYYY-MM-DD, optional), quote, featured (bool, default true).
+# Long quotes can set excerpt to a shorter teaser; full quote stays in `quote`.
+
+sources:
+  linkedin: https://www.linkedin.com/in/shacharmirkin/details/recommendations/?detailScreenTabIndex=0
+  malt: https://www.malt.fr/profile/shacharmirkin
+
+items:
+  - name: Irit Opher
+    role: VP Research
+    company: Quai.MD
+    source: malt
+    date: 2025-05-27
+    featured: true
+    excerpt: >-
+      We had the pleasure of working with Shachar Mirkin as an NLP advisor for a
+      few months. Shachar's contributions was pivotal to the success of our
+      project.
+    quote: >-
+      We had the pleasure of working with Shachar Mirkin as an NLP advisor for a
+      few months. Shachar's contributions was pivotal to the success of our
+      project. Shachar brought deep expertise in natural language processing,
+      helping us design, refine and implement our approach in way that was
+      tailored to our needs. In addition, Shachar played a key role in building
+      a robust MLOps pipeline to support our experiments. Shachar's logical
+      thinking and collaborative and pleasant approach made a significant
+      positive impact on our project’s success. I highly recommend Shachar
+      Mirkin for any organization looking for expert guidance in NLP and Data
+      Science implementation.
+
+  - name: Bar Tamir
+    role: NLP Researcher and Team Lead
+    company: WSC Sports
+    source: linkedin
+    date: 2026-04-26
+    featured: true
+    excerpt: >-
+      Shachar worked as a free lancer in my team at WSC Sports. Shachar is a
+      thorough algorithm developer, comes up with good ideas, works very
+      methodologically, but also pragmatically to integrate his research in
+      production system.
+    quote: >-
+      Shachar worked as a free lancer in my team at WSC Sports. Shachar is a
+      thorough algorithm developer, comes up with good ideas, works very
+      methodologically, but also pragmatically to integrate his research in
+      production system. Shachar is also very nice to talk and work with, and
+      contributes also to the team's better workflows. He has a broad theoretical
+      background and hands-on experience that contribute his work and also the
+      other team members. In addition, he is able to onboard quickly on new
+      domains and code, to efficiently start new projects.
+
+  - name: Guy Kaplan
+    role: AI Researcher
+    company: Apple
+    source: linkedin
+    date: 2026-04-26
+    featured: true
+    quote: >-
+      Shachar brings a rare combination of deep technical expertise and strong
+      execution. During his time at WSC Sports, I was his acting manager and was
+      constantly impressed by the depth he brought to every task. He is a sharp
+      thinker who doesn't just solve problems but truly masters them. I learned
+      a great deal from him and sincerely enjoyed our time working together. He
+      is a massive asset to any AI or Data Science team!
+
+  - name: Rachel Sorek
+    role: Head of Research
+    company: Verbit.ai
+    source: linkedin
+    date: 2024-04-18
+    featured: true
+    excerpt: >-
+      It has been a great experience working with Shachar at LSEG. Not only is he
+      a profoundly dedicated and hardworking, but his experience and insight
+      consistently brings exceptional value to our projects.
+    quote: >-
+      It has been a great experience working with Shachar at LSEG. Not only is he
+      a profoundly dedicated and hardworking, but his experience and insight
+      consistently brings exceptional value to our projects. He is a deep thinker
+      - doesn't just look for solutions; but rather dive into the core of
+      problems, ensuring innovative and effective solutions. His insights have
+      been crucial in navigating complex data challenges and driving our success
+      forward. Anyone looking for a data scientist who can truly transform data
+      into actionable solutions would be lucky to have Shachar on their team.

@@ -11,9 +11,10 @@ permalink: /fr/
 
     <div class="content-section">
         {% include lang-switcher.html %}
+        {% include home-toc.html lang=page.lang %}
 
-        <div>
-            <h2>À propos de moi</h2>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">À propos de moi</h2>
 
             <p>
                 Je suis chercheur en IA appliquée et consultant indépendant (PhD) avec plus de 20 ans d’expérience pratique en NLP, IA générative et machine learning, tant dans l’industrie que dans le monde académique.
@@ -30,10 +31,10 @@ permalink: /fr/
             <p>
                 Je suis titulaire d’un doctorat en informatique, spécialisé en NLP, et j’ai effectué 3,5 ans de recherche postdoctorale. Je suis l’auteur de plusieurs brevets et d’environ 40 publications dans des revues et conférences de premier plan (<a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a> : plus de 4&nbsp;800 citations ; h-index : 24).
             </p>
-        </div>
+        </section>
 
-        <div>
-            <h2>Prestations</h2>
+        <section id="services" aria-labelledby="services-heading">
+            <h2 id="services-heading">Prestations</h2>
 
             <p>
                 Basé en France, je suis disponible pour des missions de conseil à distance, à court ou long terme, via ma société enregistrée.
@@ -52,6 +53,8 @@ permalink: /fr/
             <p>
                 <a href="{{ '/contact' | relative_url }}">Contactez-moi</a> pour échanger sur votre projet.
             </p>
-        </div>
+        </section>
+
+        {% include recommendations.html lang=page.lang %}
     </div>
 </div>

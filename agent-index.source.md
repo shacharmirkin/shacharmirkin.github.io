@@ -15,6 +15,10 @@ Hands-on work across research institutes (IBM Research AI, Xerox Research), star
 - AI mentorship and team onboarding
 - Scientific and technical review
 
+## Recommendations
+
+Client recommendations (LinkedIn / Malt) appear on the home page; see also LinkedIn recommendations and the Malt profile.
+
 ## Links
 
 - Site home: https://shacharmirkin.github.io/
