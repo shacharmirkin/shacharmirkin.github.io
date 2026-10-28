@@ -30,7 +30,7 @@ image: /assets/images/profile.jpg
             </p>
 
             <p>
-                I hold a PhD in Computer Science specializing in NLP and completed 3.5 years of postdoctoral research. I am the author of multiple patents and around 40 publications in leading venues (<a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a>: 4,800+ citations; h-index: 24).
+                I hold a PhD in Computer Science specializing in NLP and completed 3.5 years of postdoctoral research. I am the author of multiple patents and around 40 publications in leading venues (<a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a>: 4,900+ citations; h-index: 24).
             </p>
         </section>
 
