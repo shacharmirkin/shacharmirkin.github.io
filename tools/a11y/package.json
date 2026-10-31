@@ -11,9 +11,10 @@
     "serve": "^14.2.4"
   },
   "overrides": {
-    "brace-expansion": "1.1.18",
-    "fast-uri": "3.1.7",
+    "brace-expansion": "1.1.21",
+    "compression": "1.8.2",
+    "fast-uri": "3.1.9",
     "puppeteer": "$puppeteer",
-    "undici": "6.28.0"
+    "undici": "6.29.1"
   }
 }
