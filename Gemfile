@@ -11,7 +11,7 @@ gem "base64"
 gem "rake", "~> 13.0"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.18"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
 end
