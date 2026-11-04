@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.0"
+gem "jekyll", "~> 4.4.1"
 gem "jekyll-theme-slate"
 gem "kramdown-parser-gfm"
 gem "sass", "~> 3.7.4"
