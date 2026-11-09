@@ -8,6 +8,29 @@ sources:
   malt: https://www.malt.fr/profile/shacharmirkin
 
 items:
+  - name: Maya Ilany
+    role: CEO
+    company: Brandeis Institute
+    source: linkedin
+    date: 2026-11-08
+    featured: true
+    excerpt: >-
+      I had the pleasure of working closely with Shachar on a project at the
+      Brandeis Institute. The project involved coordinating with multiple
+      vendors, working under tight deadlines, and adapting to changing needs
+      and circumstances.
+    quote: >-
+      I had the pleasure of working closely with Shachar on a project at the
+      Brandeis Institute. The project involved coordinating with multiple
+      vendors, working under tight deadlines, and adapting to changing needs
+      and circumstances. Shachar is an exceptionally knowledgeable and talented
+      researcher, combining deep technical expertise with genuine passion and
+      curiosity. What particularly stood out to me was his ability to anticipate
+      challenges, identify potential problems early on, and take the initiative
+      to find thoughtful and effective solutions. He was consistently flexible,
+      resourceful, and professional, bringing both a wealth of knowledge and a
+      practical, solution-oriented approach to the work.
+
   - name: Irit Opher
     role: VP Research
     company: Quai.MD
