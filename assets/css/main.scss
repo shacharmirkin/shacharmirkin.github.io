@@ -6,8 +6,8 @@
    ========================================================================== */
 :root {
     /* Light mode (default) */
-    --primary-color: #3b82f6;
-    --primary-hover: #2563eb;
+    --primary-color: #2563eb;
+    --primary-hover: #1d4ed8;
     --secondary-color: #10b981;
     --text-color: #1f2937;
     --text-light: #6b7280;
@@ -15,8 +15,8 @@
     --nav-bg: #f8fafc;
     --nav-hover: #e2e8f0;
     --nav-border: #e2e8f0;
-    --link-color: #3b82f6;
-    --link-hover: #2563eb;
+    --link-color: #1d4ed8;
+    --link-hover: #1e40af;
 
     /* Spacing */
     --spacing-xs: 0.5rem;
@@ -224,7 +224,7 @@ html {
 }
 
 .nav-tabs .active a {
-    color: var(--primary-color);
+    color: var(--link-color);
 }
 
 .nav-tabs .active a::after {
@@ -537,6 +537,182 @@ a:hover {
     line-height: 1.6;
 }
 
+/* Home in-page shortcuts */
+.home-toc {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 1rem;
+    margin: 0 0 1.75rem;
+    padding: 0.65rem 0 0.85rem;
+    border-bottom: 1px solid var(--nav-border);
+}
+
+.home-toc-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.home-toc-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.home-toc-list a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.home-toc-list a:hover {
+    text-decoration: underline;
+}
+
+/* Override global “underline links in lists” for the page TOC. */
+#main-content .home-toc-list a {
+    text-decoration: none;
+}
+
+#main-content .home-toc-list a:hover {
+    text-decoration: underline;
+}
+
+#about,
+#services,
+#recommendations {
+    scroll-margin-top: calc(var(--site-nav-height) + 0.75rem);
+}
+
+/* Recommendations (home) */
+.recommendations {
+    margin-top: 0.5rem;
+}
+
+.recommendations-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .recommendations-list {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem 1.25rem;
+    }
+}
+
+.recommendation {
+    position: relative;
+    margin: 0;
+    padding: 1.1rem 1.15rem 1.15rem;
+    background: var(--nav-bg);
+    border: 1px solid var(--nav-border);
+    border-radius: var(--radius-md);
+}
+
+.recommendation::before {
+    content: "“";
+    position: absolute;
+    top: 0.35rem;
+    right: 0.85rem;
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    font-size: 2.75rem;
+    line-height: 1;
+    color: var(--primary-color);
+    opacity: 0.28;
+    pointer-events: none;
+}
+
+.recommendation-quote {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: var(--text-color);
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    font-size: 1.02rem;
+    line-height: 1.6;
+}
+
+.recommendation-details > summary {
+    display: block;
+    list-style: none;
+    cursor: pointer;
+}
+
+.recommendation-details > summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Chrome can still lay out closed <details> body with some nested markup; force-hide. */
+.recommendation-details:not([open]) > .recommendation-quote--full {
+    display: none !important;
+}
+
+.recommendation-details[open] > summary .recommendation-quote,
+.recommendation-details[open] > summary .recommendation-more {
+    display: none;
+}
+
+.recommendation-more {
+    display: inline-block;
+    margin-top: 0.45rem;
+    color: var(--link-color);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.recommendation-details > summary:hover .recommendation-more {
+    color: var(--link-hover);
+}
+
+.recommendation-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    margin: 0 0 0.75rem;
+    padding-right: 1.5rem;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.recommendation-author {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.recommendation-role {
+    line-height: 1.35;
+}
+
+.recommendation-source {
+    margin-top: 0.15rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--text-light);
+}
+
+.recommendations-more-link {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+    color: var(--text-light);
+}
+
 .lang-switcher {
     display: inline-flex;
     gap: 8px;
@@ -613,7 +789,6 @@ a:hover {
     line-height: 0;
 }
 
-/* Default endpoint style: social + Google Scholar logo from the API JSON */
 .scholar-badge img {
     height: 24px;
     width: auto;
@@ -643,6 +818,28 @@ a:hover {
 .research-area p {
     margin-bottom: 1.5rem;
     color: var(--text-color);
+}
+
+.research-area--with-image {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.research-area--with-image .publication-image {
+    max-width: 180px;
+}
+
+.research-area--with-image .publication-image a {
+    display: block;
+    line-height: 0;
+}
+
+.research-area--with-image .publication-image img {
+    max-height: none;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-md);
 }
 
 .publications h3 {
@@ -709,9 +906,41 @@ a:hover {
     font-weight: 600;
     font-size: 1.2rem;
     cursor: pointer;
+    list-style: none;
+}
+
+.publication summary.paper-title--with-thumb {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.publication summary.paper-title::-webkit-details-marker {
+    display: none;
+}
+
+.publication-thumb {
+    flex: 0 0 auto;
+    width: 56px;
+    height: 74px;
+    object-fit: cover;
+    object-position: top left;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--nav-border);
+    background: var(--bg-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.paper-title__text {
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 .publication summary.paper-title:hover {
+    color: var(--link-hover);
+}
+
+.publication summary.paper-title:hover .paper-title__text {
     color: var(--link-hover);
 }
 
@@ -1007,6 +1236,15 @@ a:hover {
         padding: 1rem;
     }
 
+    .research-area--with-image {
+        grid-template-columns: 1fr;
+    }
+
+    .research-area--with-image .publication-image {
+        max-width: 140px;
+        justify-self: start;
+    }
+
     .publication {
         padding: 1rem;
     }
@@ -1186,4 +1424,88 @@ a:hover {
 
 .post-lightbox__close:focus-visible {
     outline-color: #fff;
+}
+
+/* BibTeX styling */
+.bibtex-details {
+    margin-top: 1rem;
+    border-top: 1px solid var(--nav-border);
+    padding-top: 1rem;
+}
+
+.bibtex-summary {
+    cursor: pointer;
+    color: var(--link-color);
+    font-weight: 600;
+    list-style: none;
+    padding: 0.5rem;
+    background: var(--nav-bg);
+    border-radius: var(--radius-sm);
+    transition: background-color var(--transition-fast);
+}
+
+.bibtex-summary:hover {
+    background: var(--nav-hover);
+    color: var(--link-hover);
+}
+
+.bibtex-summary::-webkit-details-marker {
+    display: none;
+}
+
+.bibtex-panel {
+    margin-top: 0.5rem;
+}
+
+.bibtex-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.bibtex-copy {
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--link-color);
+    background: var(--nav-bg);
+    border: 1px solid var(--nav-border);
+    border-radius: var(--radius-sm);
+    padding: 0.35rem 0.75rem;
+    cursor: pointer;
+    transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.bibtex-copy:hover:not(:disabled) {
+    background: var(--nav-hover);
+    color: var(--link-hover);
+}
+
+.bibtex-copy:disabled {
+    opacity: 0.85;
+    cursor: default;
+}
+
+.bibtex-copy-status {
+    font-size: 0.875rem;
+    color: var(--text-light);
+}
+
+.bibtex-code {
+    margin-top: 0;
+    padding: 1rem;
+    background: var(--nav-bg);
+    border: 1px solid var(--nav-border);
+    border-radius: var(--radius-sm);
+    overflow-x: auto;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.bibtex-code code {
+    color: var(--text-color);
+    white-space: pre;
+    display: block;
 }

@@ -6,6 +6,8 @@ gem "kramdown-parser-gfm"
 gem "sass", "~> 3.7.4"
 gem "jekyll-sass-converter", "~> 2.0"
 gem "webrick", "~> 1.8"
+gem "csv"
+gem "base64"
 gem "rake", "~> 13.0"
 
 group :jekyll_plugins do

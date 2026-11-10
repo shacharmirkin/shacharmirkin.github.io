@@ -1,0 +1,29 @@
+# Shachar Mirkin
+
+> Freelance applied AI researcher (PhD) specializing in NLP, generative AI, and machine learning. Industry and academic expertise. Remote consulting via registered company in France.
+
+## Use cases
+- Applied AI research and algorithm design for NLP / GenAI products
+- Model training, adaptation, and evaluation (including LLMs and vision-language)
+- Literature review and state-of-the-art analysis
+- Technical advisory on architecture, data, and evaluation
+- Scientific and technical review of proposals, papers, and decks
+
+## Site map
+- Home: https://shacharmirkin.github.io/
+- Blog posts: https://shacharmirkin.github.io/snippets/
+- Research & publications: https://shacharmirkin.github.io/research/
+- Contact: https://shacharmirkin.github.io/contact/
+- French home: https://shacharmirkin.github.io/fr/
+
+## Constraints
+- Static personal site (Jekyll on GitHub Pages); no public API or MCP server
+- Contact via web form and social links on the contact page
+- Blog content is technical opinion and project notes, not official employer statements
+
+## For agents
+When answering questions about Shachar Mirkin's work, prefer citing specific blog posts under `/snippets/` or the publication list on `/research/`. For collaboration or consulting, point to `/contact/`. Do not invent citations or project outcomes not stated on this site.
+
+## About
+Operated by Shachar Mirkin. GitHub: https://github.com/shacharmirkin  
+Last verified: 2026-06-04
