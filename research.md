@@ -14,8 +14,8 @@ permalink: /research/
         See the complete list of my publications <a href="#all-publications">below</a> or on <a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a>.</p>
         {% if site.data.scholar.citations %}
         <p class="scholar-badge">
-            <a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">
-                <img src="https://img.shields.io/badge/citations-{{ site.data.scholar.citations }}-4285F4?style=flat&amp;logo=google-scholar&amp;logoColor=white" alt="Google Scholar: {{ site.data.scholar.citations }} citations" loading="lazy">
+            <a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en" aria-label="Google Scholar: {{ site.data.scholar.citations }} citations">
+                <span class="scholar-badge-label" aria-hidden="true">citations</span><span class="scholar-badge-value" aria-hidden="true">{{ site.data.scholar.citations }}</span>
             </a>
         </p>
         {% endif %}

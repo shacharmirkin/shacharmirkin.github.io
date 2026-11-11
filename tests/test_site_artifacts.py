@@ -47,6 +47,18 @@ def test_privacy_page_exists() -> None:
 
 
 @pytest.mark.integration
+def test_legal_page_exists() -> None:
+    assert (SITE / "legal" / "index.html").is_file()
+
+
+@pytest.mark.integration
+def test_no_cookie_setting_third_parties() -> None:
+    html = (SITE / "index.html").read_text(encoding="utf-8")
+    assert "googletagmanager.com" not in html
+    assert "fonts.googleapis.com" not in html
+
+
+@pytest.mark.integration
 def test_layout_has_accessibility_landmarks() -> None:
     html = (SITE / "index.html").read_text(encoding="utf-8")
     assert 'class="skip-link"' in html

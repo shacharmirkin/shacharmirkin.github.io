@@ -24,7 +24,7 @@ description: "Get in touch for AI consulting, freelance research, or collaborati
                     </li>
                     <li>
                     <a href="https://bsky.app/profile/shacharmirkin.bsky.social" class="social-link" target="_blank" rel="noopener noreferrer">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/archive/7/7a/20240211144737%21Bluesky_Logo.svg" alt="" width="36" height="36">
+                        <img src="{{ '/assets/images/bluesky-logo.svg' | relative_url }}" alt="" width="36" height="36">
                         <span class="visually-hidden">Bluesky{% include external-link-hint.html %}</span>
                     </a>
                     </li>
@@ -46,7 +46,7 @@ description: "Get in touch for AI consulting, freelance research, or collaborati
                     </li>
                     <li>
                     <a href="https://huggingface.co/shachar" class="social-link" target="_blank" rel="noopener noreferrer">
-                        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="" width="24" height="24">
+                        <img src="{{ '/assets/images/huggingface-logo.svg' | relative_url }}" alt="" width="24" height="24">
                         <span class="visually-hidden">Hugging Face{% include external-link-hint.html %}</span>
                     </a>
                     </li>
