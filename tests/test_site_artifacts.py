@@ -20,7 +20,7 @@ def test_core_files_exist() -> None:
     robots = (SITE / "robots.txt").read_text(encoding="utf-8")
     assert "Content-Signal:" in robots
     assert (SITE / "llms.txt").is_file()
-    assert (SITE / "index.md").is_file()
+    assert (SITE / "agent-index.md").is_file()
     assert (SITE / ".well-known" / "agent.json").is_file()
     assert (SITE / "sitemap.xml").is_file()
     assert (SITE / "feed.xml").is_file()

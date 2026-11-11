@@ -11,6 +11,7 @@
 
 ## Site map
 - Home: https://shacharmirkin.github.io/
+- Homepage (markdown): https://shacharmirkin.github.io/agent-index.md
 - Blog posts: https://shacharmirkin.github.io/snippets/
 - Research & publications: https://shacharmirkin.github.io/research/
 - Contact: https://shacharmirkin.github.io/contact/

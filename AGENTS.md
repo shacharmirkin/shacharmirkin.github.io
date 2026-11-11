@@ -23,7 +23,7 @@ Match existing Markdown/HTML style in nearby files. Do not commit `_site/`, `ven
 ## Agent-facing files
 
 - `/llms.txt` — site map and usage hints for LLM agents
-- `/index.md` — plain markdown summary of the homepage (`agent-index.source.md`, copied at build time)
+- `/agent-index.md` — plain markdown summary of the homepage (`agent-index.source.md`, copied at build time)
 - `/.well-known/agent.json` — minimal agent discovery stub
 
 Public docs are the rendered pages; there is no OpenAPI or MCP endpoint on this site.
