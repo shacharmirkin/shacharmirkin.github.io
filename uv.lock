@@ -350,7 +350,7 @@ wheels = [
 ]
 
 [[package]]
-name = "shacharmirkin-github-io"
+name = "alpinf-com"
 version = "0"
 source = { virtual = "." }
 

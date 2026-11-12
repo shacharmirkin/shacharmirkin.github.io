@@ -10,12 +10,12 @@
 - Scientific and technical review of proposals, papers, and decks
 
 ## Site map
-- Home: https://shacharmirkin.github.io/
-- Homepage (markdown): https://shacharmirkin.github.io/agent-index.md
-- Blog posts: https://shacharmirkin.github.io/snippets/
-- Research & publications: https://shacharmirkin.github.io/research/
-- Contact: https://shacharmirkin.github.io/contact/
-- French home: https://shacharmirkin.github.io/fr/
+- Home: https://alpinf.com/
+- Homepage (markdown): https://alpinf.com/agent-index.md
+- Blog posts: https://alpinf.com/snippets/
+- Research & publications: https://alpinf.com/research/
+- Contact: https://alpinf.com/contact/
+- French home: https://alpinf.com/fr/
 
 ## Constraints
 - Static personal site (Jekyll on GitHub Pages); no public API or MCP server

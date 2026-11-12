@@ -202,7 +202,7 @@ def main() -> int:
     args = parser.parse_args()
 
     session = requests.Session()
-    session.headers["User-Agent"] = "shacharmirkin.github.io-citation-enricher"
+    session.headers["User-Agent"] = "alpinf.com-citation-enricher"
 
     if args.scholar_only:
         return refresh_scholar_yml(session, dry_run=args.dry_run)

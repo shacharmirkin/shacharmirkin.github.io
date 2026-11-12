@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Accessibility"
-description: "Accessibility statement for shacharmirkin.github.io."
+description: "Accessibility statement for alpinf.com."
 permalink: /accessibility/
 ---
 

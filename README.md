@@ -1,3 +1,3 @@
-# shacharmirkin.github.io
+# alpinf.com
 
-Personal site ([shacharmirkin.github.io](https://shacharmirkin.github.io)), built with Jekyll.
+Personal site ([alpinf.com](https://alpinf.com)), built with Jekyll and hosted on GitHub Pages (`shacharmirkin/shacharmirkin.github.io`).

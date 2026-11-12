@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Mentions légales"
-description: "Mentions légales for shacharmirkin.github.io."
+description: "Mentions légales for alpinf.com."
 permalink: /legal/
 lang: fr
 ---

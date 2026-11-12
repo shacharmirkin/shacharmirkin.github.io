@@ -2,7 +2,7 @@ User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
-Sitemap: https://shacharmirkin.github.io/sitemap.xml
+Sitemap: https://alpinf.com/sitemap.xml
 
 User-agent: GPTBot
 Disallow: /

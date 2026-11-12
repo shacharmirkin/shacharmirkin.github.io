@@ -1,5 +1,5 @@
 {
-  "name": "shacharmirkin-github-io-a11y",
+  "name": "alpinf-com-a11y",
   "private": true,
   "scripts": {
     "a11y": "bash a11y.sh",

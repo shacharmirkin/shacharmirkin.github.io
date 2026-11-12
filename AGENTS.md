@@ -1,6 +1,6 @@
-# shacharmirkin.github.io
+# alpinf.com
 
-This repo is the Jekyll source for https://shacharmirkin.github.io.
+This repo (`shacharmirkin/shacharmirkin.github.io`) is the Jekyll source for https://alpinf.com (GitHub Pages).
 
 ## Structure
 

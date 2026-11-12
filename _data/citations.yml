@@ -135,7 +135,7 @@
   pdf: /assets/papers/mirkin-2011-phd-thesis-context-discourse-textual-entailment.pdf
   abstract: This thesis addresses applied semantic inference within the Textual Entailment framework, focusing on context and discourse aspects of inference. It demonstrates that standard textual entailment systems rely too heavily on limited coreference resolution, and shows that incorporating broader discourse phenomena, such as bridging relations and verbal references, significantly improves entailment performance. The work explores using discourse references to complement existing entailment knowledge and rules, providing empirical evidence that discourse provides useful information for improved inference systems.
   citation_link: /assets/papers/mirkin-2011-phd-thesis-context-discourse-textual-entailment.pdf
-  bibtex: "@phdthesis{mirkin2011context,\n  title={Context and Discourse in Textual Entailment Inference},\n  author={Mirkin, Shachar},\n  year={2011},\n  school={Bar-Ilan University},\n  url={https://shacharmirkin.github.io/assets/papers/mirkin-2011-phd-thesis-context-discourse-textual-entailment.pdf}\n}\n"
+  bibtex: "@phdthesis{mirkin2011context,\n  title={Context and Discourse in Textual Entailment Inference},\n  author={Mirkin, Shachar},\n  year={2011},\n  school={Bar-Ilan University},\n  url={https://alpinf.com/assets/papers/mirkin-2011-phd-thesis-context-discourse-textual-entailment.pdf}\n}\n"
   thumbnail_page: 1
   thumbnail: /assets/publications/thumbnails/2011-context-and-discourse-in-textual-entailment-inference.png
 - authors: Venkatapathy, Sriram; Mirkin, Shachar

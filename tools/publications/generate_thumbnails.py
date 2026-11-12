@@ -51,7 +51,7 @@ def fetch_pdf_bytes(source: str) -> bytes:
     local = resolve_local_path(source)
     if local:
         return local.read_bytes()
-    resp = requests.get(source, timeout=120, headers={"User-Agent": "shacharmirkin.github.io-thumbnail-bot/1.0"})
+    resp = requests.get(source, timeout=120, headers={"User-Agent": "alpinf.com-thumbnail-bot/1.0"})
     resp.raise_for_status()
     return resp.content
 

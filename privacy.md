@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Privacy"
-description: "Privacy policy for shacharmirkin.github.io."
+description: "Privacy policy for alpinf.com."
 permalink: /privacy/
 ---
 

@@ -21,8 +21,8 @@ Client recommendations (LinkedIn / Malt) appear on the home page; see also Linke
 
 ## Links
 
-- Site home: https://shacharmirkin.github.io/
-- Blog: https://shacharmirkin.github.io/snippets/
-- Research: https://shacharmirkin.github.io/research/
-- Contact: https://shacharmirkin.github.io/contact/
-- Agent map: https://shacharmirkin.github.io/llms.txt
+- Site home: https://alpinf.com/
+- Blog: https://alpinf.com/snippets/
+- Research: https://alpinf.com/research/
+- Contact: https://alpinf.com/contact/
+- Agent map: https://alpinf.com/llms.txt
