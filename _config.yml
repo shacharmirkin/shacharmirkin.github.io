@@ -4,7 +4,16 @@ description: Personal website of Shachar Mirkin — applied AI research, NLP, sn
 baseurl: ""
 url: "https://alpinf.com"
 lang: en
-logo: /assets/images/profile.jpg
+# Default OG / Twitter image (jekyll-seo-tag).
+logo: /assets/images/alpinf-logo.jpg
+
+company:
+  name: Alpinf
+  legal_name: Alpinference
+  icon: /assets/images/alpinf-logo-noname.png
+  logo: /assets/images/alpinf-logo.jpg
+  # Named lockup (ALPINF); non-linked round nav mark.
+  mark: /assets/images/alpinf-logo.jpg
 
 # Read-aloud (Web Speech API). voice_name: substring match on OS voices (e.g. Samantha, Daniel).
 # Per-post overrides: read_aloud_voice, read_aloud_rate, read_aloud_pitch in front matter.

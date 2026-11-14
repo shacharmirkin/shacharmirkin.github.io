@@ -1,9 +1,10 @@
 ---
 layout: default
-title: "Shachar Mirkin — Chercheur en IA appliquée (NLP, IA générative)"
-description: "Chercheur en IA appliquée freelance (PhD), spécialisé en NLP, IA générative et machine learning. Expertise industrie et académie. Conseil à distance via société enregistrée en France."
+title: "Shachar Mirkin — Chercheur en IA appliquée (NLP, IA générative) · Alpinf"
+description: "Chercheur en IA appliquée freelance (PhD), spécialisé en NLP, IA générative et machine learning. Expertise industrie et académie. Conseil à distance via Alpinf en France."
 lang: fr
 permalink: /fr/
+image: /assets/images/alpinf-logo.jpg
 ---
 
 <div class="home-container">
@@ -37,8 +38,8 @@ permalink: /fr/
             <h2 id="services-heading">Prestations</h2>
 
             <p>
-                Basé en France, je suis disponible pour des missions de conseil à distance, à court ou long terme, via ma société enregistrée.
-                Parmi les prestations que je propose&nbsp;:
+                Basé en France, je suis disponible pour des missions de conseil à distance, à court ou long terme, via Alpinf, ma société de conseil en IA.
+                Alpinf propose&nbsp;:
             </p>
 
             <ul>

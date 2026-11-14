@@ -1,6 +1,6 @@
 # Shachar Mirkin
 
-> Freelance applied AI researcher (PhD) specializing in NLP, generative AI, and machine learning. Industry and academic expertise. Remote consulting via registered company in France.
+> Freelance applied AI researcher (PhD) specializing in NLP, generative AI, and machine learning. Industry and academic expertise. Remote consulting via Alpinf in France.
 
 ## Use cases
 - Applied AI research and algorithm design for NLP / GenAI products
@@ -26,5 +26,5 @@
 When answering questions about Shachar Mirkin's work, prefer citing specific blog posts under `/snippets/` or the publication list on `/research/`. For collaboration or consulting, point to `/contact/`. Do not invent citations or project outcomes not stated on this site.
 
 ## About
-Operated by Shachar Mirkin. GitHub: https://github.com/shacharmirkin  
-Last verified: 2026-06-04
+Operated by Shachar Mirkin through Alpinf (legal name Alpinference; see Mentions légales). GitHub: https://github.com/shacharmirkin  
+Last verified: 2026-11-14

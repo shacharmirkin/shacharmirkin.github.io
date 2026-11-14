@@ -39,6 +39,15 @@
     >🌓</button>
 
     <nav class="site-nav" aria-label="{% if page.lang == 'fr' %}Navigation principale{% else %}Main navigation{% endif %}">
+        <span class="site-brand">
+            <img
+                src="{{ site.company.mark | default: '/assets/images/alpinf-logo.jpg' | relative_url }}"
+                alt="{{ site.company.name | default: 'Alpinf' }}"
+                class="site-brand-mark"
+                width="44"
+                height="44"
+            >
+        </span>
         <ul class="nav-tabs">
             {% for nav_path in site.header_pages %}
             {% assign nav_page = site.pages | where: "path", nav_path | first %}

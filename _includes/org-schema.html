@@ -1,3 +1,6 @@
+{% assign org_name = site.company.name | default: 'Alpinf' %}
+{% assign org_legal_name = site.company.legal_name | default: 'Alpinference' %}
+{% assign org_logo = site.company.logo | default: '/assets/images/alpinf-logo.jpg' %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -5,9 +8,10 @@
     {
       "@type": "Organization",
       "@id": "{{ site.url | append: '/#org' }}",
-      "name": "{{ site.social.name | default: site.title | escape }}",
+      "name": {{ org_name | jsonify }},
+      "alternateName": {{ org_legal_name | jsonify }},
       "url": "{{ site.url }}/",
-      "logo": "{{ site.url | append: '/assets/images/profile.jpg' }}",
+      "logo": "{{ site.url | append: org_logo }}",
       "description": {{ site.description | jsonify }},
       "sameAs": [
         "https://github.com/shacharmirkin",
@@ -21,6 +25,21 @@
         "url": "{{ site.url | append: '/contact/' }}",
         "availableLanguage": ["en", "fr"]
       }]
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ site.url | append: '/#person' }}",
+      "name": {{ site.author | jsonify }},
+      "url": "{{ site.url }}/",
+      "image": "{{ site.url | append: '/assets/images/profile.jpg' }}",
+      "jobTitle": "Applied AI Researcher",
+      "worksFor": { "@id": "{{ site.url | append: '/#org' }}" },
+      "sameAs": [
+        "https://github.com/shacharmirkin",
+        "https://www.linkedin.com/public-profile/in/shacharmirkin",
+        "https://x.com/shacharmirkin",
+        "https://scholar.google.com/citations?user=xsEZbOkAAAAJ&hl=en"
+      ]
     },
     {
       "@type": "WebSite",

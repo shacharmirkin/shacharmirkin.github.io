@@ -1,12 +1,14 @@
 # Shachar Mirkin
 
-Freelance applied AI researcher (PhD) specializing in NLP, generative AI, and machine learning. Industry and academic expertise. Remote consulting via registered company in France.
+Freelance applied AI researcher (PhD) specializing in NLP, generative AI, and machine learning. Industry and academic expertise. Remote consulting via Alpinf in France.
 
 ## About
 
 Hands-on work across research institutes (IBM Research AI, Xerox Research), startups, and large corporations — from early research and system design to production in legal, finance, sports, and healthcare. PhD in Computer Science (NLP); postdoctoral research; patents and ~40 publications ([Google Scholar](https://scholar.google.com/citations?user=xsEZbOkAAAAJ&hl=en)).
 
 ## Services
+
+Alpinf provides:
 
 - Applied AI research and algorithm development
 - Model training, adaptation, and evaluation

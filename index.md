@@ -1,10 +1,10 @@
 ---
 layout: default
 nav_title: Home
-title: "Shachar Mirkin — Applied AI Researcher (NLP, GenAI)"
-description: "Freelance applied AI researcher (PhD) specializing in NLP, generative AI, and machine learning. Industry and academic expertise. Remote consulting via registered company in France."
+title: "Shachar Mirkin — Applied AI Researcher (NLP, GenAI) · Alpinf"
+description: "Freelance applied AI researcher (PhD) specializing in NLP, generative AI, and machine learning. Industry and academic expertise. Remote consulting through Alpinf in France."
 lang: en
-image: /assets/images/profile.jpg
+image: /assets/images/alpinf-logo.jpg
 ---
 
 <div class="home-container">
@@ -38,8 +38,8 @@ image: /assets/images/profile.jpg
             <h2 id="services-heading">Services</h2>
 
             <p>
-                Based in France, I am available for short- and long-term remote consulting projects through my registered company.
-                Among the services I provide:
+                Based in France, I am available for short- and long-term remote consulting projects through Alpinf, my AI consulting company.
+                Alpinf provides:
             </p>
 
             <ul>
