@@ -4,6 +4,9 @@ description: Personal website of Shachar Mirkin — applied AI research, NLP, sn
 baseurl: ""
 url: "https://alpinf.com"
 lang: en
+# Search Console ownership for https://shacharmirkin.github.io/ (jekyll-seo-tag → meta).
+webmaster_verifications:
+  google: uJZSBchBz-jktnQEadRylNmBaGh4zq7Bz-B5SAXO614
 # Default OG / Twitter image (jekyll-seo-tag).
 logo: /assets/images/alpinf-logo.jpg
 
