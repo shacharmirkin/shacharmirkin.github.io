@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   update:
@@ -36,3 +37,7 @@ jobs:
           git add _data/scholar.yml
           git commit -m "chore: refresh Google Scholar citation count"
           git push
+          # GITHUB_TOKEN pushes do not trigger other workflows; redeploy Pages explicitly.
+          gh workflow run deploy.yml
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -29,6 +29,15 @@ def test_core_files_exist() -> None:
 
 
 @pytest.mark.integration
+def test_sitemap_excludes_thin_and_binary_urls() -> None:
+    sitemap = (SITE / "sitemap.xml").read_text(encoding="utf-8")
+    assert "/SECURITY" not in sitemap
+    assert ".pdf" not in sitemap
+    assert (SITE / "SECURITY.md").is_file() is False
+    assert list(SITE.glob("SECURITY/**")) == []
+
+
+@pytest.mark.integration
 def test_home_html_has_seo_tags() -> None:
     html = (SITE / "index.html").read_text(encoding="utf-8")
     assert "og:title" in html

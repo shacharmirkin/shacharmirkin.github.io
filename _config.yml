@@ -67,6 +67,15 @@ include:
   - .well-known
   - llms.txt
   - robots.txt
+  # No front matter → static file (not a Jekyll page).
+  - agent-index.md
+
+# Keep thesis PDF downloadable but out of the HTML sitemap.
+defaults:
+  - scope:
+      path: "assets/papers"
+    values:
+      sitemap: false
 
 # Do not copy tooling into the published site (see README).
 exclude:
@@ -80,6 +89,6 @@ exclude:
   - pyproject.toml
   - uv.lock
   - README.md
-  - agent-index.source.md
   - AGENTS.md
+  - SECURITY.md
   - .pre-commit-config.yaml
