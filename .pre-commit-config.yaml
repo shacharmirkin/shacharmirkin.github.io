@@ -26,7 +26,12 @@ repos:
 
       - id: pa11y-a11y
         name: pa11y accessibility (WCAG2AA)
-        entry: bash -c 'cd "$(git rev-parse --show-toplevel)/tools/a11y" && npm ci && npm run a11y'
+        # Skip npm ci when deps are already installed (npm ci + puppeteer postinstall
+        # made every git push feel hung / invite Ctrl-C).
+        entry: >-
+          bash -c 'cd "$(git rev-parse --show-toplevel)/tools/a11y" &&
+          if [ ! -x node_modules/.bin/pa11y-ci ]; then npm ci; fi &&
+          npm run a11y'
         language: system
         pass_filenames: false
         stages: [pre-push]
