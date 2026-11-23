@@ -26,11 +26,14 @@ repos:
 
       - id: pa11y-a11y
         name: pa11y accessibility (WCAG2AA)
-        # Skip npm ci when deps are already installed (npm ci + puppeteer postinstall
-        # made every git push feel hung / invite Ctrl-C).
+        # npm ci only when missing or package-lock.json is newer than the install
+        # (avoids puppeteer reinstall on every push; still refreshes after lockfile bumps).
         entry: >-
           bash -c 'cd "$(git rev-parse --show-toplevel)/tools/a11y" &&
-          if [ ! -x node_modules/.bin/pa11y-ci ]; then npm ci; fi &&
+          if [ ! -x node_modules/.bin/pa11y-ci ] ||
+             [ package-lock.json -nt node_modules/.bin/pa11y-ci ]; then
+            npm ci
+          fi &&
           npm run a11y'
         language: system
         pass_filenames: false
