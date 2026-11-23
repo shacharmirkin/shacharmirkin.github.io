@@ -30,7 +30,7 @@ image: /assets/images/alpinf-logo.jpg
             </p>
 
             <p>
-                Je suis titulaire d’un doctorat en informatique, spécialisé en NLP, et j’ai effectué 3,5 ans de recherche postdoctorale. Je suis l’auteur de plusieurs brevets et d’environ 40 publications dans des revues et conférences de premier plan (<a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a> : plus de 4&nbsp;900 citations ; h-index : 24).
+                Je suis titulaire d’un doctorat en informatique, spécialisé en NLP, et j’ai effectué 3,5 ans de recherche postdoctorale. Je suis l’auteur de plusieurs brevets et d’environ 40 publications dans des revues et conférences de premier plan (<a href="https://scholar.google.com/citations?user=xsEZbOkAAAAJ&amp;hl=en">Google Scholar</a> : presque 5000 citations ; h-index : 24).
             </p>
         </section>
 
